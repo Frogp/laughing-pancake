@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED9AB009-B760-4EA0-9DE9-7BDDA6CE0F86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UIGenerator</RootNamespace>
+    <AssemblyName>UIGenerator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Json.NET\Bin\Net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Editor\dailyRwardEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\dailyRwardEditor.Designer.cs">
+      <DependentUpon>dailyRwardEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\GoodsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\GoodsEditor.Designer.cs">
+      <DependentUpon>GoodsEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\Synthesis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\Synthesis.Designer.cs">
+      <DependentUpon>Synthesis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailMan\CharGradeNode.cs" />
+    <Compile Include="MailMan\CharList.cs" />
+    <Compile Include="cocosCCPgen.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharViewer.Designer.cs">
+      <DependentUpon>CharViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailMan\ChrTitleContanor.cs" />
+    <Compile Include="MailMan\ConditionNode.cs" />
+    <Compile Include="MailMan\ConditionNodeContanor.cs" />
+    <Compile Include="MailMan\DailyRewardNode.cs" />
+    <Compile Include="MailMan\DailyRewardNodeContanor.cs" />
+    <Compile Include="MailMan\EffectSlotNode.cs" />
+    <Compile Include="MailMan\ItemInfoNode.cs" />
+    <Compile Include="MailMan\QuestNode.cs" />
+    <Compile Include="MailMan\QuestNodeContanor.cs" />
+    <Compile Include="MailMan\RewardItemContanor.cs" />
+    <Compile Include="MailMan\RewardItemNode.cs" />
+    <Compile Include="MailMan\Skill.cs" />
+    <Compile Include="MailMan\SkillEffect.cs" />
+    <Compile Include="MailMan\SkillEffectContanor.cs" />
+    <Compile Include="MailMan\ItemInfoContanor.cs" />
+    <Compile Include="MailMan\SkillListContanor.cs" />
+    <Compile Include="MailMan\ChrTitle.cs" />
+    <Compile Include="MailMan\SynthesisNode.cs" />
+    <Compile Include="MailMan\SynthesisContanor.cs" />
+    <Compile Include="MailMan\Unitskill.cs" />
+    <Compile Include="MailMan\WeeklyRewardNode.cs" />
+    <Compile Include="MailMan\WeeklyRewardNodeContanor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MailMan\SettingSingleton.cs" />
+    <Compile Include="MailMan\ToolSetting.cs" />
+    <Compile Include="MailMan\UnitChar.cs" />
+    <Compile Include="Editor\QuestData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\QuestData.Designer.cs">
+      <DependentUpon>QuestData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkillEditor.Designer.cs">
+      <DependentUpon>SkillEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editor\TitleEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\TitleEditor.Designer.cs">
+      <DependentUpon>TitleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uniteditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uniteditor.Designer.cs">
+      <DependentUpon>uniteditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailMan\CharAnimationInfo.cs" />
+    <Compile Include="MailMan\UnitPropertyNode.cs" />
+    <Compile Include="MailMan\UpgardeNode.cs" />
+    <Compile Include="MailMan\Widgetnode.cs" />
+    <Compile Include="Editor\WeeklyReardEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\WeeklyReardEditor.Designer.cs">
+      <DependentUpon>WeeklyReardEditor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Editor\dailyRwardEditor.resx">
+      <DependentUpon>dailyRwardEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\GoodsEditor.resx">
+      <DependentUpon>GoodsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\QuestData.resx">
+      <DependentUpon>QuestData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\Synthesis.resx">
+      <DependentUpon>Synthesis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\TitleEditor.resx">
+      <DependentUpon>TitleEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\WeeklyReardEditor.resx">
+      <DependentUpon>WeeklyReardEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharViewer.resx">
+      <DependentUpon>CharViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SkillEditor.resx">
+      <DependentUpon>SkillEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uniteditor.resx">
+      <DependentUpon>uniteditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
