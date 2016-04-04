@@ -4,7 +4,43 @@
       <Value ctype="CocosRecentOperation">
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
-        <LastRunType Value="Mac" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="PackageParamsKey">
+      <Value ctype="PackageParams">
+        <LuaIsEncrypt Value="False" />
+        <LuaEncryptKey Value="" />
+        <LuaEncryptSign Value="" />
+        <Android_PackageName Value="org.cocos.laughingpancake" />
+        <AndroidkeyStore Value="" />
+        <AndroidVersion Value="" />
+        <iOS_Target Value="laughing-pancake-mobile" />
+        <iOS_BundleID Value="" />
+        <Platform Value="None" />
+        <RunPlatform Value="Windows" />
+        <FrameworkVersion Value="cocos2d-x-3.10" />
+        <IsDebugKeystore Value="True" />
+        <EnableSourceMap Value="False" />
+        <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="GameResualtUI.csd" />
+          <FilePathData Path="MessageBoxUI.csd" />
+          <FilePathData Path="InGameOptionUI.csd" />
+          <FilePathData Path="OptionUI.csd" />
+          <FilePathData Path="BettleReadyUI.csd" />
+          <FilePathData Path="FriendList.csd" />
+          <FilePathData Path="BettleStartUI.csd" />
+          <FilePathData Path="MainScene.csd" />
+          <FilePathData Path="InGameHUD.csd" />
+          <FilePathData Path="InGameScene.csd" />
+          <FilePathData Path="InventoryUI.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="FriendList.csd" />
       </Value>
     </Item>
   </Properties>

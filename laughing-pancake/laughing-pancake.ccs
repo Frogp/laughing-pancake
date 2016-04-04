@@ -3,8 +3,22 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
+        <Project Name="BettleReadyUI.csd" Type="Layer" />
+        <Project Name="BettleStartUI.csd" Type="Layer" />
+        <Project Name="FriendList.csd" Type="Scene" />
+        <Project Name="GameResualtUI.csd" Type="Layer" />
         <Image Name="HelloWorld.png" />
+        <Project Name="InGameHUD.csd" Type="Layer" />
+        <Project Name="InGameOptionUI.csd" Type="Scene" />
+        <Project Name="InGameScene.csd" Type="Scene" />
+        <Project Name="InventoryUI.csd" Type="Layer" />
+        <Project Name="LoadingScene.csd" Type="Scene" />
         <Project Name="MainScene.csd" Type="Scene" />
+        <Project Name="MainUI.csd" Type="Layer" />
+        <Project Name="MessageBoxUI.csd" Type="Layer" />
+        <Project Name="OptionUI.csd" Type="Layer" />
+        <Project Name="StoreUI.csd" Type="Layer" />
+        <Project Name="StoryScene.csd" Type="Scene" />
       </RootFolder>
     </Group>
   </SolutionFolder>

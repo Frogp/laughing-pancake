@@ -1,0 +1,921 @@
+﻿Build started 2016-04-04 오후 9:10:41.
+     1>Project "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\box2d" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\sqlite3\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\unzip" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\edtaa3func" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\tinyxml2" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\png\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\jpeg\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\tiff\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\webp\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\OpenalSoft\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\MP3Decoder\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\OggDecoder\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\icon\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\xxhash" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\ConvertUTF" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\curl\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\websockets\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\poly2tri\common" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\poly2tri\sweep" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\poly2tri" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\extensions" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _USRDLL /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USE3DDLL /D _EXPORT_DLL_ /D _USRSTUDIODLL /D _USREXDLL /D _USEGUIDLL /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D PROTOBUF_USE_DLLS /D LIBPROTOBUF_EXPORTS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt "..\..\extensions\assets-manager\AssetsManager.cpp" "..\..\extensions\assets-manager\AssetsManagerEx.cpp" "..\..\extensions\assets-manager\CCEventAssetsManagerEx.cpp" "..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp" "..\..\extensions\assets-manager\Manifest.cpp" ..\..\extensions\GUI\CCControlExtension\CCControl.cpp ..\..\extensions\GUI\CCControlExtension\CCControlButton.cpp ..\..\extensions\GUI\CCControlExtension\CCControlColourPicker.cpp ..\..\extensions\GUI\CCControlExtension\CCControlHuePicker.cpp ..\..\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp ..\..\extensions\GUI\CCControlExtension\CCControlSaturationBrightnessPicker.cpp ..\..\extensions\GUI\CCControlExtension\CCControlSlider.cpp ..\..\extensions\GUI\CCControlExtension\CCControlStepper.cpp ..\..\extensions\GUI\CCControlExtension\CCControlSwitch.cpp ..\..\extensions\GUI\CCControlExtension\CCControlUtils.cpp ..\..\extensions\GUI\CCControlExtension\CCInvocation.cpp ..\..\extensions\GUI\CCScrollView\CCScrollView.cpp ..\..\extensions\GUI\CCScrollView\CCTableView.cpp ..\..\extensions\GUI\CCScrollView\CCTableViewCell.cpp ..\..\extensions\Particle3D\CCParticle3DAffector.cpp ..\..\extensions\Particle3D\CCParticle3DEmitter.cpp ..\..\extensions\Particle3D\CCParticle3DRender.cpp ..\..\extensions\Particle3D\CCParticleSystem3D.cpp ..\..\extensions\Particle3D\PU\CCPUAffector.cpp ..\..\extensions\Particle3D\PU\CCPUAffectorManager.cpp ..\..\extensions\Particle3D\PU\CCPUAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUAlignAffector.cpp ..\..\extensions\Particle3D\PU\CCPUAlignAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBaseCollider.cpp ..\..\extensions\Particle3D\PU\CCPUBaseColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBaseForceAffector.cpp ..\..\extensions\Particle3D\PU\CCPUBaseForceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBeamRender.cpp ..\..\extensions\Particle3D\PU\CCPUBehaviour.cpp ..\..\extensions\Particle3D\PU\CCPUBehaviourManager.cpp ..\..\extensions\Particle3D\PU\CCPUBehaviourTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBillboardChain.cpp ..\..\extensions\Particle3D\PU\CCPUBoxCollider.cpp ..\..\extensions\Particle3D\PU\CCPUBoxColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUBoxEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUBoxEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUCircleEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUCircleEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffector.cpp ..\..\extensions\Particle3D\PU\CCPUCollisionAvoidanceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUColorAffector.cpp ..\..\extensions\Particle3D\PU\CCPUColorAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoAffectorEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoAffectorEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoEnableComponentEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoExpireEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoExpireEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoFreezeEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoFreezeEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoPlacementParticleEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoScaleEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoScaleEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDoStopSystemEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUDoStopSystemEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUDynamicAttribute.cpp ..\..\extensions\Particle3D\PU\CCPUDynamicAttributeTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUEmitterManager.cpp ..\..\extensions\Particle3D\PU\CCPUEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUEventHandler.cpp ..\..\extensions\Particle3D\PU\CCPUEventHandlerManager.cpp ..\..\extensions\Particle3D\PU\CCPUEventHandlerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUFlockCenteringAffector.cpp ..\..\extensions\Particle3D\PU\CCPUFlockCenteringAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUForceField.cpp ..\..\extensions\Particle3D\PU\CCPUForceFieldAffector.cpp ..\..\extensions\Particle3D\PU\CCPUForceFieldAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUGeometryRotator.cpp ..\..\extensions\Particle3D\PU\CCPUGeometryRotatorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUGravityAffector.cpp ..\..\extensions\Particle3D\PU\CCPUGravityAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUInterParticleCollider.cpp ..\..\extensions\Particle3D\PU\CCPUInterParticleColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUJetAffector.cpp ..\..\extensions\Particle3D\PU\CCPUJetAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPULineAffector.cpp ..\..\extensions\Particle3D\PU\CCPULineAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPULinearForceAffector.cpp ..\..\extensions\Particle3D\PU\CCPULinearForceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPULineEmitter.cpp ..\..\extensions\Particle3D\PU\CCPULineEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUListener.cpp ..\..\extensions\Particle3D\PU\CCPUMaterialManager.cpp ..\..\extensions\Particle3D\PU\CCPUMaterialTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUMeshSurfaceEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUMeshSurfaceEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUNoise.cpp ..\..\extensions\Particle3D\PU\CCPUObserver.cpp ..\..\extensions\Particle3D\PU\CCPUObserverManager.cpp ..\..\extensions\Particle3D\PU\CCPUObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnClearObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnClearObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnCollisionObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnCollisionObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnCountObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnCountObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnEmissionObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnEmissionObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnEventFlagObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnEventFlagObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnExpireObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnExpireObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnPositionObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnPositionObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnQuotaObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnQuotaObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnRandomObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnRandomObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnTimeObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnTimeObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUOnVelocityObserver.cpp ..\..\extensions\Particle3D\PU\CCPUOnVelocityObserverTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUParticleFollower.cpp ..\..\extensions\Particle3D\PU\CCPUParticleFollowerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUParticleSystem3D.cpp ..\..\extensions\Particle3D\PU\CCPUParticleSystem3DTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPathFollower.cpp ..\..\extensions\Particle3D\PU\CCPUPathFollowerTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPlane.cpp ..\..\extensions\Particle3D\PU\CCPUPlaneCollider.cpp ..\..\extensions\Particle3D\PU\CCPUPlaneColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPointEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUPointEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUPositionEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUPositionEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPURandomiser.cpp ..\..\extensions\Particle3D\PU\CCPURandomiserTranslator.cpp ..\..\extensions\Particle3D\PU\CCPURender.cpp ..\..\extensions\Particle3D\PU\CCPURendererTranslator.cpp ..\..\extensions\Particle3D\PU\CCPURibbonTrail.cpp ..\..\extensions\Particle3D\PU\CCPURibbonTrailRender.cpp ..\..\extensions\Particle3D\PU\CCPUScaleAffector.cpp ..\..\extensions\Particle3D\PU\CCPUScaleAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUScaleVelocityAffector.cpp ..\..\extensions\Particle3D\PU\CCPUScaleVelocityAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUScriptCompiler.cpp ..\..\extensions\Particle3D\PU\CCPUScriptLexer.cpp ..\..\extensions\Particle3D\PU\CCPUScriptParser.cpp ..\..\extensions\Particle3D\PU\CCPUScriptTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSimpleSpline.cpp ..\..\extensions\Particle3D\PU\CCPUSineForceAffector.cpp ..\..\extensions\Particle3D\PU\CCPUSineForceAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveBehaviour.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveBehaviourTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUSlaveEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSphere.cpp ..\..\extensions\Particle3D\PU\CCPUSphereCollider.cpp ..\..\extensions\Particle3D\PU\CCPUSphereColliderTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUSphereSurfaceEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUSphereSurfaceEmitterTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTechniqueTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureAnimator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureAnimatorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureRotator.cpp ..\..\extensions\Particle3D\PU\CCPUTextureRotatorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUTranslateManager.cpp ..\..\extensions\Particle3D\PU\CCPUUtil.cpp ..\..\extensions\Particle3D\PU\CCPUVelocityMatchingAffector.cpp ..\..\extensions\Particle3D\PU\CCPUVelocityMatchingAffectorTranslator.cpp ..\..\extensions\Particle3D\PU\CCPUVertexEmitter.cpp ..\..\extensions\Particle3D\PU\CCPUVortexAffector.cpp ..\..\extensions\Particle3D\PU\CCPUVortexAffectorTranslator.cpp "..\..\extensions\physics-nodes\CCPhysicsDebugNode.cpp" "..\..\extensions\physics-nodes\CCPhysicsSprite.cpp" ..\..\external\clipper\clipper.cpp ..\..\external\ConvertUTF\ConvertUTF.c ..\..\external\ConvertUTF\ConvertUTFWrapper.cpp ..\..\external\edtaa3func\edtaa3func.cpp ..\..\external\flatbuffers\flatc.cpp ..\..\external\flatbuffers\idl_gen_cpp.cpp ..\..\external\flatbuffers\idl_gen_fbs.cpp ..\..\external\flatbuffers\idl_gen_general.cpp ..\..\external\flatbuffers\idl_gen_go.cpp ..\..\external\flatbuffers\idl_gen_text.cpp ..\..\external\flatbuffers\idl_parser.cpp ..\..\external\poly2tri\common\shapes.cc ..\..\external\poly2tri\sweep\advancing_front.cc ..\..\external\poly2tri\sweep\cdt.cc ..\..\external\poly2tri\sweep\sweep.cc ..\..\external\poly2tri\sweep\sweep_context.cc ..\..\external\tinyxml2\tinyxml2.cpp ..\..\external\unzip\ioapi_mem.cpp ..\..\external\unzip\ioapi.cpp ..\..\external\unzip\unzip.cpp ..\..\external\xxhash\xxhash.c ..\3d\CCAABB.cpp ..\3d\CCAnimate3D.cpp ..\3d\CCAnimation3D.cpp ..\3d\CCAttachNode.cpp ..\3d\CCBillBoard.cpp ..\3d\CCBundle3D.cpp ..\3d\CCBundleReader.cpp ..\3d\CCFrustum.cpp ..\3d\CCMesh.cpp ..\3d\CCMeshSkin.cpp ..\3d\CCMeshVertexIndexData.cpp ..\3d\CCMotionStreak3D.cpp ..\3d\CCOBB.cpp ..\3d\CCObjLoader.cpp ..\3d\CCPlane.cpp ..\3d\CCRay.cpp ..\3d\CCSkeleton3D.cpp ..\3d\CCSkybox.cpp ..\3d\CCSprite3D.cpp ..\3d\CCSprite3DMaterial.cpp ..\3d\CCTerrain.cpp ..\audio\AudioEngine.cpp ..\audio\win32\AudioCache.cpp "..\audio\win32\AudioEngine-win32.cpp" ..\audio\win32\AudioPlayer.cpp ..\audio\win32\MciPlayer.cpp ..\audio\win32\SimpleAudioEngine.cpp ..\base\allocator\CCAllocatorDiagnostics.cpp ..\base\allocator\CCAllocatorGlobal.cpp ..\base\allocator\CCAllocatorGlobalNewDelete.cpp ..\base\atitc.cpp ..\base\base64.cpp ..\base\CCAsyncTaskPool.cpp ..\base\CCAutoreleasePool.cpp ..\base\ccCArray.cpp ..\base\CCConfiguration.cpp ..\base\CCConsole.cpp ..\base\CCData.cpp ..\base\CCDataVisitor.cpp ..\base\CCDirector.cpp ..\base\CCEvent.cpp ..\base\CCEventAcceleration.cpp ..\base\CCEventCustom.cpp ..\base\CCEventDispatcher.cpp ..\base\CCEventFocus.cpp ..\base\CCEventKeyboard.cpp ..\base\CCEventListener.cpp ..\base\CCEventListenerAcceleration.cpp ..\base\CCEventListenerCustom.cpp ..\base\CCEventListenerFocus.cpp ..\base\CCEventListenerKeyboard.cpp ..\base\CCEventListenerMouse.cpp ..\base\CCEventListenerTouch.cpp ..\base\CCEventMouse.cpp ..\base\CCEventTouch.cpp ..\base\ccFPSImages.c ..\base\CCIMEDispatcher.cpp ..\base\CCNinePatchImageParser.cpp ..\base\CCStencilStateManager.cpp ..\base\CCNS.cpp ..\base\CCProfiling.cpp ..\base\CCProperties.cpp ..\base\ccRandom.cpp ..\base\CCRef.cpp ..\base\CCScheduler.cpp ..\base\CCScriptSupport.cpp ..\base\CCTouch.cpp ..\base\ccTypes.cpp ..\base\CCUserDefault.cpp ..\base\ccUTF8.cpp ..\base\ccUtils.cpp ..\base\CCValue.cpp ..\base\etc1.cpp ..\base\pvr.cpp ..\base\ObjectFactory.cpp ..\base\s3tc.cpp ..\base\TGAlib.cpp ..\base\ZipUtils.cpp ..\cocos2d.cpp ..\deprecated\CCArray.cpp ..\deprecated\CCDeprecated.cpp ..\deprecated\CCDictionary.cpp ..\deprecated\CCNotificationCenter.cpp ..\deprecated\CCSet.cpp ..\deprecated\CCString.cpp "..\editor-support\cocosbuilder\CCBAnimationManager.cpp" "..\editor-support\cocosbuilder\CCBFileLoader.cpp" "..\editor-support\cocosbuilder\CCBKeyframe.cpp" "..\editor-support\cocosbuilder\CCBReader.cpp" "..\editor-support\cocosbuilder\CCBSequence.cpp" "..\editor-support\cocosbuilder\CCBSequenceProperty.cpp" "..\editor-support\cocosbuilder\CCControlButtonLoader.cpp" "..\editor-support\cocosbuilder\CCControlLoader.cpp" "..\editor-support\cocosbuilder\CCLabelBMFontLoader.cpp" "..\editor-support\cocosbuilder\CCLabelTTFLoader.cpp" "..\editor-support\cocosbuilder\CCLayerColorLoader.cpp" "..\editor-support\cocosbuilder\CCLayerGradientLoader.cpp" "..\editor-support\cocosbuilder\CCLayerLoader.cpp" "..\editor-support\cocosbuilder\CCMenuItemImageLoader.cpp" "..\editor-support\cocosbuilder\CCMenuItemLoader.cpp" "..\editor-support\cocosbuilder\CCNode+CCBRelativePositioning.cpp" "..\editor-support\cocosbuilder\CCNodeLoader.cpp" "..\editor-support\cocosbuilder\CCNodeLoaderLibrary.cpp" "..\editor-support\cocosbuilder\CCParticleSystemQuadLoader.cpp" "..\editor-support\cocosbuilder\CCScale9SpriteLoader.cpp" "..\editor-support\cocosbuilder\CCScrollViewLoader.cpp" "..\editor-support\cocosbuilder\CCSpriteLoader.cpp" "..\editor-support\cocostudio\ActionTimeline\CCActionTimeline.cpp" "..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp" "..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCBoneNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCFrame.cpp" "..\editor-support\cocostudio\ActionTimeline\CCSkeletonNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCSkinNode.cpp" "..\editor-support\cocostudio\ActionTimeline\CCTimeLine.cpp" "..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp" "..\editor-support\cocostudio\CCActionFrame.cpp" "..\editor-support\cocostudio\CCActionFrameEasing.cpp" "..\editor-support\cocostudio\CCActionManagerEx.cpp" "..\editor-support\cocostudio\CCActionNode.cpp" "..\editor-support\cocostudio\CCActionObject.cpp" "..\editor-support\cocostudio\CCArmature.cpp" "..\editor-support\cocostudio\CCArmatureAnimation.cpp" "..\editor-support\cocostudio\CCArmatureDataManager.cpp" "..\editor-support\cocostudio\CCArmatureDefine.cpp" "..\editor-support\cocostudio\CCBatchNode.cpp" "..\editor-support\cocostudio\CCBone.cpp" "..\editor-support\cocostudio\CCColliderDetector.cpp" "..\editor-support\cocostudio\CCComAttribute.cpp" "..\editor-support\cocostudio\CCComAudio.cpp" "..\editor-support\cocostudio\CCComController.cpp" "..\editor-support\cocostudio\CCComRender.cpp" "..\editor-support\cocostudio\CCDataReaderHelper.cpp" "..\editor-support\cocostudio\CCDatas.cpp" "..\editor-support\cocostudio\CCDecorativeDisplay.cpp" "..\editor-support\cocostudio\CCDisplayFactory.cpp" "..\editor-support\cocostudio\CCDisplayManager.cpp" "..\editor-support\cocostudio\CCInputDelegate.cpp" "..\editor-support\cocostudio\CCComExtensionData.cpp" "..\editor-support\cocostudio\CCProcessBase.cpp" "..\editor-support\cocostudio\CCSGUIReader.cpp" "..\editor-support\cocostudio\CCSkin.cpp" "..\editor-support\cocostudio\CCSpriteFrameCacheHelper.cpp" "..\editor-support\cocostudio\CCSSceneReader.cpp" "..\editor-support\cocostudio\CCTransformHelp.cpp" "..\editor-support\cocostudio\CCTween.cpp" "..\editor-support\cocostudio\CCUtilMath.cpp" "..\editor-support\cocostudio\CocoLoader.cpp" "..\editor-support\cocostudio\CocoStudio.cpp" "..\editor-support\cocostudio\DictionaryHelper.cpp" "..\editor-support\cocostudio\FlatBuffersSerialize.cpp" "..\editor-support\cocostudio\TriggerBase.cpp" "..\editor-support\cocostudio\TriggerMng.cpp" "..\editor-support\cocostudio\TriggerObj.cpp" "..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp" "..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp" "..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp" "..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp" "..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp" "..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp" "..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp" "..\editor-support\cocostudio\WidgetReader\NodeReaderDefine.cpp" "..\editor-support\cocostudio\WidgetReader\NodeReaderProtocol.cpp" "..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp" "..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp" "..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp" "..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp" "..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp" "..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp" "..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp" "..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp" "..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp" ..\math\CCAffineTransform.cpp ..\math\CCGeometry.cpp ..\math\CCVertex.cpp ..\math\Mat4.cpp ..\math\MathUtil.cpp ..\math\Quaternion.cpp ..\math\TransformUtils.cpp ..\math\Vec2.cpp ..\math\Vec3.cpp ..\math\Vec4.cpp ..\navmesh\CCNavMesh.cpp ..\navmesh\CCNavMeshAgent.cpp ..\navmesh\CCNavMeshDebugDraw.cpp ..\navmesh\CCNavMeshObstacle.cpp ..\navmesh\CCNavMeshUtils.cpp "..\network\CCDownloader-curl.cpp" ..\network\CCDownloader.cpp ..\network\HttpClient.cpp ..\network\SocketIO.cpp ..\network\WebSocket.cpp ..\physics3d\CCPhysics3D.cpp ..\physics3d\CCPhysics3DComponent.cpp ..\physics3d\CCPhysics3DConstraint.cpp ..\physics3d\CCPhysics3DDebugDrawer.cpp ..\physics3d\CCPhysics3DObject.cpp ..\physics3d\CCPhysics3DShape.cpp ..\physics3d\CCPhysics3DWorld.cpp ..\physics3d\CCPhysicsSprite3D.cpp ..\physics\CCPhysicsBody.cpp ..\physics\CCPhysicsContact.cpp ..\physics\CCPhysicsJoint.cpp ..\physics\CCPhysicsShape.cpp ..\physics\CCPhysicsWorld.cpp ..\platform\CCFileUtils.cpp ..\platform\CCGLView.cpp ..\platform\CCImage.cpp ..\platform\CCSAXParser.cpp ..\platform\CCThread.cpp "..\platform\desktop\CCGLViewImpl-desktop.cpp" "..\platform\win32\CCApplication-win32.cpp" "..\platform\win32\CCCommon-win32.cpp" "..\platform\win32\CCDevice-win32.cpp" "..\platform\win32\CCFileUtils-win32.cpp" "..\platform\win32\CCStdC-win32.cpp" ..\renderer\CCBatchCommand.cpp ..\renderer\CCCustomCommand.cpp ..\renderer\CCFrameBuffer.cpp ..\renderer\CCGLProgram.cpp ..\renderer\CCGLProgramCache.cpp ..\renderer\CCGLProgramState.cpp ..\renderer\CCGLProgramStateCache.cpp ..\renderer\ccGLStateCache.cpp ..\renderer\CCGroupCommand.cpp ..\renderer\CCMaterial.cpp ..\renderer\CCMeshCommand.cpp ..\renderer\CCPass.cpp ..\renderer\CCPrimitive.cpp ..\renderer\CCPrimitiveCommand.cpp ..\renderer\CCQuadCommand.cpp ..\renderer\CCRenderCommand.cpp ..\renderer\CCRenderer.cpp ..\renderer\CCRenderState.cpp ..\renderer\ccShaders.cpp ..\renderer\CCTechnique.cpp ..\renderer\CCTexture2D.cpp ..\renderer\CCTextureAtlas.cpp ..\renderer\CCTextureCache.cpp ..\renderer\CCTextureCube.cpp ..\renderer\CCTrianglesCommand.cpp ..\renderer\CCVertexAttribBinding.cpp ..\renderer\CCVertexIndexBuffer.cpp ..\renderer\CCVertexIndexData.cpp "..\storage\local-storage\LocalStorage.cpp" ..\ui\CocosGUI.cpp ..\ui\UIButton.cpp ..\ui\UIAbstractCheckButton.cpp ..\ui\UICheckBox.cpp ..\ui\UIRadioButton.cpp ..\ui\UIDeprecated.cpp ..\ui\UIEditBox\UIEditBox.cpp "..\ui\UIEditBox\UIEditBoxImpl-win32.cpp" ..\ui\UIHBox.cpp ..\ui\UIHelper.cpp ..\ui\UIImageView.cpp ..\ui\UILayout.cpp ..\ui\UILayoutComponent.cpp ..\ui\UILayoutManager.cpp ..\ui\UILayoutParameter.cpp ..\ui\UIListView.cpp ..\ui\UILoadingBar.cpp ..\ui\UIPageView.cpp ..\ui\UIPageViewIndicator.cpp ..\ui\UIRelativeBox.cpp ..\ui\UIRichText.cpp ..\ui\UIScale9Sprite.cpp ..\ui\UIScrollView.cpp ..\ui\UIScrollViewBar.cpp ..\ui\UISlider.cpp ..\ui\UIText.cpp ..\ui\UITextAtlas.cpp ..\ui\UITextBMFont.cpp ..\ui\UITextField.cpp ..\ui\UIVBox.cpp ..\ui\UIWebView.cpp ..\ui\UIWidget.cpp CCAction.cpp CCActionCamera.cpp CCActionCatmullRom.cpp CCActionEase.cpp CCActionGrid.cpp CCActionGrid3D.cpp CCActionInstant.cpp CCActionInterval.cpp CCActionManager.cpp CCActionPageTurn3D.cpp CCActionProgressTimer.cpp CCActionTiledGrid.cpp CCActionTween.cpp CCAnimation.cpp CCAnimationCache.cpp CCAtlasNode.cpp CCAutoPolygon.cpp CCCamera.cpp CCCameraBackgroundBrush.cpp CCClippingNode.cpp CCClippingRectangleNode.cpp CCComponent.cpp CCComponentContainer.cpp CCDrawingPrimitives.cpp CCDrawNode.cpp CCFastTMXLayer.cpp CCFastTMXTiledMap.cpp CCFontAtlas.cpp CCFontAtlasCache.cpp CCFontCharMap.cpp CCFontFNT.cpp CCFontFreeType.cpp CCGLBufferedNode.cpp CCGrabber.cpp CCGrid.cpp CCLabel.cpp CCLabelAtlas.cpp CCLabelBMFont.cpp CCLabelTextFormatter.cpp CCLabelTTF.cpp CCLayer.cpp CCLight.cpp CCMenu.cpp CCMenuItem.cpp CCMotionStreak.cpp CCNode.cpp CCNodeGrid.cpp CCParallaxNode.cpp CCParticleBatchNode.cpp CCParticleExamples.cpp CCParticleSystem.cpp CCParticleSystemQuad.cpp CCProgressTimer.cpp CCProtectedNode.cpp CCRenderTexture.cpp CCScene.cpp CCSprite.cpp CCSpriteBatchNode.cpp CCSpriteFrame.cpp CCSpriteFrameCache.cpp CCTextFieldTTF.cpp CCTileMapAtlas.cpp CCTMXLayer.cpp CCTMXObjectGroup.cpp CCTMXTiledMap.cpp CCTMXXMLParser.cpp CCTransition.cpp CCTransitionPageTurn.cpp CCTransitionProgress.cpp CCTweenFunction.cpp
+         AssetsManager.cpp
+         AssetsManagerEx.cpp
+         CCEventAssetsManagerEx.cpp
+         CCEventListenerAssetsManagerEx.cpp
+         Manifest.cpp
+         CCControl.cpp
+         CCControlButton.cpp
+         CCControlColourPicker.cpp
+         CCControlHuePicker.cpp
+         CCControlPotentiometer.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\extensions\gui\cccontrolextension\CCControlPotentiometer.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\..\extensions\GUI\CCControlExtension\CCControlPotentiometer.cpp)
+         CCControlSaturationBrightnessPicker.cpp
+         CCControlSlider.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+         CCControlStepper.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\..\extensions\assets-manager\CCEventListenerAssetsManagerEx.cpp)
+         CCControlSwitch.cpp
+         CCControlUtils.cpp
+         CCInvocation.cpp
+         CCScrollView.cpp
+         CCTableView.cpp
+         CCTableViewCell.cpp
+         CCParticle3DAffector.cpp
+         CCParticle3DEmitter.cpp
+         CCParticle3DRender.cpp
+         CCParticleSystem3D.cpp
+         CCPUAffector.cpp
+         CCPUAffectorManager.cpp
+         CCPUAffectorTranslator.cpp
+         CCPUAlignAffector.cpp
+         CCPUAlignAffectorTranslator.cpp
+         CCPUBaseCollider.cpp
+         CCPUBaseColliderTranslator.cpp
+         CCPUBaseForceAffector.cpp
+         CCPUBaseForceAffectorTranslator.cpp
+         CCPUBeamRender.cpp
+         CCPUBehaviour.cpp
+         CCPUBehaviourManager.cpp
+         CCPUBehaviourTranslator.cpp
+         CCPUBillboardChain.cpp
+         CCPUBoxCollider.cpp
+         CCPUBoxColliderTranslator.cpp
+         CCPUBoxEmitter.cpp
+         CCPUBoxEmitterTranslator.cpp
+         CCPUCircleEmitter.cpp
+         CCPUCircleEmitterTranslator.cpp
+         CCPUCollisionAvoidanceAffector.cpp
+         CCPUCollisionAvoidanceAffectorTranslator.cpp
+         CCPUColorAffector.cpp
+         CCPUColorAffectorTranslator.cpp
+         CCPUDoAffectorEventHandler.cpp
+         CCPUDoAffectorEventHandlerTranslator.cpp
+         CCPUDoEnableComponentEventHandler.cpp
+         CCPUDoEnableComponentEventHandlerTranslator.cpp
+         CCPUDoExpireEventHandler.cpp
+         CCPUDoExpireEventHandlerTranslator.cpp
+         CCPUDoFreezeEventHandler.cpp
+         CCPUDoFreezeEventHandlerTranslator.cpp
+         CCPUDoPlacementParticleEventHandler.cpp
+         CCPUDoPlacementParticleEventHandlerTranslator.cpp
+         CCPUDoScaleEventHandler.cpp
+         CCPUDoScaleEventHandlerTranslator.cpp
+         CCPUDoStopSystemEventHandler.cpp
+         CCPUDoStopSystemEventHandlerTranslator.cpp
+         CCPUDynamicAttribute.cpp
+         CCPUDynamicAttributeTranslator.cpp
+         CCPUEmitter.cpp
+         CCPUEmitterManager.cpp
+         CCPUEmitterTranslator.cpp
+         CCPUEventHandler.cpp
+         CCPUEventHandlerManager.cpp
+         CCPUEventHandlerTranslator.cpp
+         CCPUFlockCenteringAffector.cpp
+         CCPUFlockCenteringAffectorTranslator.cpp
+         CCPUForceField.cpp
+         CCPUForceFieldAffector.cpp
+         CCPUForceFieldAffectorTranslator.cpp
+         CCPUGeometryRotator.cpp
+         CCPUGeometryRotatorTranslator.cpp
+         CCPUGravityAffector.cpp
+         CCPUGravityAffectorTranslator.cpp
+         CCPUInterParticleCollider.cpp
+         CCPUInterParticleColliderTranslator.cpp
+         CCPUJetAffector.cpp
+         CCPUJetAffectorTranslator.cpp
+         CCPULineAffector.cpp
+         CCPULineAffectorTranslator.cpp
+         CCPULinearForceAffector.cpp
+         CCPULinearForceAffectorTranslator.cpp
+         CCPULineEmitter.cpp
+         CCPULineEmitterTranslator.cpp
+         CCPUListener.cpp
+         CCPUMaterialManager.cpp
+         CCPUMaterialTranslator.cpp
+         CCPUMeshSurfaceEmitter.cpp
+         CCPUMeshSurfaceEmitterTranslator.cpp
+         CCPUNoise.cpp
+         CCPUObserver.cpp
+         CCPUObserverManager.cpp
+         CCPUObserverTranslator.cpp
+         CCPUOnClearObserver.cpp
+         CCPUOnClearObserverTranslator.cpp
+         CCPUOnCollisionObserver.cpp
+         CCPUOnCollisionObserverTranslator.cpp
+         CCPUOnCountObserver.cpp
+         CCPUOnCountObserverTranslator.cpp
+         CCPUOnEmissionObserver.cpp
+         CCPUOnEmissionObserverTranslator.cpp
+         CCPUOnEventFlagObserver.cpp
+         CCPUOnEventFlagObserverTranslator.cpp
+         CCPUOnExpireObserver.cpp
+         CCPUOnExpireObserverTranslator.cpp
+         CCPUOnPositionObserver.cpp
+         CCPUOnPositionObserverTranslator.cpp
+         CCPUOnQuotaObserver.cpp
+         CCPUOnQuotaObserverTranslator.cpp
+         CCPUOnRandomObserver.cpp
+         CCPUOnRandomObserverTranslator.cpp
+         CCPUOnTimeObserver.cpp
+         CCPUOnTimeObserverTranslator.cpp
+         CCPUOnVelocityObserver.cpp
+         CCPUOnVelocityObserverTranslator.cpp
+         CCPUParticleFollower.cpp
+         CCPUParticleFollowerTranslator.cpp
+         CCPUParticleSystem3D.cpp
+         CCPUParticleSystem3DTranslator.cpp
+         CCPUPathFollower.cpp
+         CCPUPathFollowerTranslator.cpp
+         CCPUPlane.cpp
+         CCPUPlaneCollider.cpp
+         CCPUPlaneColliderTranslator.cpp
+         CCPUPointEmitter.cpp
+         CCPUPointEmitterTranslator.cpp
+         CCPUPositionEmitter.cpp
+         CCPUPositionEmitterTranslator.cpp
+         CCPURandomiser.cpp
+         CCPURandomiserTranslator.cpp
+         CCPURender.cpp
+         CCPURendererTranslator.cpp
+         CCPURibbonTrail.cpp
+         CCPURibbonTrailRender.cpp
+         CCPUScaleAffector.cpp
+         CCPUScaleAffectorTranslator.cpp
+         CCPUScaleVelocityAffector.cpp
+         CCPUScaleVelocityAffectorTranslator.cpp
+         CCPUScriptCompiler.cpp
+         CCPUScriptLexer.cpp
+         CCPUScriptParser.cpp
+         CCPUScriptTranslator.cpp
+         CCPUSimpleSpline.cpp
+         CCPUSineForceAffector.cpp
+         CCPUSineForceAffectorTranslator.cpp
+         CCPUSlaveBehaviour.cpp
+         CCPUSlaveBehaviourTranslator.cpp
+         CCPUSlaveEmitter.cpp
+         CCPUSlaveEmitterTranslator.cpp
+         CCPUSphere.cpp
+         CCPUSphereCollider.cpp
+         CCPUSphereColliderTranslator.cpp
+         CCPUSphereSurfaceEmitter.cpp
+         CCPUSphereSurfaceEmitterTranslator.cpp
+         CCPUTechniqueTranslator.cpp
+         CCPUTextureAnimator.cpp
+         CCPUTextureAnimatorTranslator.cpp
+         CCPUTextureRotator.cpp
+         CCPUTextureRotatorTranslator.cpp
+         CCPUTranslateManager.cpp
+         CCPUUtil.cpp
+         CCPUVelocityMatchingAffector.cpp
+         CCPUVelocityMatchingAffectorTranslator.cpp
+         CCPUVertexEmitter.cpp
+         CCPUVortexAffector.cpp
+         CCPUVortexAffectorTranslator.cpp
+         CCPhysicsDebugNode.cpp
+         CCPhysicsSprite.cpp
+         clipper.cpp
+         ConvertUTF.c
+         ConvertUTFWrapper.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\..\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\..\extensions\physics-nodes\CCPhysicsDebugNode.cpp)
+         edtaa3func.cpp
+         flatc.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\..\extensions\physics-nodes\CCPhysicsSprite.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\..\extensions\physics-nodes\CCPhysicsSprite.cpp)
+         idl_gen_cpp.cpp
+         idl_gen_fbs.cpp
+         idl_gen_general.cpp
+         idl_gen_go.cpp
+         idl_gen_text.cpp
+         idl_parser.cpp
+         shapes.cc
+         advancing_front.cc
+         cdt.cc
+         sweep.cc
+         sweep_context.cc
+         tinyxml2.cpp
+         ioapi_mem.cpp
+         ioapi.cpp
+         unzip.cpp
+         xxhash.c
+         CCAABB.cpp
+     1>..\..\external\xxhash\xxhash.c(312): warning C4804: '/' : unsafe use of type 'bool' in operation
+         CCAnimate3D.cpp
+         CCAnimation3D.cpp
+         CCAttachNode.cpp
+         CCBillBoard.cpp
+         CCBundle3D.cpp
+         CCBundleReader.cpp
+         CCFrustum.cpp
+         CCMesh.cpp
+         CCMeshSkin.cpp
+         CCMeshVertexIndexData.cpp
+         CCMotionStreak3D.cpp
+         CCOBB.cpp
+         CCObjLoader.cpp
+         CCPlane.cpp
+         CCRay.cpp
+         CCSkeleton3D.cpp
+         CCSkybox.cpp
+         CCSprite3D.cpp
+         CCSprite3DMaterial.cpp
+         CCTerrain.cpp
+         AudioEngine.cpp
+         AudioCache.cpp
+         AudioEngine-win32.cpp
+         AudioPlayer.cpp
+     1>..\3d\CCSprite3D.cpp(467): warning C4018: '<' : signed/unsigned mismatch
+     1>..\3d\CCSprite3D.cpp(777): warning C4804: '>' : unsafe use of type 'bool' in operation
+         MciPlayer.cpp
+         SimpleAudioEngine.cpp
+         CCAllocatorDiagnostics.cpp
+         CCAllocatorGlobal.cpp
+         CCAllocatorGlobalNewDelete.cpp
+         atitc.cpp
+         base64.cpp
+         CCAsyncTaskPool.cpp
+         CCAutoreleasePool.cpp
+         ccCArray.cpp
+         CCConfiguration.cpp
+         CCConsole.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\audio\win32\SimpleAudioEngine.cpp)
+         CCData.cpp
+         CCDataVisitor.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\audio\win32\SimpleAudioEngine.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\audio\win32\SimpleAudioEngine.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\audio\win32\SimpleAudioEngine.cpp)
+         CCDirector.cpp
+         CCEvent.cpp
+         CCEventAcceleration.cpp
+         CCEventCustom.cpp
+         CCEventDispatcher.cpp
+         CCEventFocus.cpp
+         CCEventKeyboard.cpp
+         CCEventListener.cpp
+         CCEventListenerAcceleration.cpp
+         CCEventListenerCustom.cpp
+         CCEventListenerFocus.cpp
+         CCEventListenerKeyboard.cpp
+         CCEventListenerMouse.cpp
+         CCEventListenerTouch.cpp
+         CCEventMouse.cpp
+         CCEventTouch.cpp
+         ccFPSImages.c
+         CCIMEDispatcher.cpp
+         CCNinePatchImageParser.cpp
+         CCStencilStateManager.cpp
+         CCNS.cpp
+         CCProfiling.cpp
+         CCProperties.cpp
+         ccRandom.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\base\CCProperties.cpp)
+         CCRef.cpp
+         CCScheduler.cpp
+         CCScriptSupport.cpp
+         CCTouch.cpp
+         ccTypes.cpp
+         CCUserDefault.cpp
+         ccUTF8.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\base\ccUTF8.cpp)
+         ccUtils.cpp
+     1>..\base\ccUTF8.cpp(275): warning C4996: 'cocos2d::cc_wcslen': was declared deprecated
+                 C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h(152) : see declaration of 'cocos2d::cc_wcslen'
+     1>..\base\ccUTF8.cpp(318): warning C4996: 'cocos2d::cc_wcslen': was declared deprecated
+                 C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h(152) : see declaration of 'cocos2d::cc_wcslen'
+         CCValue.cpp
+         etc1.cpp
+         pvr.cpp
+         ObjectFactory.cpp
+         s3tc.cpp
+         TGAlib.cpp
+         ZipUtils.cpp
+         cocos2d.cpp
+         CCArray.cpp
+         CCDeprecated.cpp
+         CCDictionary.cpp
+         CCNotificationCenter.cpp
+         CCSet.cpp
+         CCString.cpp
+         CCBAnimationManager.cpp
+         CCBFileLoader.cpp
+         CCBKeyframe.cpp
+         CCBReader.cpp
+         CCBSequence.cpp
+         CCBSequenceProperty.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\deprecated\CCDeprecated.cpp)
+         CCControlButtonLoader.cpp
+         CCControlLoader.cpp
+         CCLabelBMFontLoader.cpp
+         CCLabelTTFLoader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\deprecated\CCDeprecated.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\deprecated\CCDeprecated.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\deprecated\CCDeprecated.cpp)
+         CCLayerColorLoader.cpp
+         CCLayerGradientLoader.cpp
+         CCLayerLoader.cpp
+         CCMenuItemImageLoader.cpp
+         CCMenuItemLoader.cpp
+         CCNode+CCBRelativePositioning.cpp
+         CCNodeLoader.cpp
+         CCNodeLoaderLibrary.cpp
+         CCParticleSystemQuadLoader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+         CCScale9SpriteLoader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+         CCScrollViewLoader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocosbuilder\CCNodeLoader.cpp)
+         CCSpriteLoader.cpp
+         CCActionTimeline.cpp
+         CCActionTimelineCache.cpp
+         CCActionTimelineNode.cpp
+         CCBoneNode.cpp
+         CCFrame.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+         CCSkeletonNode.cpp
+         CCSkinNode.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineCache.cpp)
+         CCTimeLine.cpp
+         CSLoader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+         CCActionFrame.cpp
+         CCActionFrameEasing.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+         CCActionManagerEx.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CCActionTimelineNode.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+         CCActionNode.cpp
+         CCActionObject.cpp
+         CCArmature.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+         CCArmatureAnimation.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\ActionTimeline\CSLoader.cpp)
+         CCArmatureDataManager.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCActionNode.cpp)
+         CCArmatureDefine.cpp
+         CCBatchNode.cpp
+         CCBone.cpp
+         CCColliderDetector.cpp
+         CCComAttribute.cpp
+         CCComAudio.cpp
+         CCComController.cpp
+         CCComRender.cpp
+         CCDataReaderHelper.cpp
+         CCDatas.cpp
+         CCDecorativeDisplay.cpp
+         CCDisplayFactory.cpp
+         CCDisplayManager.cpp
+     1>..\editor-support\cocostudio\CCDataReaderHelper.cpp(309): warning C4996: 'cocos2d::FileUtils::getFileData': was declared deprecated
+                 C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCFileUtils.h(111) : see declaration of 'cocos2d::FileUtils::getFileData'
+                 C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCFileUtils.h(111) : see declaration of 'cocos2d::FileUtils::getFileData'
+     1>..\editor-support\cocostudio\CCDataReaderHelper.cpp(422): warning C4996: 'cocos2d::FileUtils::getFileData': was declared deprecated
+                 C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCFileUtils.h(111) : see declaration of 'cocos2d::FileUtils::getFileData'
+                 C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCFileUtils.h(111) : see declaration of 'cocos2d::FileUtils::getFileData'
+         CCInputDelegate.cpp
+         CCComExtensionData.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCComRender.cpp)
+         CCProcessBase.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCComRender.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCComRender.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCComRender.cpp)
+         CCSGUIReader.cpp
+         CCSkin.cpp
+         CCSpriteFrameCacheHelper.cpp
+         CCSSceneReader.cpp
+         CCTransformHelp.cpp
+         CCTween.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSGUIReader.cpp)
+         CCUtilMath.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSGUIReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSGUIReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSGUIReader.cpp)
+         CocoLoader.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSGUIReader.cpp)
+         CocoStudio.cpp
+         DictionaryHelper.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSSceneReader.cpp)
+         FlatBuffersSerialize.cpp
+         TriggerBase.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSSceneReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSSceneReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSSceneReader.cpp)
+         TriggerMng.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CCSSceneReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+         TriggerObj.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CocoStudio.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerBase.cpp)
+         WidgetCallBackHandlerProtocol.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CocoStudio.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CocoStudio.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\CocoStudio.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\FlatBuffersSerialize.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerBase.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerBase.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerBase.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+         ArmatureNodeReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerMng.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetCallBackHandlerProtocol.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerObj.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerMng.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerMng.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerObj.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerObj.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerMng.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\TriggerObj.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ArmatureNodeReader\ArmatureNodeReader.cpp)
+         ButtonReader.cpp
+         CheckBoxReader.cpp
+         ComAudioReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ButtonReader\ButtonReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+         GameMapReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+         GameNode3DReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\CheckBoxReader\CheckBoxReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ComAudioReader\ComAudioReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+         ImageViewReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameMapReader\GameMapReader.cpp)
+         LayoutReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\GameNode3DReader\GameNode3DReader.cpp)
+         Light3DReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+         ListViewReader.cpp
+         LoadingBarReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LayoutReader\LayoutReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ImageViewReader\ImageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+         NodeReaderDefine.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ListViewReader\ListViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+         NodeReaderProtocol.cpp
+     1>..\editor-support\cocostudio\WidgetReader\Light3DReader\Light3DReader.cpp(163): warning C4800: 'uint8_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\LoadingBarReader\LoadingBarReader.cpp)
+         NodeReader.cpp
+         PageViewReader.cpp
+         ParticleReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+         ProjectNodeReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\NodeReader\NodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\PageViewReader\PageViewReader.cpp)
+         ScrollViewReader.cpp
+         SingleNodeReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+         BoneNodeReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ParticleReader\ParticleReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+         SkeletonNodeReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ProjectNodeReader\ProjectNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\ScrollViewReader\ScrollViewReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SingleNodeReader\SingleNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\BoneNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SkeletonReader\SkeletonNodeReader.cpp)
+         SliderReader.cpp
+         SpriteReader.cpp
+         TextAtlasReader.cpp
+         TextBMFontReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+         TextFieldReader.cpp
+         TextReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SliderReader\SliderReader.cpp)
+         Node3DReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\SpriteReader\SpriteReader.cpp)
+         Sprite3DReader.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextBMFontReader\TextBMFontReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextAtlasReader\TextAtlasReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextFieldReader\TextFieldReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\TextReader\TextReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Sprite3DReader\Sprite3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Node3DReader\Node3DReader.cpp)
+         UserCameraReader.cpp
+         Particle3DReader.cpp
+         WidgetReader.cpp
+         CCAffineTransform.cpp
+         CCGeometry.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+         CCVertex.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\UserCameraReader\UserCameraReader.cpp)
+         Mat4.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\Particle3DReader\Particle3DReader.cpp)
+         MathUtil.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\editor-support\cocostudio\WidgetReader\WidgetReader.cpp)
+         Quaternion.cpp
+         TransformUtils.cpp
+         Vec2.cpp
+         Vec3.cpp
+         Vec4.cpp
+         CCNavMesh.cpp
+         CCNavMeshAgent.cpp
+         CCNavMeshDebugDraw.cpp
+         CCNavMeshObstacle.cpp
+         CCNavMeshUtils.cpp
+         CCDownloader-curl.cpp
+         CCDownloader.cpp
+         HttpClient.cpp
+         SocketIO.cpp
+         WebSocket.cpp
+         CCPhysics3D.cpp
+         CCPhysics3DComponent.cpp
+         CCPhysics3DConstraint.cpp
+         CCPhysics3DDebugDrawer.cpp
+         CCPhysics3DObject.cpp
+         CCPhysics3DShape.cpp
+         CCPhysics3DWorld.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3DComponent.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3DDebugDrawer.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3DConstraint.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+         CCPhysicsSprite3D.cpp
+     1>..\physics3d\CCPhysics3DComponent.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3D.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3DObject.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics3d\CCPhysics3DObject.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3DShape.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+         CCPhysicsBody.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsBody.cpp)
+         CCPhysicsContact.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysicsSprite3D.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+     1>c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\broadphasecollision\btDbvtBroadphase.h(62): warning C4099: 'btDbvtBroadphase' : type name first seen using 'class' now seen using 'struct' (..\physics3d\CCPhysics3DWorld.cpp)
+                 c:\sgd\laughing-pancake\cocos2d\cocos\physics3d\CCPhysics3DWorld.h(39) : see declaration of 'btDbvtBroadphase'
+         CCPhysicsJoint.cpp
+         CCPhysicsShape.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsShape.cpp)
+         CCPhysicsWorld.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsContact.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsContact.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsContact.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsContact.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsBody.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsBody.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsBody.cpp)
+         CCFileUtils.cpp
+         CCGLView.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsJoint.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsJoint.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsJoint.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsShape.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsShape.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsJoint.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsShape.cpp)
+         CCImage.cpp
+         CCSAXParser.cpp
+     1>..\platform\CCSAXParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\platform\CCSAXParser.cpp)
+         CCThread.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsWorld.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\physics\CCPhysicsWorld.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(105): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsWorld.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\external\chipmunk\include\chipmunk\cpBB.h(111): warning C4056: overflow in floating-point constant arithmetic (..\physics\CCPhysicsWorld.cpp)
+         CCGLViewImpl-desktop.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\platform\CCFileUtils.cpp)
+         CCApplication-win32.cpp
+         CCCommon-win32.cpp
+         CCDevice-win32.cpp
+     1>..\platform\CCImage.cpp(2130): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         CCFileUtils-win32.cpp
+         CCStdC-win32.cpp
+         CCBatchCommand.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\platform\desktop\CCGLViewImpl-desktop.cpp)
+         CCCustomCommand.cpp
+         CCFrameBuffer.cpp
+         CCGLProgram.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\win32\CCFileUtils-win32.h(153): warning C4996: 'cocos2d::FileUtils::getFileData': was declared deprecated (..\platform\win32\CCFileUtils-win32.cpp)
+                 C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCFileUtils.h(111) : see declaration of 'cocos2d::FileUtils::getFileData'
+         CCGLProgramCache.cpp
+         CCGLProgramState.cpp
+         CCGLProgramStateCache.cpp
+         ccGLStateCache.cpp
+         CCGroupCommand.cpp
+         CCMaterial.cpp
+         CCMeshCommand.cpp
+         CCPass.cpp
+         CCPrimitive.cpp
+         CCPrimitiveCommand.cpp
+         CCQuadCommand.cpp
+         CCRenderCommand.cpp
+         CCRenderer.cpp
+         CCRenderState.cpp
+         ccShaders.cpp
+         CCTechnique.cpp
+         CCTexture2D.cpp
+         CCTextureAtlas.cpp
+         CCTextureCache.cpp
+         CCTextureCube.cpp
+         CCTrianglesCommand.cpp
+         CCVertexAttribBinding.cpp
+         CCVertexIndexBuffer.cpp
+         CCVertexIndexData.cpp
+         LocalStorage.cpp
+         CocosGUI.cpp
+         UIButton.cpp
+         UIAbstractCheckButton.cpp
+         UICheckBox.cpp
+         UIRadioButton.cpp
+         UIDeprecated.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\CocosGUI.cpp)
+         UIEditBox.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIButton.cpp)
+         UIEditBoxImpl-win32.cpp
+         UIHBox.cpp
+         UIHelper.cpp
+         UIImageView.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIHelper.cpp)
+         UILayout.cpp
+         UILayoutComponent.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIEditBox\UIEditBoxImpl-win32.cpp)
+         UILayoutManager.cpp
+         UILayoutParameter.cpp
+         UIListView.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UILayout.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIImageView.cpp)
+         UILoadingBar.cpp
+         UIPageView.cpp
+         UIPageViewIndicator.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIListView.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\ui\UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UILayoutComponent.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UILoadingBar.cpp)
+         UIRelativeBox.cpp
+     1>..\ui\UIPageView.cpp(315): warning C4996: 'cocos2d::ui::PageView::getPages': was declared deprecated
+                 C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIPageView.h(215) : see declaration of 'cocos2d::ui::PageView::getPages'
+         UIRichText.cpp
+         UIScale9Sprite.cpp
+         UIScrollView.cpp
+         UIScrollViewBar.cpp
+         UISlider.cpp
+         UIText.cpp
+         UITextAtlas.cpp
+         UITextBMFont.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UISlider.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIRichText.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIRichText.cpp)
+     1>..\ui\UIRichText.cpp(336): warning C4018: '<=' : signed/unsigned mismatch
+         UITextField.cpp
+         UIVBox.cpp
+         UIWebView.cpp
+         UIWidget.cpp
+         CCAction.cpp
+         CCActionCamera.cpp
+         CCActionCatmullRom.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UIWidget.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\ui/UIHelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UITextField.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\ui\UITextField.cpp)
+         CCActionEase.cpp
+         CCActionGrid.cpp
+         CCActionGrid3D.cpp
+         CCActionInstant.cpp
+         CCActionInterval.cpp
+         CCActionManager.cpp
+         CCActionPageTurn3D.cpp
+         CCActionProgressTimer.cpp
+         CCActionTiledGrid.cpp
+         CCActionTween.cpp
+         CCAnimation.cpp
+         CCAnimationCache.cpp
+         CCAtlasNode.cpp
+         CCAutoPolygon.cpp
+         CCCamera.cpp
+         CCCameraBackgroundBrush.cpp
+         CCClippingNode.cpp
+         CCClippingRectangleNode.cpp
+         CCComponent.cpp
+         CCComponentContainer.cpp
+         CCDrawingPrimitives.cpp
+         CCDrawNode.cpp
+         CCFastTMXLayer.cpp
+         CCFastTMXTiledMap.cpp
+         CCFontAtlas.cpp
+         CCFontAtlasCache.cpp
+         CCFontCharMap.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCFastTMXLayer.cpp)
+         CCFontFNT.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCFastTMXTiledMap.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCFontAtlas.cpp)
+         CCFontFreeType.cpp
+     1>CCFontFreeType.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+         CCGLBufferedNode.cpp
+         CCGrabber.cpp
+         CCGrid.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCFontFreeType.cpp)
+         CCLabel.cpp
+         CCLabelAtlas.cpp
+         CCLabelBMFont.cpp
+         CCLabelTextFormatter.cpp
+         CCLabelTTF.cpp
+         CCLayer.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCLabelTextFormatter.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\base/ccUTF8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCLabel.cpp)
+         CCLight.cpp
+         CCMenu.cpp
+     1>CCLabel.cpp(754): warning C4018: '>' : signed/unsigned mismatch
+     1>CCLabel.cpp(756): warning C4018: '<' : signed/unsigned mismatch
+         CCMenuItem.cpp
+         CCMotionStreak.cpp
+         CCNode.cpp
+         CCNodeGrid.cpp
+         CCParallaxNode.cpp
+         CCParticleBatchNode.cpp
+         CCParticleExamples.cpp
+         CCParticleSystem.cpp
+         CCParticleSystemQuad.cpp
+         CCProgressTimer.cpp
+         CCProtectedNode.cpp
+         CCRenderTexture.cpp
+         CCScene.cpp
+         CCSprite.cpp
+         CCSpriteBatchNode.cpp
+         CCSpriteFrame.cpp
+         CCSpriteFrameCache.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsBody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCScene.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\physics/CCPhysicsShape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCScene.cpp)
+         CCTextFieldTTF.cpp
+         CCTileMapAtlas.cpp
+         CCTMXLayer.cpp
+         CCTMXObjectGroup.cpp
+         CCTMXTiledMap.cpp
+         CCTMXXMLParser.cpp
+     1>CCTMXXMLParser.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+         CCTransition.cpp
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCTMXLayer.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCTMXXMLParser.cpp)
+     1>C:\SGD\laughing-pancake\cocos2d\cocos\platform/CCSAXParser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (CCTMXTiledMap.cpp)
+         CCTransitionPageTurn.cpp
+         CCTransitionProgress.cpp
+         CCTweenFunction.cpp
+       PreLinkEvent:
+         if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\OpenalSoft\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\MP3Decoder\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\OggDecoder\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\sqlite3\libraries\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\chipmunk\prebuilt\win32\debug-lib\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+         :VCEnd
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+         파일을 찾을 수 없습니다-*.*
+         0개 파일이 복사되었습니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: The command "if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\curl\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\jpeg\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\png\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\tiff\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\webp\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\zlib\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\icon\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\OpenalSoft\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\MP3Decoder\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\OggDecoder\prebuilt\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\sqlite3\libraries\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\chipmunk\prebuilt\win32\debug-lib\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(127,5): error MSB3073: :VCEnd" exited with code 4.
+     1>Done Building Project "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:07:32.53
