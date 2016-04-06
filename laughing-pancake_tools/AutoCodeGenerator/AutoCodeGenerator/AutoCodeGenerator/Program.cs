@@ -18,7 +18,7 @@ namespace AutoCodeGenerator
             {
                 InPutPath = args[0];
             }
-            string AbsolutOutputPath = "../";
+            string AbsolutOutputPath = "../../../../../../laughing-pancake/AutoClasses";
             if (args.Length == 2)
             {
                 AbsolutOutputPath = args[1];

@@ -236,7 +236,7 @@ namespace AutoCodeGenerator.CocosGenerator
 
                     //headerGenStart += GenChildName(itemObj.child);
                     headerGenStart += SubClassHeaderGenerator(widgetname, itemObj);
-                    headerGenStart += "Widget * root;\n";
+                    headerGenStart += "cocos2d::Node * root;\n";
 
                     headerGenStart += "};\n";
 
@@ -350,7 +350,7 @@ namespace AutoCodeGenerator.CocosGenerator
 
                 //headerGenStart += GenChildName(itemObj.child);
                 headerGenStart += SubClassHeaderGenerator(Parnet.name, itemObj);
-                headerGenStart += "\tWidget * root;\n";
+                headerGenStart += "\tcocos2d::Node* root;\n";
 
                 headerGenStart += "};\n";
 
@@ -533,7 +533,7 @@ namespace AutoCodeGenerator.CocosGenerator
             headerGen += "\t}\n";
 
 
-            headerGen += "\tWidget* root;\n";
+            headerGen += "\tcocos2d::Node* root;\n";
 
             headerGen += "private:\n";
 
@@ -661,7 +661,7 @@ namespace AutoCodeGenerator.CocosGenerator
             //addChild(rootNode);
             gen += ClassName + "::" + ClassName + "()\n";
             gen += "{\n";
-            gen += "\troot = GUIReader::shareReader()->widgetFromJsonFile(\"" + ClassName + ".json\");\n";
+            gen += "\troot = CSLoader::createNode(\"" + ClassName + ".csb\");\n";
             gen += "\tthis->addChild(root, 0, 1);\n";
             gen += "\tInitPage();\n";
             gen += "\t" + ClassName + "::instance = this;\n";
