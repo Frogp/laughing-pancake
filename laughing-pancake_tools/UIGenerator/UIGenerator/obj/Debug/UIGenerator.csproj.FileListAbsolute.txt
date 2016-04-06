@@ -19,3 +19,6 @@ C:\Timeout\MailMan\Mailmantool\LayoutGenerator\UIGenerator\UIGenerator\obj\Debug
 C:\Timeout\MailMan\Mailmantool\LayoutGenerator\UIGenerator\UIGenerator\obj\Debug\UIGenerator.SkillEditor.resources
 C:\Timeout\MailMan\Mailmantool\LayoutGenerator\UIGenerator\UIGenerator\obj\Debug\UIGenerator.uniteditor.resources
 C:\Timeout\MailMan\Mailmantool\LayoutGenerator\UIGenerator\UIGenerator\obj\Debug\UIGenerator.Editor.Synthesis.resources
+C:\SGD\laughing-pancake_tools\UIGenerator\UIGenerator\bin\Debug\UIGenerator.exe.config
+C:\SGD\laughing-pancake_tools\UIGenerator\UIGenerator\obj\Debug\UIGenerator.exe
+C:\SGD\laughing-pancake_tools\UIGenerator\UIGenerator\obj\Debug\UIGenerator.pdb

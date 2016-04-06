@@ -31,11 +31,13 @@ namespace UIGenerator
 
             List<string> issues = AnimationList;
 
-            JObject animation = JObject.Parse(obj["animation"].ToString());
-            JArray actionlist = JArray.Parse(animation["actionlist"].ToString());
-            foreach (JObject itemObj in actionlist)
+            JObject _Content = JObject.Parse(obj["Content"].ToString());
+            JObject __Content = JObject.Parse(_Content["Content"].ToString());
+            JArray _AnimationList = JArray.Parse(__Content["AnimationList"].ToString());
+
+            foreach (JObject itemObj in _AnimationList)
             {
-                string animationName = itemObj["name"].ToString();
+                string animationName = itemObj["Name"].ToString();
                 issues.Add(animationName);
             }
 
