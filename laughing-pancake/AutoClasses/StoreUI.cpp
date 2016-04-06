@@ -13,7 +13,7 @@ using namespace ui;
 StoreUI * StoreUI::instance;
 StoreUI::StoreUI()
 {
-	root = CSLoader::createNode("StoreUI.csb");
+	root = CSLoader::createNode("res\StoreUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	StoreUI::instance = this;

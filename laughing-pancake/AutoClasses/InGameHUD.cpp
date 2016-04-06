@@ -13,7 +13,7 @@ using namespace ui;
 InGameHUD * InGameHUD::instance;
 InGameHUD::InGameHUD()
 {
-	root = CSLoader::createNode("InGameHUD.csb");
+	root = CSLoader::createNode("res\InGameHUD.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InGameHUD::instance = this;

@@ -13,7 +13,7 @@ using namespace ui;
 GameResualtUI * GameResualtUI::instance;
 GameResualtUI::GameResualtUI()
 {
-	root = CSLoader::createNode("GameResualtUI.csb");
+	root = CSLoader::createNode("res\GameResualtUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	GameResualtUI::instance = this;

@@ -4,9 +4,7 @@
 #include "ui/CocosGUI.h"
 #include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
-#include "extensions/cocos-ext.h"
 #include "ui/CocosGUI.h"
-#include "CustomWidget/CustomParticleWidget.h"
 
 USING_NS_CC;
 using namespace cocostudio;

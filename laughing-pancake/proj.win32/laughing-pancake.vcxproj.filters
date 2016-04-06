@@ -10,6 +10,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AutoClasses">
+      <UniqueIdentifier>{35612534-4e0c-425f-af36-8f1b9ff4d115}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,6 +24,51 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\AutoClasses\BettleReadyUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\BettleStartUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\FriendList.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\GameResualtUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\InGameHUD.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\InGameOptionUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\InGameScene.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\InventoryUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\LoadingScene.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\MainScene.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\MainUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\MessageBoxUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\OptionUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\StoreUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\StoryScene.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -31,6 +79,51 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\BettleReadyUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\BettleStartUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\FriendList.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\GameResualtUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\InGameHUD.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\InGameOptionUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\InGameScene.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\InventoryUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\LoadingScene.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\MainScene.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\MainUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\MessageBoxUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\OptionUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\StoreUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\StoryScene.h">
+      <Filter>AutoClasses</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

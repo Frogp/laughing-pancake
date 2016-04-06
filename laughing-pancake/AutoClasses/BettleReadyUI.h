@@ -4,9 +4,7 @@
 #include "ui/CocosGUI.h"
 #include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
-#include "extensions/cocos-ext.h"
 #include "ui/CocosGUI.h"
-#include "CustomWidget/CustomParticleWidget.h"
 #include "BettleReadyUI/Panel_1.h"
 #include "BettleReadyUI/ListView_1.h"
 
@@ -26,18 +24,18 @@ public:
 	BettleReadyUI(Widget* _root);
 	void InitPage();
 public:
-	 m_Button_1;
-	 m_Image_2;
-	 m_CheckBox_1;
+	cocos2d::ui::Button*  m_Button_1;
+	cocos2d::ui::ImageView * m_Image_2;
+	CheckBox * m_CheckBox_1;
 	CCBettleReadyUI::Panel_1 * m_Panel_1;
-	 m_Text_1;
+	cocos2d::ui::Text * m_Text_1;
 	CCBettleReadyUI::ListView_1 * m_ListView_1;
 
-	ActionObject* SpacialAnation;
+	cocostudio::timeline::ActionTimeline* SpacialAnation;
 	CCCallFunc* SpacialAnationfunc;
 	void SpacialAnationfuncEnd();
 
-	ActionObject* MoveAni;
+	cocostudio::timeline::ActionTimeline* MoveAni;
 	CCCallFunc* MoveAnifunc;
 	void MoveAnifuncEnd();
 

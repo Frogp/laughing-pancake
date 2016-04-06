@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -96,7 +96,8 @@
       </Command>
     </PostBuildEvent>
     <PreLinkEvent>
-      <Command></Command>
+      <Command>
+      </Command>
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>
@@ -108,7 +109,6 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
       <Inputs>$(TargetFileName)</Inputs>
     </CustomBuildStep>
   </ItemDefinitionGroup>
-
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
@@ -139,15 +139,46 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
       </Command>
     </PostBuildEvent>
     <PreLinkEvent>
-      <Command></Command>
+      <Command>
+      </Command>
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\AutoClasses\BettleReadyUI.cpp" />
+    <ClCompile Include="..\AutoClasses\BettleStartUI.cpp" />
+    <ClCompile Include="..\AutoClasses\FriendList.cpp" />
+    <ClCompile Include="..\AutoClasses\GameResualtUI.cpp" />
+    <ClCompile Include="..\AutoClasses\InGameHUD.cpp" />
+    <ClCompile Include="..\AutoClasses\InGameOptionUI.cpp" />
+    <ClCompile Include="..\AutoClasses\InGameScene.cpp" />
+    <ClCompile Include="..\AutoClasses\InventoryUI.cpp" />
+    <ClCompile Include="..\AutoClasses\LoadingScene.cpp" />
+    <ClCompile Include="..\AutoClasses\MainScene.cpp" />
+    <ClCompile Include="..\AutoClasses\MainUI.cpp" />
+    <ClCompile Include="..\AutoClasses\MessageBoxUI.cpp" />
+    <ClCompile Include="..\AutoClasses\OptionUI.cpp" />
+    <ClCompile Include="..\AutoClasses\StoreUI.cpp" />
+    <ClCompile Include="..\AutoClasses\StoryScene.cpp" />
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\AutoClasses\BettleReadyUI.h" />
+    <ClInclude Include="..\AutoClasses\BettleStartUI.h" />
+    <ClInclude Include="..\AutoClasses\FriendList.h" />
+    <ClInclude Include="..\AutoClasses\GameResualtUI.h" />
+    <ClInclude Include="..\AutoClasses\InGameHUD.h" />
+    <ClInclude Include="..\AutoClasses\InGameOptionUI.h" />
+    <ClInclude Include="..\AutoClasses\InGameScene.h" />
+    <ClInclude Include="..\AutoClasses\InventoryUI.h" />
+    <ClInclude Include="..\AutoClasses\LoadingScene.h" />
+    <ClInclude Include="..\AutoClasses\MainScene.h" />
+    <ClInclude Include="..\AutoClasses\MainUI.h" />
+    <ClInclude Include="..\AutoClasses\MessageBoxUI.h" />
+    <ClInclude Include="..\AutoClasses\OptionUI.h" />
+    <ClInclude Include="..\AutoClasses\StoreUI.h" />
+    <ClInclude Include="..\AutoClasses\StoryScene.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="main.h" />

@@ -13,7 +13,7 @@ using namespace ui;
 InGameScene * InGameScene::instance;
 InGameScene::InGameScene()
 {
-	root = CSLoader::createNode("InGameScene.csb");
+	root = CSLoader::createNode("res\InGameScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InGameScene::instance = this;

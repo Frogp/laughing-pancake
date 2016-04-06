@@ -1,4 +1,4 @@
-﻿Build started 2016-04-04 오후 9:10:09.
+﻿Build started 2016-04-07 오전 12:02:03.
      1>Project "C:\SGD\laughing-pancake\cocos2d\external\recast\proj.win32\librecast.vcxproj" on node 5 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../ /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DebugUtils\DebugDraw.cpp ..\DebugUtils\DetourDebugDraw.cpp ..\DetourCrowd\DetourCrowd.cpp ..\DetourCrowd\DetourLocalBoundary.cpp ..\DetourCrowd\DetourObstacleAvoidance.cpp ..\DetourCrowd\DetourPathCorridor.cpp ..\DetourCrowd\DetourPathQueue.cpp ..\DetourCrowd\DetourProximityGrid.cpp ..\DetourTileCache\DetourTileCache.cpp ..\DetourTileCache\DetourTileCacheBuilder.cpp ..\Detour\DetourAlloc.cpp ..\Detour\DetourCommon.cpp ..\Detour\DetourNavMesh.cpp ..\Detour\DetourNavMeshBuilder.cpp ..\Detour\DetourNavMeshQuery.cpp ..\Detour\DetourNode.cpp
@@ -44,4 +44,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:05.31
+Time Elapsed 00:00:04.50

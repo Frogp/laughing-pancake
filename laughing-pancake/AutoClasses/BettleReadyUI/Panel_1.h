@@ -4,9 +4,7 @@
 #include "ui/CocosGUI.h"
 #include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
-#include "extensions/cocos-ext.h"
 #include "ui/CocosGUI.h"
-#include "CustomWidget/CustomParticleWidget.h"
 
 USING_NS_CC;
 using namespace cocostudio;
@@ -23,7 +21,7 @@ class Panel_1 : public CCObject
 public:
 	Panel_1() {}
 public:
-	 m_Slider_1;
+	cocos2d::ui::Slider * m_Slider_1;
 cocos2d::Node * root;
 };
 }

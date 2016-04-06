@@ -1,4 +1,4 @@
-﻿Build started 2016-04-04 오후 9:10:09.
+﻿Build started 2016-04-07 오전 12:02:03.
      1>Project "C:\SGD\laughing-pancake\cocos2d\cocos\editor-support\spine\proj.win32\libSpine.vcxproj" on node 3 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\extensions" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LIB /D COCOS2DXWIN32_EXPORTS /D GL_GLEXT_PROTOTYPES /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TC /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Animation.c ..\AnimationState.c ..\AnimationStateData.c ..\Atlas.c ..\AtlasAttachmentLoader.c ..\Attachment.c ..\AttachmentLoader.c ..\Bone.c ..\BoneData.c ..\BoundingBoxAttachment.c ..\Event.c ..\EventData.c ..\extension.c ..\IkConstraint.c ..\IkConstraintData.c ..\Json.c ..\MeshAttachment.c ..\RegionAttachment.c ..\Skeleton.c ..\SkeletonBounds.c ..\SkeletonData.c ..\SkeletonJson.c ..\Skin.c ..\SkinnedMeshAttachment.c ..\Slot.c ..\SlotData.c
@@ -33,17 +33,22 @@
          SkeletonAnimation.cpp
          SkeletonRenderer.cpp
          spine-cocos2dx.cpp
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\PolygonBatch.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonAnimation.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\PolygonBatch.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\PolygonBatch.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\PolygonBatch.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonAnimation.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonAnimation.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonAnimation.cpp)
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonRenderer.cpp)
      1>c:\sgd\laughing-pancake\cocos2d\cocos\editor-support\spine\skeletonrenderer.cpp(252): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': was declared deprecated
                  c:\sgd\laughing-pancake\cocos2d\cocos\2d\ccdrawingprimitives.h(245) : see declaration of 'cocos2d::DrawPrimitives::setDrawColor4B'
      1>c:\sgd\laughing-pancake\cocos2d\cocos\editor-support\spine\skeletonrenderer.cpp(265): warning C4996: 'cocos2d::DrawPrimitives::drawPoly': was declared deprecated
@@ -60,11 +65,6 @@
                  c:\sgd\laughing-pancake\cocos2d\cocos\2d\ccdrawingprimitives.h(100) : see declaration of 'cocos2d::DrawPrimitives::drawPoint'
      1>c:\sgd\laughing-pancake\cocos2d\cocos\editor-support\spine\skeletonrenderer.cpp(284): warning C4996: 'cocos2d::DrawPrimitives::setDrawColor4B': was declared deprecated
                  c:\sgd\laughing-pancake\cocos2d\cocos\2d\ccdrawingprimitives.h(245) : see declaration of 'cocos2d::DrawPrimitives::setDrawColor4B'
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\SkeletonAnimation.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\spine-cocos2dx.cpp)
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\libSpine.lib" /NOLOGO Debug.win32\Animation.obj
          Debug.win32\AnimationState.obj
@@ -101,4 +101,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:31.54
+Time Elapsed 00:00:29.57

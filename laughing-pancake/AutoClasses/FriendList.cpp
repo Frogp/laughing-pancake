@@ -13,7 +13,7 @@ using namespace ui;
 FriendList * FriendList::instance;
 FriendList::FriendList()
 {
-	root = CSLoader::createNode("FriendList.csb");
+	root = CSLoader::createNode("res\FriendList.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	FriendList::instance = this;

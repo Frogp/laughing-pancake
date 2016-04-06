@@ -205,10 +205,7 @@ namespace AutoCodeGenerator.CocosGenerator
                     headerGenStart += "#include \"ui/CocosGUI.h\"\n";
                     headerGenStart += "#include \"cocos-ext.h\"\n";
                     headerGenStart += "#include \"cocostudio/CocoStudio.h\"\n";
-                    headerGenStart += "#include \"extensions/cocos-ext.h\"\n";
                     headerGenStart += "#include \"ui/CocosGUI.h\"\n";
-                    headerGenStart += "#include \"CustomWidget/CustomParticleWidget.h\"\n";
-
                     //
 
                     headerGenStart += GenChildIncludeName(1, itemObj);
@@ -321,9 +318,7 @@ namespace AutoCodeGenerator.CocosGenerator
                 headerGenStart += "#include \"ui/CocosGUI.h\"\n";
                 headerGenStart += "#include \"cocos-ext.h\"\n";
                 headerGenStart += "#include \"cocostudio/CocoStudio.h\"\n";
-                headerGenStart += "#include \"extensions/cocos-ext.h\"\n";
                 headerGenStart += "#include \"ui/CocosGUI.h\"\n";
-                headerGenStart += "#include \"CustomWidget/CustomParticleWidget.h\"\n";
 
                 headerGenStart += GenChildIncludeName(1, itemObj);
 
@@ -392,8 +387,9 @@ namespace AutoCodeGenerator.CocosGenerator
 
         public string GetClassName(string classname)
         {
+            classname = classname.Substring(0,classname.IndexOf("ObjectData"));
+            //
             string widgetclass = "";
-
             if (string.Equals(classname, "Button") == true)
             {
                 widgetclass = "cocos2d::ui::Button* ";
@@ -402,7 +398,8 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 widgetclass = "CheckBox *";
             }
-            else if (string.Equals(classname, "Label") == true)
+            else if (string.Equals(classname, "Label") == true ||
+                string.Equals(classname, "Text") == true)
             {
                 widgetclass = "cocos2d::ui::Text *";
             }
@@ -418,7 +415,8 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 widgetclass = "cocos2d::ui::ScrollView *";
             }
-            else if (string.Equals(classname, "TextArea") == true)
+            else if (string.Equals(classname, "TextArea") == true ||
+                string.Equals(classname, "TextAreaObjectData") == true)
             {
                 widgetclass = "cocos2d::ui::Text *";
             }
@@ -473,7 +471,7 @@ namespace AutoCodeGenerator.CocosGenerator
             foreach (string itemObj in root)
             {
                 //outputstring += "/////////////" + itemObj + "ANIMATION/////////////\n";
-                outputstring += "\tActionObject* " + itemObj + ";\n";
+                outputstring += "\tcocostudio::timeline::ActionTimeline* " + itemObj + ";\n";
                 outputstring += "\tCCCallFunc* " + itemObj + "func;\n";
                 outputstring += "\tvoid " + itemObj + "funcEnd();\n";
                 outputstring += "\n";
@@ -494,9 +492,7 @@ namespace AutoCodeGenerator.CocosGenerator
             headerGen += "#include \"ui/CocosGUI.h\"\n";
             headerGen += "#include \"cocos-ext.h\"\n";
             headerGen += "#include \"cocostudio/CocoStudio.h\"\n";
-            headerGen += "#include \"extensions/cocos-ext.h\"\n";
             headerGen += "#include \"ui/CocosGUI.h\"\n";
-            headerGen += "#include \"CustomWidget/CustomParticleWidget.h\"\n";
 
             headerGen += GenChildIncludeName(Widgetlist);
 
@@ -661,7 +657,7 @@ namespace AutoCodeGenerator.CocosGenerator
             //addChild(rootNode);
             gen += ClassName + "::" + ClassName + "()\n";
             gen += "{\n";
-            gen += "\troot = CSLoader::createNode(\"" + ClassName + ".csb\");\n";
+            gen += "\troot = CSLoader::createNode(\"res\\" + ClassName + ".csb\");\n";
             gen += "\tthis->addChild(root, 0, 1);\n";
             gen += "\tInitPage();\n";
             gen += "\t" + ClassName + "::instance = this;\n";
@@ -704,7 +700,7 @@ namespace AutoCodeGenerator.CocosGenerator
             foreach (string itemObj in AnimationList)
             {
 
-                outputstring += "\t" + itemObj + " = cocostudio::ActionManagerEx::getInstance()->getActionByName(\"" + ClassName + ".json\", \"" + itemObj + "\");\n";
+                outputstring += "\t" + itemObj + " = CSLoader::createTimeline(\"res\\" + ClassName + ".csb\", \"" + itemObj + "\");\n";
                 outputstring += "\t" + itemObj + "->retain();\n";
                 outputstring += "\t" + itemObj + "func = CCCallFunc::create(this, callfunc_selector(" + ClassName + "::" + itemObj + "funcEnd));\n";
                 outputstring += "\t" + itemObj + "func->retain();\n";

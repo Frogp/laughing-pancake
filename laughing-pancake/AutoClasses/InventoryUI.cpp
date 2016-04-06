@@ -13,7 +13,7 @@ using namespace ui;
 InventoryUI * InventoryUI::instance;
 InventoryUI::InventoryUI()
 {
-	root = CSLoader::createNode("InventoryUI.csb");
+	root = CSLoader::createNode("res\InventoryUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InventoryUI::instance = this;

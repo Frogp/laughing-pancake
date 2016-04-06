@@ -13,7 +13,7 @@ using namespace ui;
 BettleStartUI * BettleStartUI::instance;
 BettleStartUI::BettleStartUI()
 {
-	root = CSLoader::createNode("BettleStartUI.csb");
+	root = CSLoader::createNode("res\BettleStartUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	BettleStartUI::instance = this;

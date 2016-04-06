@@ -13,7 +13,7 @@ using namespace ui;
 OptionUI * OptionUI::instance;
 OptionUI::OptionUI()
 {
-	root = CSLoader::createNode("OptionUI.csb");
+	root = CSLoader::createNode("res\OptionUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	OptionUI::instance = this;

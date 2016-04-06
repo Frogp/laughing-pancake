@@ -13,7 +13,7 @@ using namespace ui;
 InGameOptionUI * InGameOptionUI::instance;
 InGameOptionUI::InGameOptionUI()
 {
-	root = CSLoader::createNode("InGameOptionUI.csb");
+	root = CSLoader::createNode("res\InGameOptionUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InGameOptionUI::instance = this;

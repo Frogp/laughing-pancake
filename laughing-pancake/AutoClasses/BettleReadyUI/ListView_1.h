@@ -4,9 +4,7 @@
 #include "ui/CocosGUI.h"
 #include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
-#include "extensions/cocos-ext.h"
 #include "ui/CocosGUI.h"
-#include "CustomWidget/CustomParticleWidget.h"
 
 USING_NS_CC;
 using namespace cocostudio;
@@ -23,9 +21,9 @@ class ListView_1 : public CCObject
 public:
 	ListView_1() {}
 public:
-	 m_Text_1_0;
-	 m_Text_3;
-	 m_Text_4;
+	cocos2d::ui::Text * m_Text_1_0;
+	cocos2d::ui::Text * m_Text_3;
+	cocos2d::ui::Text * m_Text_4;
 cocos2d::Node * root;
 };
 }

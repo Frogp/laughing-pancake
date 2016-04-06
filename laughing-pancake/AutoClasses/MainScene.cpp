@@ -13,7 +13,7 @@ using namespace ui;
 MainScene * MainScene::instance;
 MainScene::MainScene()
 {
-	root = CSLoader::createNode("MainScene.csb");
+	root = CSLoader::createNode("res\MainScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	MainScene::instance = this;

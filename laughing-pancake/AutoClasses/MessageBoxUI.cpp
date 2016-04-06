@@ -13,7 +13,7 @@ using namespace ui;
 MessageBoxUI * MessageBoxUI::instance;
 MessageBoxUI::MessageBoxUI()
 {
-	root = CSLoader::createNode("MessageBoxUI.csb");
+	root = CSLoader::createNode("res\MessageBoxUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	MessageBoxUI::instance = this;

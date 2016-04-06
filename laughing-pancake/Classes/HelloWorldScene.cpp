@@ -1,7 +1,7 @@
 #include "HelloWorldScene.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-
+#include "../AutoClasses/BettleReadyUI.h"
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -84,8 +84,8 @@ bool HelloWorld::init()
         return false;
     }
     
-    auto rootNode = CSLoader::createNode("MainScene.csb");
-    addChild(rootNode);
+	BettleReadyUI* data = new BettleReadyUI();
+	addChild(data);
 
     return true;
 }
