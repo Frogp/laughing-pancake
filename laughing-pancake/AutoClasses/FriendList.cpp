@@ -3,17 +3,15 @@
 /// 이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
 /// </summary>
 #include "FriendList.h"
-#include "cocostudio/CocoStudio.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 
 FriendList * FriendList::instance;
 FriendList::FriendList()
 {
-	root = CSLoader::createNode("res\FriendList.csb");
+	root = CSLoader::createNode("res\\FriendList.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	FriendList::instance = this;
@@ -26,4 +24,6 @@ FriendList::FriendList(Widget* _root)
 }
 void FriendList::InitPage()
 {
+	cocostudio::timeline::ActionTimeline* actionFriendList = CSLoader::createTimeline("res\\FriendList.csb");
+	root->runAction(actionFriendList);
 }

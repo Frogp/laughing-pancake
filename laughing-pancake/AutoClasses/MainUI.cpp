@@ -3,17 +3,15 @@
 /// 이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
 /// </summary>
 #include "MainUI.h"
-#include "cocostudio/CocoStudio.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 
 MainUI * MainUI::instance;
 MainUI::MainUI()
 {
-	root = CSLoader::createNode("res\MainUI.csb");
+	root = CSLoader::createNode("res\\MainUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	MainUI::instance = this;
@@ -26,4 +24,6 @@ MainUI::MainUI(Widget* _root)
 }
 void MainUI::InitPage()
 {
+	cocostudio::timeline::ActionTimeline* actionMainUI = CSLoader::createTimeline("res\\MainUI.csb");
+	root->runAction(actionMainUI);
 }

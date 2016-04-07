@@ -3,17 +3,15 @@
 /// 이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
 /// </summary>
 #include "LoadingScene.h"
-#include "cocostudio/CocoStudio.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 
 LoadingScene * LoadingScene::instance;
 LoadingScene::LoadingScene()
 {
-	root = CSLoader::createNode("res\LoadingScene.csb");
+	root = CSLoader::createNode("res\\LoadingScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	LoadingScene::instance = this;
@@ -26,4 +24,6 @@ LoadingScene::LoadingScene(Widget* _root)
 }
 void LoadingScene::InitPage()
 {
+	cocostudio::timeline::ActionTimeline* actionLoadingScene = CSLoader::createTimeline("res\\LoadingScene.csb");
+	root->runAction(actionLoadingScene);
 }

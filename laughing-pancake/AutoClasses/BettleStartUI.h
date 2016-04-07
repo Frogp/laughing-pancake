@@ -1,13 +1,10 @@
 #ifndef __BETTLESTARTUI_H__
 #define __BETTLESTARTUI_H__
 #include "cocos2d.h"
-#include "ui/CocosGUI.h"
-#include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 

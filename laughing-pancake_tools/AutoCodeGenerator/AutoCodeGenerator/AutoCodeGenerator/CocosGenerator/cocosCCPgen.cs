@@ -58,8 +58,9 @@ namespace AutoCodeGenerator.CocosGenerator
                 Widgetnode root = new Widgetnode();
                 root.classname = xn.Attributes["ctype"].Value;
                 string name = xn.Attributes["Name"].Value;
-                string stag = xn.Attributes["ActionTag"].Value.ToString();
-                int tag = Convert.ToInt32(stag);
+                //string stag = xn.Attributes["ActionTag"].Value.ToString();
+                //int tag = Convert.ToInt32(stag);
+                int tag = 0;
 
                 if (name != "")
                 {
@@ -78,8 +79,8 @@ namespace AutoCodeGenerator.CocosGenerator
                 }
 
                 foreach (XmlNode chiled in xn.ChildNodes)
-                { 
-                    if ( chiled.Name == "Children" )
+                {
+                    if (chiled.Name == "Children")
                     {
                         widgetnodeLoader(root, chiled);
                     }
@@ -98,9 +99,9 @@ namespace AutoCodeGenerator.CocosGenerator
                 Widgetnode node = new Widgetnode();
                 node.classname = xn.Attributes["ctype"].Value;
                 string name = xn.Attributes["Name"].Value;
-                string stag = xn.Attributes["ActionTag"].Value.ToString();
-                int tag = Convert.ToInt32(stag);
-
+                //string stag = xn.Attributes["ActionTag"].Value.ToString();
+                //int tag = Convert.ToInt32(stag);
+                int tag = 0;
                 if (name != "")
                 {
                     node.original_name = name;
@@ -203,16 +204,12 @@ namespace AutoCodeGenerator.CocosGenerator
                     headerGenStart += "#define __CC" + widgetname.ToUpper() + "_" + ClassName.ToUpper() + "_" + itemObj.name.ToUpper() + "_H__\n";
                     headerGenStart += "#include \"cocos2d.h\"\n";
                     headerGenStart += "#include \"ui/CocosGUI.h\"\n";
-                    headerGenStart += "#include \"cocos-ext.h\"\n";
-                    headerGenStart += "#include \"cocostudio/CocoStudio.h\"\n";
-                    headerGenStart += "#include \"ui/CocosGUI.h\"\n";
                     //
 
                     headerGenStart += GenChildIncludeName(1, itemObj);
 
                     headerGenStart += "\n";
                     headerGenStart += "USING_NS_CC;\n";
-                    headerGenStart += "using namespace cocostudio;\n";
                     headerGenStart += "using namespace cocos2d;\n";
                     headerGenStart += "using namespace ui;\n";
                     headerGenStart += "\n";
@@ -316,15 +313,12 @@ namespace AutoCodeGenerator.CocosGenerator
                 headerGenStart += "#define __CC" + widgetname.ToUpper() + "_" + Parnet.name.ToUpper() + "_" + itemObj.name.ToUpper() + "_H__\n";
                 headerGenStart += "#include \"cocos2d.h\"\n";
                 headerGenStart += "#include \"ui/CocosGUI.h\"\n";
-                headerGenStart += "#include \"cocos-ext.h\"\n";
                 headerGenStart += "#include \"cocostudio/CocoStudio.h\"\n";
-                headerGenStart += "#include \"ui/CocosGUI.h\"\n";
 
                 headerGenStart += GenChildIncludeName(1, itemObj);
 
                 headerGenStart += "\n";
                 headerGenStart += "USING_NS_CC;\n";
-                headerGenStart += "using namespace cocostudio;\n";
                 headerGenStart += "using namespace cocos2d;\n";
                 headerGenStart += "using namespace ui;\n";
                 headerGenStart += "\n";
@@ -387,7 +381,7 @@ namespace AutoCodeGenerator.CocosGenerator
 
         public string GetClassName(string classname)
         {
-            classname = classname.Substring(0,classname.IndexOf("ObjectData"));
+            classname = classname.Substring(0, classname.IndexOf("ObjectData"));
             //
             string widgetclass = "";
             if (string.Equals(classname, "Button") == true)
@@ -471,10 +465,10 @@ namespace AutoCodeGenerator.CocosGenerator
             foreach (string itemObj in root)
             {
                 //outputstring += "/////////////" + itemObj + "ANIMATION/////////////\n";
-                outputstring += "\tcocostudio::timeline::ActionTimeline* " + itemObj + ";\n";
-                outputstring += "\tCCCallFunc* " + itemObj + "func;\n";
-                outputstring += "\tvoid " + itemObj + "funcEnd();\n";
-                outputstring += "\n";
+                outputstring += "\tcocostudio::timeline::AnimationInfo " + itemObj + ";\n";
+                //outputstring += "\tCCCallFunc* " + itemObj + "func;\n";
+                //outputstring += "\tvoid " + itemObj + "funcEnd();\n";
+                //outputstring += "\n";
             }
             return outputstring;
         }
@@ -489,8 +483,6 @@ namespace AutoCodeGenerator.CocosGenerator
             headerGen = "#ifndef __" + ClassName.ToUpper() + "_H__\n";
             headerGen += "#define __" + ClassName.ToUpper() + "_H__\n";
             headerGen += "#include \"cocos2d.h\"\n";
-            headerGen += "#include \"ui/CocosGUI.h\"\n";
-            headerGen += "#include \"cocos-ext.h\"\n";
             headerGen += "#include \"cocostudio/CocoStudio.h\"\n";
             headerGen += "#include \"ui/CocosGUI.h\"\n";
 
@@ -498,7 +490,6 @@ namespace AutoCodeGenerator.CocosGenerator
 
             headerGen += "\n";
             headerGen += "USING_NS_CC;\n";
-            headerGen += "using namespace cocostudio;\n";
             headerGen += "using namespace cocos2d;\n";
             headerGen += "using namespace ui;\n";
             headerGen += "\n";
@@ -631,11 +622,8 @@ namespace AutoCodeGenerator.CocosGenerator
             CppGen += "/// </summary>\n";
 
             CppGen += "#include \"" + ClassName + ".h\"\n";
-            //CppGen += "#include \"cocostudio/CCSSceneReaderext.h\"\n";
-            CppGen += "#include \"cocostudio/CocoStudio.h\"\n";
             CppGen += "\n";
             CppGen += "USING_NS_CC;\n";
-            CppGen += "using namespace cocostudio;\n";
             CppGen += "using namespace cocos2d;\n";
             CppGen += "using namespace ui;\n";
             CppGen += "\n";
@@ -657,7 +645,7 @@ namespace AutoCodeGenerator.CocosGenerator
             //addChild(rootNode);
             gen += ClassName + "::" + ClassName + "()\n";
             gen += "{\n";
-            gen += "\troot = CSLoader::createNode(\"res\\" + ClassName + ".csb\");\n";
+            gen += "\troot = CSLoader::createNode(\"res\\\\" + ClassName + ".csb\");\n";
             gen += "\tthis->addChild(root, 0, 1);\n";
             gen += "\tInitPage();\n";
             gen += "\t" + ClassName + "::instance = this;\n";
@@ -696,14 +684,18 @@ namespace AutoCodeGenerator.CocosGenerator
 
 
             string outputstring = "";
+            outputstring += "\tcocostudio::timeline::ActionTimeline* action" + ClassName + " = CSLoader::createTimeline(\"res\\\\" + ClassName + ".csb\");\n";
+            outputstring += "\t" + "root->runAction(action" + ClassName + ");\n";
 
             foreach (string itemObj in AnimationList)
             {
+                //actionBettleReadyUI->getAnimationInfo("test").
+                outputstring += "\t" + itemObj + " = action" + ClassName + "->getAnimationInfo(" + "\"" + itemObj + "\");\n";
 
-                outputstring += "\t" + itemObj + " = CSLoader::createTimeline(\"res\\" + ClassName + ".csb\", \"" + itemObj + "\");\n";
-                outputstring += "\t" + itemObj + "->retain();\n";
-                outputstring += "\t" + itemObj + "func = CCCallFunc::create(this, callfunc_selector(" + ClassName + "::" + itemObj + "funcEnd));\n";
-                outputstring += "\t" + itemObj + "func->retain();\n";
+                //outputstring += "\t" + itemObj + " = CSLoader::createTimeline(\"res\\" + ClassName + ".csb\");\n";
+                //outputstring += "\t" + "root->runAction(" + itemObj + ");\n";
+                //outputstring += "\t" + itemObj + "func = CCCallFunc::create(this, callfunc_selector(" + ClassName + "::" + itemObj + "funcEnd));\n";
+                //outputstring += "\t" + itemObj + "func->retain();\n";
             }
             return outputstring;
         }
@@ -1122,22 +1114,25 @@ namespace AutoCodeGenerator.CocosGenerator
 
         public string GenAniName(string ClassName)
         {
-            string outputstring = "";
+            //string outputstring = "";
+            //
+            //foreach (string itemObj in AnimationList)
+            //{
+            //
+            //    outputstring += "void " + ClassName + "::" + itemObj + "funcEnd()\n";
+            //    outputstring += "{\n";
+            //    outputstring += "\t" + itemObj + "->stop();\n";
+            //    outputstring += "}\n";
+            //}
 
-            foreach (string itemObj in AnimationList)
-            {
-
-                outputstring += "void " + ClassName + "::" + itemObj + "funcEnd()\n";
-                outputstring += "{\n";
-                outputstring += "\t" + itemObj + "->stop();\n";
-                outputstring += "}\n";
-            }
-            return outputstring;
+            //return outputstring;
+            //do noting
+            return "";
         }
 
 
 
 
-        
+
     }
 }

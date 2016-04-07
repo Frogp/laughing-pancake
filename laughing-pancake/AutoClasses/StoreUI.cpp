@@ -3,17 +3,15 @@
 /// 이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
 /// </summary>
 #include "StoreUI.h"
-#include "cocostudio/CocoStudio.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 
 StoreUI * StoreUI::instance;
 StoreUI::StoreUI()
 {
-	root = CSLoader::createNode("res\StoreUI.csb");
+	root = CSLoader::createNode("res\\StoreUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	StoreUI::instance = this;
@@ -26,4 +24,6 @@ StoreUI::StoreUI(Widget* _root)
 }
 void StoreUI::InitPage()
 {
+	cocostudio::timeline::ActionTimeline* actionStoreUI = CSLoader::createTimeline("res\\StoreUI.csb");
+	root->runAction(actionStoreUI);
 }

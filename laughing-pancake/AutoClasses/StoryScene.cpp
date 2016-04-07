@@ -3,17 +3,15 @@
 /// 이 메서드의 내용을 코드 편집기로 수정하지 마십시오.
 /// </summary>
 #include "StoryScene.h"
-#include "cocostudio/CocoStudio.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 
 StoryScene * StoryScene::instance;
 StoryScene::StoryScene()
 {
-	root = CSLoader::createNode("res\StoryScene.csb");
+	root = CSLoader::createNode("res\\StoryScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	StoryScene::instance = this;
@@ -26,4 +24,6 @@ StoryScene::StoryScene(Widget* _root)
 }
 void StoryScene::InitPage()
 {
+	cocostudio::timeline::ActionTimeline* actionStoryScene = CSLoader::createTimeline("res\\StoryScene.csb");
+	root->runAction(actionStoryScene);
 }

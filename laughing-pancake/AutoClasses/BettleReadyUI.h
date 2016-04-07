@@ -1,15 +1,12 @@
 #ifndef __BETTLEREADYUI_H__
 #define __BETTLEREADYUI_H__
 #include "cocos2d.h"
-#include "ui/CocosGUI.h"
-#include "cocos-ext.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "BettleReadyUI/Panel_1.h"
 #include "BettleReadyUI/ListView_1.h"
 
 USING_NS_CC;
-using namespace cocostudio;
 using namespace cocos2d;
 using namespace ui;
 
@@ -31,14 +28,8 @@ public:
 	cocos2d::ui::Text * m_Text_1;
 	CCBettleReadyUI::ListView_1 * m_ListView_1;
 
-	cocostudio::timeline::ActionTimeline* SpacialAnation;
-	CCCallFunc* SpacialAnationfunc;
-	void SpacialAnationfuncEnd();
-
-	cocostudio::timeline::ActionTimeline* MoveAni;
-	CCCallFunc* MoveAnifunc;
-	void MoveAnifuncEnd();
-
+	cocostudio::timeline::AnimationInfo SpacialAnation;
+	cocostudio::timeline::AnimationInfo MoveAni;
 	static BettleReadyUI* Getinstance()
 	{
 		return BettleReadyUI::instance;	}
