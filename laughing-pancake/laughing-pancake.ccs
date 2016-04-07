@@ -5,11 +5,11 @@
       <RootFolder Name=".">
         <Project Name="BettleReadyUI.csd" Type="Layer" />
         <Project Name="BettleStartUI.csd" Type="Layer" />
-        <Project Name="FriendList.csd" Type="Scene" />
+        <Project Name="FriendListUI.csd" Type="Layer" />
         <Project Name="GameResualtUI.csd" Type="Layer" />
         <Image Name="HelloWorld.png" />
         <Project Name="InGameHUD.csd" Type="Layer" />
-        <Project Name="InGameOptionUI.csd" Type="Scene" />
+        <Project Name="InGameOptionUI.csd" Type="Layer" />
         <Project Name="InGameScene.csd" Type="Scene" />
         <Project Name="InventoryUI.csd" Type="Layer" />
         <Project Name="LoadingScene.csd" Type="Scene" />
