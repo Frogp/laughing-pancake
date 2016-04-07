@@ -19,6 +19,7 @@ public:
 	InGameScene(Widget* _root);
 	void InitPage();
 public:
+	cocos2d::TMXTiledMap * m_Map_3;
 
 	static InGameScene* Getinstance()
 	{

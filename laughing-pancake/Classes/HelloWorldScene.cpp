@@ -1,7 +1,7 @@
 #include "HelloWorldScene.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include "../AutoClasses/BettleReadyUI.h"
+#include "MainSceneEx.h"
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -84,8 +84,8 @@ bool HelloWorld::init()
         return false;
     }
     
-	BettleReadyUI* data = new BettleReadyUI();
+	MainSceneEx* data = new MainSceneEx();
 	addChild(data);
-
+	data->retain();
     return true;
 }

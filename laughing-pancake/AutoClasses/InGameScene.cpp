@@ -26,4 +26,6 @@ void InGameScene::InitPage()
 {
 	cocostudio::timeline::ActionTimeline* actionInGameScene = CSLoader::createTimeline("res\\InGameScene.csb");
 	root->runAction(actionInGameScene);
+	m_Map_3= static_cast<cocos2d::TMXTiledMap *>(root->getChildByName("Map_3"));
+	m_Map_3->retain();
 }

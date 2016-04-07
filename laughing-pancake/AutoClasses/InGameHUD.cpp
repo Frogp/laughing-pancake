@@ -26,4 +26,6 @@ void InGameHUD::InitPage()
 {
 	cocostudio::timeline::ActionTimeline* actionInGameHUD = CSLoader::createTimeline("res\\InGameHUD.csb");
 	root->runAction(actionInGameHUD);
+	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
+	m_Button_1->retain();
 }

@@ -19,6 +19,7 @@ public:
 	InGameHUD(Widget* _root);
 	void InitPage();
 public:
+	cocos2d::ui::Button*  m_Button_1;
 
 	static InGameHUD* Getinstance()
 	{

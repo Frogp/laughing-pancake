@@ -1,4 +1,4 @@
-﻿Build started 2016-04-07 오후 5:05:29.
+﻿Build started 2016-04-08 오전 12:18:16.
      1>Project "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" on node 2 (Build target(s)).
      1>PreLinkEvent:
          if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
@@ -41,4 +41,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.93
+Time Elapsed 00:00:02.01

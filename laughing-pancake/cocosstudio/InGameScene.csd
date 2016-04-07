@@ -6,15 +6,15 @@
       <ObjectData Name="Scene" Tag="13" ctype="GameNodeObjectData">
         <Size X="1280.0000" Y="800.0000" />
         <Children>
-          <AbstractNodeData Name="Map_1" ActionTag="-63829702" Tag="15" IconVisible="False" LeftMargin="129.6507" RightMargin="1022.3492" TopMargin="398.6135" BottomMargin="337.3865" ctype="GameMapObjectData">
-            <Size X="128.0000" Y="64.0000" />
+          <AbstractNodeData Name="Map_3" ActionTag="-1379451356" Tag="17" IconVisible="False" RightMargin="-70.0000" TopMargin="-1000.0000" ctype="GameMapObjectData">
+            <Size X="1350.0000" Y="1800.0000" />
             <AnchorPoint />
-            <Position X="129.6507" Y="337.3865" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Position />
+            <Scale ScaleX="1.0000" ScaleY="0.9773" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.1013" Y="0.4217" />
-            <PreSize X="0.1000" Y="0.0800" />
-            <FileData Type="Default" Path="Default/defaultMap.tmx" Plist="" />
+            <PrePosition />
+            <PreSize X="1.0547" Y="2.2500" />
+            <FileData Type="Normal" Path="realtest2.tmx" Plist="" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

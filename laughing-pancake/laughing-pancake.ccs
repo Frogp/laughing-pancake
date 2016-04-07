@@ -17,6 +17,7 @@
         <Project Name="MainUI.csd" Type="Layer" />
         <Project Name="MessageBoxUI.csd" Type="Layer" />
         <Project Name="OptionUI.csd" Type="Layer" />
+        <TmxFile Name="realtest2.tmx" />
         <Project Name="StoreUI.csd" Type="Layer" />
         <Project Name="StoryScene.csd" Type="Scene" />
       </RootFolder>

@@ -57,6 +57,17 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 Widgetnode root = new Widgetnode();
                 root.classname = xn.Attributes["ctype"].Value;
+                if(root.classname == "ProjectNodeObjectData")
+                {
+                    foreach ( XmlNode chiled in xn.ChildNodes)
+                    {
+                        if (chiled.Name == "FileData")
+                        {
+                            root.OutName = chiled.Attributes["Path"].Value;
+                            root.OutName = root.OutName.Substring(0,root.OutName.IndexOf(".csd"));
+                        }
+                    }
+                }
                 string name = xn.Attributes["Name"].Value;
                 //string stag = xn.Attributes["ActionTag"].Value.ToString();
                 //int tag = Convert.ToInt32(stag);
@@ -174,7 +185,7 @@ namespace AutoCodeGenerator.CocosGenerator
                     string classname = itemObj.classname;
                     string widgetclass = "";
 
-                    widgetclass = "\t" + GetClassName(classname);
+                    widgetclass = "\t" + GetClassName(itemObj);
 
                     outputstring += widgetclass + " " + "m_" + itemObj.name + ";\n";
 
@@ -288,7 +299,7 @@ namespace AutoCodeGenerator.CocosGenerator
                     string classname = itemObj.classname;
                     string widgetclass = "";
 
-                    widgetclass = "\t" + GetClassName(classname);
+                    widgetclass = "\t" + GetClassName(itemObj);
 
                     header += widgetclass + " " + "m_" + itemObj.name + ";\n";
 
@@ -379,9 +390,10 @@ namespace AutoCodeGenerator.CocosGenerator
             return header;
         }
 
-        public string GetClassName(string classname)
+        public string GetClassName(Widgetnode itemObj)
         {
-            classname = classname.Substring(0, classname.IndexOf("ObjectData"));
+
+            string classname = itemObj.classname.Substring(0, itemObj.classname.IndexOf("ObjectData"));
             //
             string widgetclass = "";
             if (string.Equals(classname, "Button") == true)
@@ -453,6 +465,14 @@ namespace AutoCodeGenerator.CocosGenerator
             else if (string.Equals(classname, "CustomParticleWidget") == true)
             {
                 widgetclass = "CustomParticleWidget *";
+            }//
+            else if (string.Equals(classname, "ProjectNode") == true)
+            {
+                widgetclass = itemObj.OutName + " *";
+            }
+            else if (string.Equals(classname, "GameMap") == true)
+            {
+                widgetclass = "cocos2d::TMXTiledMap *";
             }
 
             return widgetclass;
@@ -546,6 +566,10 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 if (itemObj.child == null)
                 {
+                    if (itemObj.OutName != null)
+                    {
+                        outputstring += "#include \"" + itemObj.OutName + ".h\"\n";
+                    }
                     continue;
                 }
                 else
@@ -731,7 +755,7 @@ namespace AutoCodeGenerator.CocosGenerator
                 {
                     widgetclass += "\t";
                 }
-                string outputclassname = GetClassName(classname);
+                string outputclassname = GetClassName(itemObj);
 
                 if (itemObj.child == null)
                 {
@@ -923,7 +947,7 @@ namespace AutoCodeGenerator.CocosGenerator
                 {
                     widgetclass += "\t";
                 }
-                string outputclassname = GetClassName(classname);
+                string outputclassname = GetClassName(itemObj);
 
                 if (itemObj.child == null)
                 {

@@ -26,4 +26,26 @@ void MainUI::InitPage()
 {
 	cocostudio::timeline::ActionTimeline* actionMainUI = CSLoader::createTimeline("res\\MainUI.csb");
 	root->runAction(actionMainUI);
+	m_Image_1= static_cast<cocos2d::ui::ImageView *>(root->getChildByName("Image_1"));
+	m_Image_1->retain();
+	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
+	m_Button_1->retain();
+	m_Button_1_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0"));
+	m_Button_1_0->retain();
+	m_Button_1_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0"));
+	m_Button_1_0_0->retain();
+	m_BtBettle= static_cast<cocos2d::ui::Button* >(root->getChildByName("BtBettle"));
+	m_BtBettle->retain();
+	m_Button_1_0_0_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0"));
+	m_Button_1_0_0_0_0->retain();
+	m_Button_1_0_0_0_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0_0"));
+	m_Button_1_0_0_0_0_0->retain();
+	m_Button_1_0_0_0_0_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0_0_0"));
+	m_Button_1_0_0_0_0_0_0->retain();
+	m_Button_1_0_0_0_0_0_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0_0_0_0"));
+	m_Button_1_0_0_0_0_0_0_0->retain();
+	m_Button_1_0_0_0_0_0_0_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0_0_0_0_0"));
+	m_Button_1_0_0_0_0_0_0_0_0->retain();
+	m_Button_1_0_0_0_0_0_0_0_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0_0_0_0_1"));
+	m_Button_1_0_0_0_0_0_0_0_1->retain();
 }

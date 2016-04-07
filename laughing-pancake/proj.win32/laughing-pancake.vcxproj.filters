@@ -13,6 +13,9 @@
     <Filter Include="AutoClasses">
       <UniqueIdentifier>{35612534-4e0c-425f-af36-8f1b9ff4d115}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Extention">
+      <UniqueIdentifier>{a9526b18-8a85-426e-ae74-7c633c4b3473}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -69,6 +72,18 @@
     <ClCompile Include="..\AutoClasses\StoryScene.cpp">
       <Filter>AutoClasses</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\MainSceneEx.cpp">
+      <Filter>src\Extention</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameSceneEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InGameSceneEx.cpp">
+      <Filter>src\Extention</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InGameHUDEx.cpp">
+      <Filter>src\Extention</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -124,6 +139,18 @@
     </ClInclude>
     <ClInclude Include="..\AutoClasses\StoryScene.h">
       <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainSceneEx.h">
+      <Filter>src\Extention</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameSceneEditor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InGameSceneEx.h">
+      <Filter>src\Extention</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InGameHUDEx.h">
+      <Filter>src\Extention</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

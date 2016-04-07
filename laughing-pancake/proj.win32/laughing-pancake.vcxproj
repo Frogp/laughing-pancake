@@ -160,7 +160,11 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\AutoClasses\StoreUI.cpp" />
     <ClCompile Include="..\AutoClasses\StoryScene.cpp" />
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\GameSceneEditor.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\InGameHUDEx.cpp" />
+    <ClCompile Include="..\Classes\InGameSceneEx.cpp" />
+    <ClCompile Include="..\Classes\MainSceneEx.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -180,7 +184,11 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\AutoClasses\StoreUI.h" />
     <ClInclude Include="..\AutoClasses\StoryScene.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\GameSceneEditor.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\InGameHUDEx.h" />
+    <ClInclude Include="..\Classes\InGameSceneEx.h" />
+    <ClInclude Include="..\Classes\MainSceneEx.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

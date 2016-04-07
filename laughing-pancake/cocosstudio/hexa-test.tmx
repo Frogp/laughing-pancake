@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="staggered" renderorder="right-down" width="5" height="5" tilewidth="175" tileheight="150" staggeraxis="x" staggerindex="odd" nextobjectid="19">
+ <tileset firstgid="1" name="bla" tilewidth="175" tileheight="150" tilecount="3" columns="3">
+  <image source="hexa-tiles.png" width="593" height="166"/>
+ </tileset>
+ <tileset firstgid="4" name="1" tilewidth="175" tileheight="150" tilecount="1" columns="1">
+  <image source="1.png" width="175" height="150"/>
+ </tileset>
+ <tileset firstgid="5" name="2" tilewidth="150" tileheight="150" tilecount="1" columns="1">
+  <image source="2.png" width="150" height="150"/>
+ </tileset>
+ <layer name="Layer 0" width="5" height="5" offsetx="-150" offsety="-40">
+  <data encoding="base64">
+   BAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAA==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" offsetx="-150" offsety="-32">
+  <object id="14" name="first" gid="5" x="21" y="111" width="150" height="150"/>
+  <object id="17" name="second" gid="5" x="279" y="341" width="150" height="150"/>
+  <object id="18" name="thrid" gid="5" x="107" y="633" width="150" height="150"/>
+ </objectgroup>
+</map>

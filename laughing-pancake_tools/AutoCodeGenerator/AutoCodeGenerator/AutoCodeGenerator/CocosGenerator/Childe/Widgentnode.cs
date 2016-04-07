@@ -12,6 +12,7 @@ namespace AutoCodeGenerator.CocosGenerator.Childe
         public string classname;
         public string name;
         public string original_name;
+        public string OutName;
         public int tag;
     }
 }
