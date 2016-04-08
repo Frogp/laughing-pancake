@@ -21,8 +21,6 @@ public:
 public:
 	CCPanel_1::Panel_2 * m_Panel_2;
 	CCPanel_1::Panel_2_0 * m_Panel_2_0;
-	cocos2d::ui::Button*  m_Button_1;
-	cocos2d::ui::Button*  m_BtStart;
 cocos2d::Node * root;
 };
 }

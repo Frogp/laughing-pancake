@@ -474,7 +474,11 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 widgetclass = "cocos2d::TMXTiledMap *";
             }
-
+            else if (string.Equals(classname, "ArmatureNode") == true)
+            {
+                widgetclass = "cocostudio::Armature *";
+            }
+            //
             return widgetclass;
         }
 

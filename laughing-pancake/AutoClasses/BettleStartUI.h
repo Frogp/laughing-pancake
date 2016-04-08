@@ -21,6 +21,8 @@ public:
 	void InitPage();
 public:
 	CCBettleStartUI::Panel_1 * m_Panel_1;
+	cocos2d::ui::Button*  m_Button_1;
+	cocos2d::ui::Button*  m_Button_1_0;
 
 	static BettleStartUI* Getinstance()
 	{

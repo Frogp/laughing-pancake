@@ -3,6 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "OptionUI/Panel_1.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -19,6 +20,7 @@ public:
 	OptionUI(Widget* _root);
 	void InitPage();
 public:
+	CCOptionUI::Panel_1 * m_Panel_1;
 
 	static OptionUI* Getinstance()
 	{

@@ -28,4 +28,18 @@ void InGameHUD::InitPage()
 	root->runAction(actionInGameHUD);
 	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
 	m_Button_1->retain();
+	m_LoadingBar_1= static_cast<cocos2d::ui::LoadingBar *>(root->getChildByName("LoadingBar_1"));
+	m_LoadingBar_1->retain();
+	m_LoadingBar_2= static_cast<cocos2d::ui::LoadingBar *>(root->getChildByName("LoadingBar_2"));
+	m_LoadingBar_2->retain();
+	m_Button_2= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2"));
+	m_Button_2->retain();
+	m_Button_2_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2_0"));
+	m_Button_2_0->retain();
+	m_Button_2_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2_1"));
+	m_Button_2_1->retain();
+	m_Button_2_2= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2_2"));
+	m_Button_2_2->retain();
+	m_Button_2_3= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2_3"));
+	m_Button_2_3->retain();
 }

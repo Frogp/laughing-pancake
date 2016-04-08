@@ -32,12 +32,12 @@ MainSceneEx::MainSceneEx()
 		m_FileNode_3->setVisible(true);
 	});
 
-	m_FileNode_3->m_Panel_1->m_Button_1->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	m_FileNode_3->m_Button_1->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		m_FileNode_3->setVisible(false);
 	});
 
-	m_FileNode_3->m_Panel_1->m_BtStart->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	m_FileNode_3->m_Button_1_0->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		auto director = Director::getInstance();
 		Scene* scene = Scene::create();

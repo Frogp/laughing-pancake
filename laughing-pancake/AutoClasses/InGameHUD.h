@@ -20,6 +20,13 @@ public:
 	void InitPage();
 public:
 	cocos2d::ui::Button*  m_Button_1;
+	cocos2d::ui::LoadingBar * m_LoadingBar_1;
+	cocos2d::ui::LoadingBar * m_LoadingBar_2;
+	cocos2d::ui::Button*  m_Button_2;
+	cocos2d::ui::Button*  m_Button_2_0;
+	cocos2d::ui::Button*  m_Button_2_1;
+	cocos2d::ui::Button*  m_Button_2_2;
+	cocos2d::ui::Button*  m_Button_2_3;
 
 	static InGameHUD* Getinstance()
 	{

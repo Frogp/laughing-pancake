@@ -30,10 +30,6 @@ void MainUI::InitPage()
 	m_Image_1->retain();
 	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
 	m_Button_1->retain();
-	m_Button_1_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0"));
-	m_Button_1_0->retain();
-	m_Button_1_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0"));
-	m_Button_1_0_0->retain();
 	m_BtBettle= static_cast<cocos2d::ui::Button* >(root->getChildByName("BtBettle"));
 	m_BtBettle->retain();
 	m_Button_1_0_0_0_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0"));
@@ -48,4 +44,10 @@ void MainUI::InitPage()
 	m_Button_1_0_0_0_0_0_0_0_0->retain();
 	m_Button_1_0_0_0_0_0_0_0_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0_0_0_0_0_0_0_1"));
 	m_Button_1_0_0_0_0_0_0_0_1->retain();
+	m_Button_1_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0"));
+	m_Button_1_0->retain();
+	m_Button_1_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_1"));
+	m_Button_1_1->retain();
+	m_ArmatureNode_2= static_cast<cocostudio::Armature *>(root->getChildByName("ArmatureNode_2"));
+	m_ArmatureNode_2->retain();
 }
