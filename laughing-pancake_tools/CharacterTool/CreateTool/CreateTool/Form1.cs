@@ -30,7 +30,7 @@ namespace CreateTool
             InitializeComponent();
             InitImage();
             Info = new CharacterInfo();
-            this.TopMost = true;
+            //this.TopMost = true;
             treeView.Nodes.Add("Character");
             treeView.Nodes[0].Nodes.Add("FIRE");
             treeView.Nodes[0].Nodes.Add("WIND");
@@ -40,22 +40,14 @@ namespace CreateTool
             int listCnt = Info.ListCount();
             for (int i = 0; i < listCnt; i++)
             {
-                Character tmp = Info.getCharacter(i);
+                Character tmp = Info.GetCharacter(i);
                 addFigure(tmp);
             }
         }
         private void InitImage()
         {
-            try
-            {
-                pictureBox.Load(@"C:\Users\junghan\Desktop\WorkSpace\SSM Game Developers\C#\imageSample.png");
-                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-            }
-            catch
-            {
-
-            }
-            
+            pictureBox.Load(@"C:\Users\junghan\Desktop\WorkSpace\SSM Game Developers\C#\CreateTool\imageSample.png");
+            pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -88,14 +80,14 @@ namespace CreateTool
 
         private void button_save_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("저장되었습니다.");
+            MessageBox.Show("Temporary Save.");
             clearControls();
         }
         private void checkForFullOfInfo()
         {
             if (string.Equals(imagePath, "") || string.Equals(name, "") || string.Equals(index, "") || string.Equals(power, "") || string.Equals(defence, "") || string.Equals(speed, "") || string.Equals(strength, "") || string.Equals(property, ""))
             {
-                MessageBox.Show("데이터를 채우세요.");
+                MessageBox.Show("Some data may be empty PLZ retry it");
             }
             else
             {
@@ -185,6 +177,7 @@ namespace CreateTool
 
         private void button2_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("OK Save all");
             Info.JsonWrite();
         }
     }

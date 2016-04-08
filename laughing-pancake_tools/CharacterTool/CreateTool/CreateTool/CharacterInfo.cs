@@ -25,7 +25,7 @@ namespace CreateTool
         {
             return list.Count;
         }
-        public Character getCharacter(int x)
+        public Character GetCharacter(int x)
         {
             return list[x];
         }
@@ -46,7 +46,6 @@ namespace CreateTool
                 string a = "", b = "", c = "", d = "", e = "", f = "", g = "", h = "";
                 foreach (JsonObjectCollection item in items)
                 {
-                    a = ""; b = ""; c = ""; d = ""; e = ""; f = ""; g = ""; h = "";
                     a = (string)item["imagePath"].GetValue();
                     b = (string)item["name"].GetValue();
                     c = (string)item["index"].GetValue();
@@ -70,8 +69,8 @@ namespace CreateTool
             string JsonFile = "";
             StreamWriter sw = new StreamWriter("../../../characterInfo.json");
 
-            JsonObjectCollection col = new JsonObjectCollection(); ;
-            JsonArrayCollection items = new JsonArrayCollection("Character"); ;
+            JsonObjectCollection col = new JsonObjectCollection();
+            JsonArrayCollection items = new JsonArrayCollection("Character");
             for (int i = 0; i < list.Count; i++)
             {
                 JsonObjectCollection collection = new JsonObjectCollection();
