@@ -16,6 +16,15 @@
     <Filter Include="src\Extention">
       <UniqueIdentifier>{a9526b18-8a85-426e-ae74-7c633c4b3473}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\ClientLogic">
+      <UniqueIdentifier>{5171f6a6-d54d-496e-b63a-ec21f7b5b820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ClientLogic\Job">
+      <UniqueIdentifier>{06810f66-4ac9-4a8f-a998-f2e35727c968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ClientLogic\Job\Interface">
+      <UniqueIdentifier>{4dfadbfb-84d8-45d5-932b-25574c36815d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -90,6 +99,12 @@
     <ClCompile Include="..\AutoClasses\FriendListUI.cpp">
       <Filter>AutoClasses</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\ArdaClient.cpp">
+      <Filter>src\ClientLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JobExample.cpp">
+      <Filter>src\ClientLogic\Job</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -163,6 +178,15 @@
     </ClInclude>
     <ClInclude Include="..\AutoClasses\FriendListUI.h">
       <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ArdaClient.h">
+      <Filter>src\ClientLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JobExample.h">
+      <Filter>src\ClientLogic\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JobInterface.h">
+      <Filter>src\ClientLogic\Job\Interface</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
+#include "ArdaClient.h"
 
 USING_NS_CC;
 
@@ -46,6 +47,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // run
     director->runWithScene(scene);
+
+	ArdaClient::GetInstace()->Init();
+	
 
     return true;
 }

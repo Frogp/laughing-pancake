@@ -19,9 +19,9 @@ namespace CreateTools
         }
         void initImages()
         {
-            pictureBox1.Load(@"C:\Users\junghan\Desktop\CreateTools\character.png");
+            pictureBox1.Load(@"..\..\..\character.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.Load(@"C:\Users\junghan\Desktop\CreateTools\monster.png");
+            pictureBox2.Load(@"..\..\..\monster.png");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 

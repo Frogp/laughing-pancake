@@ -38,7 +38,7 @@ namespace CreateTools
         }
         private void InitImage()
         {
-            pictureBox1.Load(@"C:\Users\junghan\Desktop\CreateTools\imageSample.png");
+            pictureBox1.Load(@"..\..\..\imageSample.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
