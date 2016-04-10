@@ -26,4 +26,26 @@ void InGameOptionUI::InitPage()
 {
 	cocostudio::timeline::ActionTimeline* actionInGameOptionUI = CSLoader::createTimeline("res\\InGameOptionUI.csb");
 	root->runAction(actionInGameOptionUI);
+	m_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
+	m_Panel_1->retain();
+	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
+	m_Button_1->retain();
+	m_CheckBox_1= static_cast<CheckBox *>(root->getChildByName("CheckBox_1"));
+	m_CheckBox_1->retain();
+	m_Text_1= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_1"));
+	m_Text_1->retain();
+	m_CheckBox_1_0= static_cast<CheckBox *>(root->getChildByName("CheckBox_1_0"));
+	m_CheckBox_1_0->retain();
+	m_Text_1_0= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_1_0"));
+	m_Text_1_0->retain();
+	m_Slider_1= static_cast<cocos2d::ui::Slider *>(root->getChildByName("Slider_1"));
+	m_Slider_1->retain();
+	m_Slider_1_0= static_cast<cocos2d::ui::Slider *>(root->getChildByName("Slider_1_0"));
+	m_Slider_1_0->retain();
+	m_titlebox1_1= static_cast<cocos2d::Sprite *>(root->getChildByName("titlebox1_1"));
+	m_titlebox1_1->retain();
+	m_close= static_cast<cocos2d::ui::Button* >(root->getChildByName("close"));
+	m_close->retain();
+	m_Surrender= static_cast<cocos2d::ui::Button* >(root->getChildByName("Surrender"));
+	m_Surrender->retain();
 }

@@ -29,6 +29,9 @@
           <ExportJsonFile Name="unit_list.ExportJson" />
         </Folder>
         <Folder Name="img">
+          <Folder Name="dummy">
+            <Image Name="pc02_7.jpg" />
+          </Folder>
           <Folder Name="fx">
             <PlistParticleFile Name="chr_main_fx.plist" />
             <PlistParticleFile Name="complete_fx.plist" />
@@ -47,7 +50,6 @@
               <Image Name="back_05.png" />
               <Image Name="back_06.png" />
             </Folder>
-            <Folder Name="box" />
             <Folder Name="hand">
               <Image Name="hand_left_01.png" />
               <Image Name="hand_left_fx.png" />
@@ -316,7 +318,6 @@
               <Image Name="2h_icon.png" />
               <Image Name="2h_img.png" />
             </Folder>
-            <Folder Name="clock" />
             <Folder Name="fx">
               <Image Name="boom_fx_01.png" />
               <Image Name="boom_fx_02.png" />
@@ -473,11 +474,9 @@
               <Image Name="title5.png" />
               <Image Name="title6.png" />
             </Folder>
-            <Folder Name="shop_img" />
-            <Folder Name="stage_img" />
-            <Folder Name="timebar" />
           </Folder>
         </Folder>
+        <Project Name="BettlePageUI.csd" Type="Layer" />
         <Project Name="BettleReadyUI.csd" Type="Layer" />
         <Project Name="BettleStartUI.csd" Type="Layer" />
         <Project Name="FriendListUI.csd" Type="Layer" />

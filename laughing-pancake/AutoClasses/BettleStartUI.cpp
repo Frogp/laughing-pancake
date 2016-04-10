@@ -31,27 +31,27 @@ void BettleStartUI::InitPage()
 	m_Panel_1 = new CCBettleStartUI::Panel_1();
 	m_Panel_1->root = _Panel_1;
 	{
-		Layout *_Panel_2= static_cast<Layout *>(_Panel_1->getChildByName("Panel_2"));
-		_Panel_2->retain();
-		m_Panel_1->m_Panel_2 = new CCPanel_1::Panel_2();
-		m_Panel_1->m_Panel_2->root = _Panel_2;
-		{
-			m_Panel_1->m_Panel_2->m_Image_3= static_cast<cocos2d::ui::ImageView *>(_Panel_2->getChildByName("Image_3"));
-			m_Panel_1->m_Panel_2->m_Image_3->retain();
-		}
-		Layout *_Panel_2_0= static_cast<Layout *>(_Panel_1->getChildByName("Panel_2_0"));
-		_Panel_2_0->retain();
-		m_Panel_1->m_Panel_2_0 = new CCPanel_1::Panel_2_0();
-		m_Panel_1->m_Panel_2_0->root = _Panel_2_0;
-		{
-			m_Panel_1->m_Panel_2_0->m_Image_5= static_cast<cocos2d::ui::ImageView *>(_Panel_2_0->getChildByName("Image_5"));
-			m_Panel_1->m_Panel_2_0->m_Image_5->retain();
-			m_Panel_1->m_Panel_2_0->m_Text_1= static_cast<cocos2d::ui::Text *>(_Panel_2_0->getChildByName("Text_1"));
-			m_Panel_1->m_Panel_2_0->m_Text_1->retain();
-		}
+		m_Panel_1->m_Panel_2= static_cast<Layout *>(_Panel_1->getChildByName("Panel_2"));
+		m_Panel_1->m_Panel_2->retain();
+		m_Panel_1->m_Panel_2_0= static_cast<Layout *>(_Panel_1->getChildByName("Panel_2_0"));
+		m_Panel_1->m_Panel_2_0->retain();
 	}
+	m_Image_5= static_cast<cocos2d::ui::ImageView *>(root->getChildByName("Image_5"));
+	m_Image_5->retain();
+	m_Text_1= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_1"));
+	m_Text_1->retain();
+	m_menu_off_n_1= static_cast<cocos2d::Sprite *>(root->getChildByName("menu_off_n_1"));
+	m_menu_off_n_1->retain();
+	m_Text_2= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_2"));
+	m_Text_2->retain();
 	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
 	m_Button_1->retain();
 	m_Button_1_0= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1_0"));
 	m_Button_1_0->retain();
+	m_Image_3= static_cast<cocos2d::ui::ImageView *>(root->getChildByName("Image_3"));
+	m_Image_3->retain();
+	m_menu_off_n_1_0= static_cast<cocos2d::Sprite *>(root->getChildByName("menu_off_n_1_0"));
+	m_menu_off_n_1_0->retain();
+	m_Text_2_0= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_2_0"));
+	m_Text_2_0->retain();
 }

@@ -84,6 +84,12 @@
     <ClCompile Include="..\Classes\InGameHUDEx.cpp">
       <Filter>src\Extention</Filter>
     </ClCompile>
+    <ClCompile Include="..\AutoClasses\BettlePageUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\FriendListUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -151,6 +157,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\InGameHUDEx.h">
       <Filter>src\Extention</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\BettlePageUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\FriendListUI.h">
+      <Filter>AutoClasses</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

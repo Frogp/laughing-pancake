@@ -144,9 +144,11 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     </PreLinkEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\AutoClasses\BettlePageUI.cpp" />
     <ClCompile Include="..\AutoClasses\BettleReadyUI.cpp" />
     <ClCompile Include="..\AutoClasses\BettleStartUI.cpp" />
     <ClCompile Include="..\AutoClasses\FriendList.cpp" />
+    <ClCompile Include="..\AutoClasses\FriendListUI.cpp" />
     <ClCompile Include="..\AutoClasses\GameResualtUI.cpp" />
     <ClCompile Include="..\AutoClasses\InGameHUD.cpp" />
     <ClCompile Include="..\AutoClasses\InGameOptionUI.cpp" />
@@ -168,9 +170,11 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\AutoClasses\BettlePageUI.h" />
     <ClInclude Include="..\AutoClasses\BettleReadyUI.h" />
     <ClInclude Include="..\AutoClasses\BettleStartUI.h" />
     <ClInclude Include="..\AutoClasses\FriendList.h" />
+    <ClInclude Include="..\AutoClasses\FriendListUI.h" />
     <ClInclude Include="..\AutoClasses\GameResualtUI.h" />
     <ClInclude Include="..\AutoClasses\InGameHUD.h" />
     <ClInclude Include="..\AutoClasses\InGameOptionUI.h" />
