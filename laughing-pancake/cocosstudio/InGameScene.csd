@@ -7,10 +7,10 @@
         <Size X="1280.0000" Y="800.0000" />
         <Children>
           <AbstractNodeData Name="Map_3" ActionTag="-1379451356" Tag="17" IconVisible="False" RightMargin="-70.0000" TopMargin="-1000.0000" ctype="GameMapObjectData">
-            <Size X="1350.0000" Y="1800.0000" />
+            <Size X="1350" Y="1759.14" />
             <AnchorPoint />
             <Position />
-            <Scale ScaleX="1.0000" ScaleY="0.9773" />
+            <Scale ScaleX="1" ScaleY="1" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="1.0547" Y="2.2500" />

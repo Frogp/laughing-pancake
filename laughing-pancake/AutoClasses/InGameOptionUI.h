@@ -19,6 +19,17 @@ public:
 	InGameOptionUI(Widget* _root);
 	void InitPage();
 public:
+	Layout * m_Panel_1;
+	cocos2d::ui::Button*  m_Button_1;
+	CheckBox * m_CheckBox_1;
+	cocos2d::ui::Text * m_Text_1;
+	CheckBox * m_CheckBox_1_0;
+	cocos2d::ui::Text * m_Text_1_0;
+	cocos2d::ui::Slider * m_Slider_1;
+	cocos2d::ui::Slider * m_Slider_1_0;
+	cocos2d::Sprite * m_titlebox1_1;
+	cocos2d::ui::Button*  m_close;
+	cocos2d::ui::Button*  m_Surrender;
 
 	static InGameOptionUI* Getinstance()
 	{

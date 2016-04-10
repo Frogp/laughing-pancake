@@ -28,6 +28,8 @@ void BettleReadyUI::InitPage()
 	root->runAction(actionBettleReadyUI);
 	SpacialAnation = actionBettleReadyUI->getAnimationInfo("SpacialAnation");
 	MoveAni = actionBettleReadyUI->getAnimationInfo("MoveAni");
+	m_Panel_5= static_cast<Layout *>(root->getChildByName("Panel_5"));
+	m_Panel_5->retain();
 	m_Image_1= static_cast<cocos2d::ui::ImageView *>(root->getChildByName("Image_1"));
 	m_Image_1->retain();
 	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));

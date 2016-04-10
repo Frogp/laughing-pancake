@@ -33,21 +33,22 @@
         <OpenedDocuments>
           <FilePathData Path="BettleReadyUI.csd" />
           <FilePathData Path="StoryScene.csd" />
-          <FilePathData Path="GameResualtUI.csd" />
           <FilePathData Path="FriendListUI.csd" />
           <FilePathData Path="InGameHUD.csd" />
-          <FilePathData Path="InGameOptionUI.csd" />
           <FilePathData Path="InventoryUI.csd" />
           <FilePathData Path="MainScene.csd" />
           <FilePathData Path="LoadingScene.csd" />
           <FilePathData Path="MainUI.csd" />
-          <FilePathData Path="MessageBoxUI.csd" />
-          <FilePathData Path="OptionUI.csd" />
           <FilePathData Path="StoreUI.csd" />
           <FilePathData Path="BettleStartUI.csd" />
           <FilePathData Path="InGameScene.csd" />
+          <FilePathData Path="BettlePageUI.csd" />
+          <FilePathData Path="InGameOptionUI.csd" />
+          <FilePathData Path="GameResualtUI.csd" />
+          <FilePathData Path="OptionUI.csd" />
+          <FilePathData Path="MessageBoxUI.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="InGameHUD.csd" />
+        <ActiveDocument Path="BettlePageUI.csd" />
       </Value>
     </Item>
   </Properties>

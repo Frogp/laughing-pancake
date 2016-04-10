@@ -31,10 +31,6 @@ void OptionUI::InitPage()
 	m_Panel_1 = new CCOptionUI::Panel_1();
 	m_Panel_1->root = _Panel_1;
 	{
-		m_Panel_1->m_Button_3= static_cast<cocos2d::ui::Button* >(_Panel_1->getChildByName("Button_3"));
-		m_Panel_1->m_Button_3->retain();
-		m_Panel_1->m_Button_3_0= static_cast<cocos2d::ui::Button* >(_Panel_1->getChildByName("Button_3_0"));
-		m_Panel_1->m_Button_3_0->retain();
 		m_Panel_1->m_Image_1= static_cast<cocos2d::ui::ImageView *>(_Panel_1->getChildByName("Image_1"));
 		m_Panel_1->m_Image_1->retain();
 		m_Panel_1->m_Text_1= static_cast<cocos2d::ui::Text *>(_Panel_1->getChildByName("Text_1"));
@@ -55,5 +51,7 @@ void OptionUI::InitPage()
 		m_Panel_1->m_Text_3_0->retain();
 		m_Panel_1->m_Text_5= static_cast<cocos2d::ui::Text *>(_Panel_1->getChildByName("Text_5"));
 		m_Panel_1->m_Text_5->retain();
+		m_Panel_1->m_Text_5_0= static_cast<cocos2d::ui::Text *>(_Panel_1->getChildByName("Text_5_0"));
+		m_Panel_1->m_Text_5_0->retain();
 	}
 }

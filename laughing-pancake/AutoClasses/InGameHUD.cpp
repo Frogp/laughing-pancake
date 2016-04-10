@@ -26,10 +26,8 @@ void InGameHUD::InitPage()
 {
 	cocostudio::timeline::ActionTimeline* actionInGameHUD = CSLoader::createTimeline("res\\InGameHUD.csb");
 	root->runAction(actionInGameHUD);
-	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
-	m_Button_1->retain();
-	m_LoadingBar_1= static_cast<cocos2d::ui::LoadingBar *>(root->getChildByName("LoadingBar_1"));
-	m_LoadingBar_1->retain();
+	m_Menu= static_cast<cocos2d::ui::Button* >(root->getChildByName("Menu"));
+	m_Menu->retain();
 	m_LoadingBar_2= static_cast<cocos2d::ui::LoadingBar *>(root->getChildByName("LoadingBar_2"));
 	m_LoadingBar_2->retain();
 	m_Button_2= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2"));
@@ -42,4 +40,8 @@ void InGameHUD::InitPage()
 	m_Button_2_2->retain();
 	m_Button_2_3= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_2_3"));
 	m_Button_2_3->retain();
+	m_loadingbar_back_1= static_cast<cocos2d::Sprite *>(root->getChildByName("loadingbar_back_1"));
+	m_loadingbar_back_1->retain();
+	m_LoadingBar_1= static_cast<cocos2d::ui::LoadingBar *>(root->getChildByName("LoadingBar_1"));
+	m_LoadingBar_1->retain();
 }

@@ -17,8 +17,6 @@ class Panel_1 : public CCObject
 public:
 	Panel_1() {}
 public:
-	cocos2d::ui::Button*  m_Button_3;
-	cocos2d::ui::Button*  m_Button_3_0;
 	cocos2d::ui::ImageView * m_Image_1;
 	cocos2d::ui::Text * m_Text_1;
 	cocos2d::ui::Button*  m_Button_2;
@@ -29,6 +27,7 @@ public:
 	CheckBox * m_CheckBox_1_0;
 	cocos2d::ui::Text * m_Text_3_0;
 	cocos2d::ui::Text * m_Text_5;
+	cocos2d::ui::Text * m_Text_5_0;
 cocos2d::Node * root;
 };
 }

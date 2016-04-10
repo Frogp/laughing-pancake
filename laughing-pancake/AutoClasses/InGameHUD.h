@@ -19,14 +19,15 @@ public:
 	InGameHUD(Widget* _root);
 	void InitPage();
 public:
-	cocos2d::ui::Button*  m_Button_1;
-	cocos2d::ui::LoadingBar * m_LoadingBar_1;
+	cocos2d::ui::Button*  m_Menu;
 	cocos2d::ui::LoadingBar * m_LoadingBar_2;
 	cocos2d::ui::Button*  m_Button_2;
 	cocos2d::ui::Button*  m_Button_2_0;
 	cocos2d::ui::Button*  m_Button_2_1;
 	cocos2d::ui::Button*  m_Button_2_2;
 	cocos2d::ui::Button*  m_Button_2_3;
+	cocos2d::Sprite * m_loadingbar_back_1;
+	cocos2d::ui::LoadingBar * m_LoadingBar_1;
 
 	static InGameHUD* Getinstance()
 	{

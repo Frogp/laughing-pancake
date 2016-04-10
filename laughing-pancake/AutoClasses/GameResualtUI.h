@@ -19,6 +19,20 @@ public:
 	GameResualtUI(Widget* _root);
 	void InitPage();
 public:
+	Layout * m_Panel_1;
+	cocos2d::ui::Text * m_Text_1;
+	cocos2d::ui::LoadingBar * m_LoadingBar_1;
+	cocos2d::ui::Text * m_Text_1_0;
+	cocos2d::ui::LoadingBar * m_LoadingBar_1_0;
+	cocos2d::ui::Text * m_Text_4;
+	cocos2d::ui::Text * m_Text_4_0;
+	cocos2d::ParticleSystem * m_Particle_1;
+	cocostudio::Armature * m_ArmatureNode_1;
+	cocos2d::ParticleSystem * m_Particle_2;
+	cocos2d::ui::LoadingBar * m_LoadingBar_3;
+	cocos2d::ui::LoadingBar * m_LoadingBar_3_0;
+	cocostudio::Armature * m_ArmatureNode_2;
+	cocos2d::ui::Button*  m_Button_2_0;
 
 	static GameResualtUI* Getinstance()
 	{

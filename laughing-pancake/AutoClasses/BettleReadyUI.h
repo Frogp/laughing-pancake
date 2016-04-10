@@ -19,6 +19,7 @@ public:
 	BettleReadyUI(Widget* _root);
 	void InitPage();
 public:
+	Layout * m_Panel_5;
 	cocos2d::ui::ImageView * m_Image_1;
 	cocos2d::ui::Button*  m_Button_1;
 	cocos2d::ui::Button*  m_Button_1_0;

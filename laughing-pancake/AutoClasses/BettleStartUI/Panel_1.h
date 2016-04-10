@@ -2,8 +2,6 @@
 #define __CCBETTLESTARTUI_PANEL_1_PANEL_1_H__
 #include "cocos2d.h"
 #include "ui/CocosGUI.h"
-#include "../Panel_1/Panel_2.h"
-#include "../Panel_1/Panel_2_0.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -19,8 +17,8 @@ class Panel_1 : public CCObject
 public:
 	Panel_1() {}
 public:
-	CCPanel_1::Panel_2 * m_Panel_2;
-	CCPanel_1::Panel_2_0 * m_Panel_2_0;
+	Layout * m_Panel_2;
+	Layout * m_Panel_2_0;
 cocos2d::Node * root;
 };
 }

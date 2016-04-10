@@ -1,4 +1,4 @@
-﻿Build started 2016-04-08 오전 10:36:04.
+﻿Build started 2016-04-10 오후 1:20:46.
      1>Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" on node 3 (Build target(s)).
      1>Link:
          laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
@@ -7,6 +7,7 @@
          xcopy "C:\SGD\laughing-pancake\proj.win32\..\Resources" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" /D /E /I /F /Y
                
          :VCEnd
+         C:\SGD\laughing-pancake\Resources\res\BettlePageUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettlePageUI.csb
          C:\SGD\laughing-pancake\Resources\res\BettleReadyUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettleReadyUI.csb
          C:\SGD\laughing-pancake\Resources\res\BettleStartUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettleStartUI.csb
          C:\SGD\laughing-pancake\Resources\res\FriendListUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\FriendListUI.csb
@@ -22,9 +23,9 @@
          C:\SGD\laughing-pancake\Resources\res\OptionUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\OptionUI.csb
          C:\SGD\laughing-pancake\Resources\res\StoreUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\StoreUI.csb
          C:\SGD\laughing-pancake\Resources\res\StoryScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\StoryScene.csb
-         15개 파일이 복사되었습니다.
+         16개 파일이 복사되었습니다.
      1>Done Building Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.34
+Time Elapsed 00:00:00.32

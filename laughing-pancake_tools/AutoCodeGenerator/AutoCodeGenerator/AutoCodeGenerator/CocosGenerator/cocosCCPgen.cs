@@ -478,6 +478,14 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 widgetclass = "cocostudio::Armature *";
             }
+            else if (string.Equals(classname, "Sprite") == true)
+            {
+                widgetclass = "cocos2d::Sprite *";
+            }
+            else if (string.Equals(classname, "Particle") == true)
+            {
+                widgetclass = "cocos2d::ParticleSystem *";
+            }
             //
             return widgetclass;
         }
