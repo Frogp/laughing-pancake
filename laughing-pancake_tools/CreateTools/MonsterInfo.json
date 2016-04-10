@@ -1,0 +1,44 @@
+{
+	"Monster": [
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\monster.png",
+			"name": "kim",
+			"index": "1",
+			"power": "100",
+			"defence": "100",
+			"speed": "100",
+			"strength": "100",
+			"property": "0"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\character.png",
+			"name": "lee",
+			"index": "2",
+			"power": "100",
+			"defence": "320",
+			"speed": "310",
+			"strength": "40",
+			"property": "0"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\imageSample.png",
+			"name": "poll",
+			"index": "4",
+			"power": "40",
+			"defence": "41",
+			"speed": "32",
+			"strength": "42",
+			"property": "2"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\character.png",
+			"name": "yoi",
+			"index": "3",
+			"power": "23",
+			"defence": "412",
+			"speed": "412",
+			"strength": "232",
+			"property": "2"
+		}
+	]
+}

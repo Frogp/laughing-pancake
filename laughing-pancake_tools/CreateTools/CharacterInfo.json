@@ -1,0 +1,22 @@
+{
+	"Character": [
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\character.png",
+			"name": "q",
+			"index": "1",
+			"power": "1",
+			"defence": "1",
+			"speed": "1",
+			"strength": "1"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\character.png",
+			"name": "e",
+			"index": "3",
+			"power": "1",
+			"defence": "1",
+			"speed": "1",
+			"strength": "1"
+		}
+	]
+}
