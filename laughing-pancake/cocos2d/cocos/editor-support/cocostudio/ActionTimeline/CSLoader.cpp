@@ -942,10 +942,7 @@ Node* CSLoader::nodeWithFlatBuffersFile(const std::string &fileName)
 
 Node* CSLoader::nodeWithFlatBuffersFile(const std::string &fileName, const ccNodeLoadCallback &callback)
 {
-    std::string fileNameTemp = fileName;
-    fileNameTemp.replace(fileNameTemp.begin(), fileNameTemp.begin()+4,""); // FIX ME!!
-    
-    std::string fullPath = FileUtils::getInstance()->fullPathForFilename(fileNameTemp);
+    std::string fullPath = FileUtils::getInstance()->fullPathForFilename(fileName);
     
     CC_ASSERT(FileUtils::getInstance()->isFileExist(fullPath));
     
