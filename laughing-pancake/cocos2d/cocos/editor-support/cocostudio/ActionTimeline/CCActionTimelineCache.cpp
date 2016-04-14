@@ -423,7 +423,11 @@ ActionTimeline* ActionTimelineCache::loadAnimationActionWithFlatBuffersFile(cons
     
     std::string path = fileName;
     
-    std::string fullPath = FileUtils::getInstance()->fullPathForFilename(fileName.c_str());
+    std::string fileNameTemp = fileName;
+    fileNameTemp.replace(fileNameTemp.begin(), fileNameTemp.begin()+4,""); //FIX ME!!
+    std::string fullPath = FileUtils::getInstance()->fullPathForFilename(fileNameTemp);
+    
+    //std::string fullPath = FileUtils::getInstance()->fullPathForFilename(fileName.c_str());
     
     CC_ASSERT(FileUtils::getInstance()->isFileExist(fullPath));
     

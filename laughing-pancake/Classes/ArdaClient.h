@@ -1,5 +1,5 @@
-#ifndef __INGAMEHUDEX_H__
-#define __INGAMEHUDEX_H__
+#ifndef __ARADACLIENT_H__
+#define __ARADACLIENT_H__
 
 #include "cocos2d.h"
 #include "JobInterface.h"
@@ -22,4 +22,4 @@ public:
 
 };
 
-#endif // __INGAMEHUDEX_H__
+#endif // __ARADACLIENT_H__

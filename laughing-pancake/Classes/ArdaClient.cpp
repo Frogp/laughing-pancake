@@ -1,6 +1,8 @@
 #include "ArdaClient.h"
 #include "JobExample.h"
 
+ArdaClient* ArdaClient::instance;
+
 ArdaClient* ArdaClient::GetInstace()
 {
 	if (ArdaClient::instance == NULL)
@@ -14,11 +16,11 @@ ArdaClient* ArdaClient::GetInstace()
 ArdaClient::ArdaClient()
 {
 
-	// ÀÌ·¸°Ô ¿¹Á¦Ã³·³ Ãß°¡ ÇÏ¼Å¾ßÇÕ´Ï´Ù
+	// Â¿Ãƒâˆ‘âˆâˆâ€˜ Ã¸Ï€Â¡Â¶âˆšâ‰¥âˆ‘â‰¥ âˆšï¬‚âˆÂ° Â«Å“Âºâ‰ˆÃ¦ï¬‚Â«â€™Â¥Å“Â¥Å¸
 	JobInterface* Example = new JobExample();
-	Example->autorelease(); //ÀÚµ¿ °ü¸® Ç®¿¡ Ãß°¡
-	Example->retain(); // ·¡ÆÛ·±½º Ä«¿îÆ® Áõ°¡
-	vecJob.pushBack(Example); //Áı¾î³ÖÀ½
+	Example->autorelease(); //Â¿â„ÂµÃ¸ âˆÂ¸âˆÃ† Â«Ã†Ã¸Â° âˆšï¬‚âˆÂ°
+	Example->retain(); // âˆ‘Â°âˆ†â‚¬âˆ‘Â±Î©âˆ« Æ’Â´Ã¸Ã“âˆ†Ã† Â¡Ä±âˆÂ°
+	vecJob.pushBack(Example); //Â¡ËÃ¦Ã“â‰¥Ã·Â¿Î©
 	//////////////////////////////////////////
 
 	//JobInterface* Example2 = new JobSomting();
@@ -30,14 +32,14 @@ ArdaClient::ArdaClient()
 
 void ArdaClient::Init()
 {
-	//job µî·ÏµÈ µ¿ÀÛÀ» ÁøÇàÇÔ.
-	Vector<JobInterface*>::iterator bitor = vecJob.begin();
-	while( bitor != vecJob.end())
+	//job ÂµÃ“âˆ‘Å“ÂµÂ» ÂµÃ¸Â¿â‚¬Â¿Âª Â¡Â¯Â«â€¡Â«â€˜.
+	Vector<JobInterface*>::iterator vistor = vecJob.begin();
+	while( vistor != vecJob.end())
 	{
-		JobInterface* node = *bitor;
+		JobInterface* node = *vistor;
 		node->Process();
 		node->release();
-		bitor = vecJob.erase(bitor);
+		vistor = vecJob.erase(vistor);
 	}
 
 }
