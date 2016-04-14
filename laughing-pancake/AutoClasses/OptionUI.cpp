@@ -11,7 +11,7 @@ using namespace ui;
 OptionUI * OptionUI::instance;
 OptionUI::OptionUI()
 {
-	root = CSLoader::createNode("res\\OptionUI.csb");
+	root = CSLoader::createNode("OptionUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	OptionUI::instance = this;
@@ -24,7 +24,7 @@ OptionUI::OptionUI(Widget* _root)
 }
 void OptionUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionOptionUI = CSLoader::createTimeline("res\\OptionUI.csb");
+	cocostudio::timeline::ActionTimeline* actionOptionUI = CSLoader::createTimeline("OptionUI.csb");
 	root->runAction(actionOptionUI);
 	Layout *_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	_Panel_1->retain();

@@ -11,7 +11,7 @@ using namespace ui;
 StoryScene * StoryScene::instance;
 StoryScene::StoryScene()
 {
-	root = CSLoader::createNode("res\\StoryScene.csb");
+	root = CSLoader::createNode("StoryScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	StoryScene::instance = this;
@@ -24,6 +24,6 @@ StoryScene::StoryScene(Widget* _root)
 }
 void StoryScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionStoryScene = CSLoader::createTimeline("res\\StoryScene.csb");
+	cocostudio::timeline::ActionTimeline* actionStoryScene = CSLoader::createTimeline("StoryScene.csb");
 	root->runAction(actionStoryScene);
 }

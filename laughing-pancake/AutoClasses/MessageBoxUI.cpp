@@ -11,7 +11,7 @@ using namespace ui;
 MessageBoxUI * MessageBoxUI::instance;
 MessageBoxUI::MessageBoxUI()
 {
-	root = CSLoader::createNode("res\\MessageBoxUI.csb");
+	root = CSLoader::createNode("MessageBoxUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	MessageBoxUI::instance = this;
@@ -24,7 +24,7 @@ MessageBoxUI::MessageBoxUI(Widget* _root)
 }
 void MessageBoxUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionMessageBoxUI = CSLoader::createTimeline("res\\MessageBoxUI.csb");
+	cocostudio::timeline::ActionTimeline* actionMessageBoxUI = CSLoader::createTimeline("MessageBoxUI.csb");
 	root->runAction(actionMessageBoxUI);
 	Layout *_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	_Panel_1->retain();

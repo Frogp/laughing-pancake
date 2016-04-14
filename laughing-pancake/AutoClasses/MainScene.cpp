@@ -11,7 +11,7 @@ using namespace ui;
 MainScene * MainScene::instance;
 MainScene::MainScene()
 {
-	root = CSLoader::createNode("res\\MainScene.csb");
+	root = CSLoader::createNode("MainScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	MainScene::instance = this;
@@ -24,6 +24,6 @@ MainScene::MainScene(Widget* _root)
 }
 void MainScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionMainScene = CSLoader::createTimeline("res\\MainScene.csb");
+	cocostudio::timeline::ActionTimeline* actionMainScene = CSLoader::createTimeline("MainScene.csb");
 	root->runAction(actionMainScene);
 }

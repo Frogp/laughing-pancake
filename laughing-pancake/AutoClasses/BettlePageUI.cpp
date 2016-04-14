@@ -11,7 +11,7 @@ using namespace ui;
 BettlePageUI * BettlePageUI::instance;
 BettlePageUI::BettlePageUI()
 {
-	root = CSLoader::createNode("res\\BettlePageUI.csb");
+	root = CSLoader::createNode("BettlePageUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	BettlePageUI::instance = this;
@@ -24,7 +24,7 @@ BettlePageUI::BettlePageUI(Widget* _root)
 }
 void BettlePageUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionBettlePageUI = CSLoader::createTimeline("res\\BettlePageUI.csb");
+	cocostudio::timeline::ActionTimeline* actionBettlePageUI = CSLoader::createTimeline("BettlePageUI.csb");
 	root->runAction(actionBettlePageUI);
 	Layout *_Panel_2= static_cast<Layout *>(root->getChildByName("Panel_2"));
 	_Panel_2->retain();

@@ -11,7 +11,7 @@ using namespace ui;
 GameResualtUI * GameResualtUI::instance;
 GameResualtUI::GameResualtUI()
 {
-	root = CSLoader::createNode("res\\GameResualtUI.csb");
+	root = CSLoader::createNode("GameResualtUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	GameResualtUI::instance = this;
@@ -24,7 +24,7 @@ GameResualtUI::GameResualtUI(Widget* _root)
 }
 void GameResualtUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionGameResualtUI = CSLoader::createTimeline("res\\GameResualtUI.csb");
+	cocostudio::timeline::ActionTimeline* actionGameResualtUI = CSLoader::createTimeline("GameResualtUI.csb");
 	root->runAction(actionGameResualtUI);
 	m_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	m_Panel_1->retain();

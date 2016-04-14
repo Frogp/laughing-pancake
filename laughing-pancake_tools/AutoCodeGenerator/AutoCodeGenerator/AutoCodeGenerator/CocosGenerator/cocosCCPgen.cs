@@ -681,7 +681,7 @@ namespace AutoCodeGenerator.CocosGenerator
             //addChild(rootNode);
             gen += ClassName + "::" + ClassName + "()\n";
             gen += "{\n";
-            gen += "\troot = CSLoader::createNode(\"res\\\\" + ClassName + ".csb\");\n";
+            gen += "\troot = CSLoader::createNode(\"" + ClassName + ".csb\");\n";
             gen += "\tthis->addChild(root, 0, 1);\n";
             gen += "\tInitPage();\n";
             gen += "\t" + ClassName + "::instance = this;\n";
@@ -720,7 +720,7 @@ namespace AutoCodeGenerator.CocosGenerator
 
 
             string outputstring = "";
-            outputstring += "\tcocostudio::timeline::ActionTimeline* action" + ClassName + " = CSLoader::createTimeline(\"res\\\\" + ClassName + ".csb\");\n";
+            outputstring += "\tcocostudio::timeline::ActionTimeline* action" + ClassName + " = CSLoader::createTimeline(\"" + ClassName + ".csb\");\n";
             outputstring += "\t" + "root->runAction(action" + ClassName + ");\n";
 
             foreach (string itemObj in AnimationList)

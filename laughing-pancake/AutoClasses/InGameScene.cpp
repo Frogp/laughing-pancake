@@ -11,7 +11,7 @@ using namespace ui;
 InGameScene * InGameScene::instance;
 InGameScene::InGameScene()
 {
-	root = CSLoader::createNode("res\\InGameScene.csb");
+	root = CSLoader::createNode("InGameScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InGameScene::instance = this;
@@ -24,7 +24,7 @@ InGameScene::InGameScene(Widget* _root)
 }
 void InGameScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInGameScene = CSLoader::createTimeline("res\\InGameScene.csb");
+	cocostudio::timeline::ActionTimeline* actionInGameScene = CSLoader::createTimeline("InGameScene.csb");
 	root->runAction(actionInGameScene);
 	m_Map_3= static_cast<cocos2d::TMXTiledMap *>(root->getChildByName("Map_3"));
 	m_Map_3->retain();

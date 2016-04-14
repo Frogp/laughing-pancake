@@ -11,7 +11,7 @@ using namespace ui;
 InGameHUD * InGameHUD::instance;
 InGameHUD::InGameHUD()
 {
-	root = CSLoader::createNode("res\\InGameHUD.csb");
+	root = CSLoader::createNode("InGameHUD.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InGameHUD::instance = this;
@@ -24,7 +24,7 @@ InGameHUD::InGameHUD(Widget* _root)
 }
 void InGameHUD::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInGameHUD = CSLoader::createTimeline("res\\InGameHUD.csb");
+	cocostudio::timeline::ActionTimeline* actionInGameHUD = CSLoader::createTimeline("InGameHUD.csb");
 	root->runAction(actionInGameHUD);
 	m_Menu= static_cast<cocos2d::ui::Button* >(root->getChildByName("Menu"));
 	m_Menu->retain();

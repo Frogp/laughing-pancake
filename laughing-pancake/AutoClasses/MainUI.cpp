@@ -11,7 +11,7 @@ using namespace ui;
 MainUI * MainUI::instance;
 MainUI::MainUI()
 {
-	root = CSLoader::createNode("res\\MainUI.csb");
+	root = CSLoader::createNode("MainUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	MainUI::instance = this;
@@ -24,7 +24,7 @@ MainUI::MainUI(Widget* _root)
 }
 void MainUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionMainUI = CSLoader::createTimeline("res\\MainUI.csb");
+	cocostudio::timeline::ActionTimeline* actionMainUI = CSLoader::createTimeline("MainUI.csb");
 	root->runAction(actionMainUI);
 	m_Image_1= static_cast<cocos2d::ui::ImageView *>(root->getChildByName("Image_1"));
 	m_Image_1->retain();

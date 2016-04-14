@@ -11,7 +11,7 @@ using namespace ui;
 StoreUI * StoreUI::instance;
 StoreUI::StoreUI()
 {
-	root = CSLoader::createNode("res\\StoreUI.csb");
+	root = CSLoader::createNode("StoreUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	StoreUI::instance = this;
@@ -24,6 +24,6 @@ StoreUI::StoreUI(Widget* _root)
 }
 void StoreUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionStoreUI = CSLoader::createTimeline("res\\StoreUI.csb");
+	cocostudio::timeline::ActionTimeline* actionStoreUI = CSLoader::createTimeline("StoreUI.csb");
 	root->runAction(actionStoreUI);
 }
