@@ -1,0 +1,54 @@
+{
+	"Character": [
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\test1.png",
+			"name": "조성래개패티",
+			"index": "1",
+			"power": "1",
+			"defence": "2",
+			"speed": "3",
+			"strength": "4",
+			"property": "0"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\캡처.PNG",
+			"name": "조성래개노답",
+			"index": "2",
+			"power": "42",
+			"defence": "123",
+			"speed": "21",
+			"strength": "34",
+			"property": "1"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\test1.png",
+			"name": "조성래 진심노답",
+			"index": "3",
+			"power": "1",
+			"defence": "2",
+			"speed": "3",
+			"strength": "24",
+			"property": "3"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\test1.png",
+			"name": "조팻통통",
+			"index": "4",
+			"power": "123",
+			"defence": "123",
+			"speed": "12",
+			"strength": "42",
+			"property": "2"
+		},
+		{
+			"imagePath": "C:\\Users\\junghan\\Desktop\\test1.png",
+			"name": "조성래베충",
+			"index": "5",
+			"power": "1",
+			"defence": "1",
+			"speed": "1",
+			"strength": "1",
+			"property": "2"
+		}
+	]
+}
