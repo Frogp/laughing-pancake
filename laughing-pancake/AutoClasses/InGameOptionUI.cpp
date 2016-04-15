@@ -11,7 +11,7 @@ using namespace ui;
 InGameOptionUI * InGameOptionUI::instance;
 InGameOptionUI::InGameOptionUI()
 {
-	root = CSLoader::createNode("res\\InGameOptionUI.csb");
+	root = CSLoader::createNode("InGameOptionUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InGameOptionUI::instance = this;
@@ -24,7 +24,7 @@ InGameOptionUI::InGameOptionUI(Widget* _root)
 }
 void InGameOptionUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInGameOptionUI = CSLoader::createTimeline("res\\InGameOptionUI.csb");
+	cocostudio::timeline::ActionTimeline* actionInGameOptionUI = CSLoader::createTimeline("InGameOptionUI.csb");
 	root->runAction(actionInGameOptionUI);
 	m_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	m_Panel_1->retain();

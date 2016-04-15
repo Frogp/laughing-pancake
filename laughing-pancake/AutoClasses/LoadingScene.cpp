@@ -11,7 +11,7 @@ using namespace ui;
 LoadingScene * LoadingScene::instance;
 LoadingScene::LoadingScene()
 {
-	root = CSLoader::createNode("res\\LoadingScene.csb");
+	root = CSLoader::createNode("LoadingScene.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	LoadingScene::instance = this;
@@ -24,6 +24,6 @@ LoadingScene::LoadingScene(Widget* _root)
 }
 void LoadingScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionLoadingScene = CSLoader::createTimeline("res\\LoadingScene.csb");
+	cocostudio::timeline::ActionTimeline* actionLoadingScene = CSLoader::createTimeline("LoadingScene.csb");
 	root->runAction(actionLoadingScene);
 }

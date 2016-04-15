@@ -11,7 +11,7 @@ using namespace ui;
 BettleReadyUI * BettleReadyUI::instance;
 BettleReadyUI::BettleReadyUI()
 {
-	root = CSLoader::createNode("res\\BettleReadyUI.csb");
+	root = CSLoader::createNode("BettleReadyUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	BettleReadyUI::instance = this;
@@ -24,7 +24,7 @@ BettleReadyUI::BettleReadyUI(Widget* _root)
 }
 void BettleReadyUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionBettleReadyUI = CSLoader::createTimeline("res\\BettleReadyUI.csb");
+	cocostudio::timeline::ActionTimeline* actionBettleReadyUI = CSLoader::createTimeline("BettleReadyUI.csb");
 	root->runAction(actionBettleReadyUI);
 	SpacialAnation = actionBettleReadyUI->getAnimationInfo("SpacialAnation");
 	MoveAni = actionBettleReadyUI->getAnimationInfo("MoveAni");

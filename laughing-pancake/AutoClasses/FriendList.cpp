@@ -11,7 +11,7 @@ using namespace ui;
 FriendList * FriendList::instance;
 FriendList::FriendList()
 {
-	root = CSLoader::createNode("res\\FriendList.csb");
+	root = CSLoader::createNode("FriendList.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	FriendList::instance = this;
@@ -24,6 +24,6 @@ FriendList::FriendList(Widget* _root)
 }
 void FriendList::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionFriendList = CSLoader::createTimeline("res\\FriendList.csb");
+	cocostudio::timeline::ActionTimeline* actionFriendList = CSLoader::createTimeline("FriendList.csb");
 	root->runAction(actionFriendList);
 }

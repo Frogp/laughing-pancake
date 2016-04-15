@@ -11,7 +11,7 @@ using namespace ui;
 InventoryUI * InventoryUI::instance;
 InventoryUI::InventoryUI()
 {
-	root = CSLoader::createNode("res\\InventoryUI.csb");
+	root = CSLoader::createNode("InventoryUI.csb");
 	this->addChild(root, 0, 1);
 	InitPage();
 	InventoryUI::instance = this;
@@ -24,6 +24,6 @@ InventoryUI::InventoryUI(Widget* _root)
 }
 void InventoryUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInventoryUI = CSLoader::createTimeline("res\\InventoryUI.csb");
+	cocostudio::timeline::ActionTimeline* actionInventoryUI = CSLoader::createTimeline("InventoryUI.csb");
 	root->runAction(actionInventoryUI);
 }
