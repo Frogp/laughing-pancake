@@ -1,0 +1,300 @@
+{
+    "GameInText": 
+    [
+		{            
+            "ID": "BUY_INK_COMPLETE",
+            "contents": "잉크 구매 완료 되었습니다. 구매하신 아이템은 바로 사용되어 졌습니다."
+        },
+        {            
+            "ID": "BUY_CASH_COMPLETE",
+            "contents": "캐시 구매 완료 되었습니다."
+        },
+        {            
+            "ID": "BUY_GOLD_COMPLETE",
+            "contents": "골드 구매 완료 되었습니다."
+        },
+        {            
+            "ID": "ITEM_SLOT_FAIL",
+            "contents": "사용하기가 실패 되었습니다."
+        },
+        {           
+            "ID": "ITEM_SLOTCOMPLETE",
+            "contents": "슬롯에 등록되었습니다."
+        },
+        {           
+            "ID": "NO_CHAR",
+            "contents": "해당 캐릭터를 구매 또는 콜렉션을 통한 언락후 사용 가능합니다."
+        },
+        {
+            "ID": "COLLECTOIN_ALL",
+            "contents": "콜렉션을 완성하였습니다. 보상을 받으러 가시겠습니까?"
+        },
+        {
+            "ID": "BUY_CHARICTOR_COMPLETE",
+            "contents": "케릭터 구매가 완료되었습니다."
+        },
+		{
+            "ID": "STAR_REQURE",
+            "contents": "개의 별을 소모하여 업그레이드 하시겠습니까."
+        },
+		{
+            "ID": "TIME_GAMER",
+            "contents": "일 후 마감"
+        },
+		{
+            "ID": "EXPIRE",
+            "contents": "새 업데이트 정보가 있습니다.\n 업데이트로 이동하시겠습니까?"
+        },
+		{
+            "ID": "USED_CODE",
+            "contents": "이미 사용된 코드 입니다. 확인후 다시 입력해주세요."
+        },
+		{
+            "ID": "FAIL_CODE",
+            "contents": "잘못된 코드 입니다. 확인후 다시 입력해주세요."
+        },
+		{
+            "ID": "HAPP_NEW_YEAR",
+            "contents": "야듀 2014! 새해 이벤트! 고민형 무료 업그레이드! 고민형을 얻으 셨습니다! (2014.12.31~2015.1.15)"
+        },
+		{
+            "ID": "USED_USER",
+            "contents": "프로모션 코드는 한번만 사용 가능합니다."
+        },
+		{
+            "ID": "DUSED_USER",
+            "contents": "하루에 한번만 사용 가능합니다."
+        },
+		{
+            "ID": "GIVEITEM_USER",
+            "contents": " 지급 되었습니다."
+        },
+		{
+            "ID": "CODE_COMPLETE",
+            "contents": "아이템 보상 완료!"
+        },
+		{
+            "ID": "LOADING_TEXT1",
+            "contents": "제비과장 깃털 손질중"
+        },
+		{
+            "ID": "LOADING_TEXT2",
+            "contents": "제비과장 날개 운동중"
+        },
+		{
+            "ID": "LOADING_TEXT3",
+            "contents": "도장 손질 하는중"
+        },
+		{
+            "ID": "LOADING_TEXT4",
+            "contents": "잉크통 확인중"
+        },
+		{
+            "ID": "LOADING_TEXT5",
+            "contents": "우체통 닦는중"
+        },
+		{
+            "ID": "LOADING_TEXT6",
+            "contents": "사무실 청소중"
+        },
+		{
+            "ID": "LOADING_TEXT7",
+            "contents": "책상 정리중"
+        },
+		{
+            "ID": "LOADING_TEXT8",
+            "contents": "땅콩 봉지 까는 중"
+        },
+		{
+            "ID": "LOADING_TEXT9",
+            "contents": "땅콩 먹으러 돌아가는 중"
+        },
+		{
+            "ID": "LOADING_TEXT10",
+            "contents": "모닝 커피 마시는 중"
+        },
+		{
+            "ID": "LOADING_TEXT11",
+            "contents": "날개에 기름칠 중"
+        },
+		{
+            "ID": "LOADING_TEXT12",
+            "contents": "제비과장 화내는 연습중"
+        },
+		{
+            "ID": "LOADING_TEXT13",
+            "contents": "제비과장 트집 잡는중"
+        },
+		{
+            "ID": "SKILL",
+            "contents": "제비과장 트집 잡는중"
+        },
+		{
+            "ID": "VEHICLE_TITLE",
+            "contents": "배송수단 추가"
+        },
+		{
+            "ID": "UNIT_TITLE",
+            "contents": "유닛추가"
+        },
+		{
+            "ID": "UNITCHANGE_TITLE",
+            "contents": "캐릭터 교체"
+        },
+		{
+            "ID": "ROOM_TITLE",
+            "contents": "사무실 관리"
+        },
+		{
+            "ID": "CHAR_LEVEL",
+            "contents": "레벨 : "
+        },
+		{
+            "ID": "CHAR_DPS",
+            "contents": "/초"
+        },
+		{
+            "ID": "MAINMENU_DPS",
+            "contents": "초당수익 : "
+        },
+		{
+            "ID": "ITEM_COUNT",
+            "contents": " %d개"
+        },
+		{
+            "ID": "TITLE_REWARD",
+            "contents": "호칭 보상 : "
+        },
+		{
+            "ID": "DAY_TITLE",
+            "contents": "일차"
+        },
+		{
+            "ID": "CHR_BOOST_NO_SPACE_CON",
+            "contents": "슬롯 자리가 모자라 더이상 신규직원을 받을수 없습니다."
+        },
+		{
+            "ID": "CHR_BOOST_NO_SPACE_TITLE",
+            "contents": "슬롯 자리가 모자랍니다."
+        },
+		{
+            "ID": "CHR_SELL_CON",
+            "contents": "%s을(를) 판매 하시겠습니까?"
+        },
+		{
+            "ID": "CHR_SELL_TITLE",
+            "contents": "캐릭터 판매 확인"
+        },
+		{
+            "ID": "BUY_TEXT_CON",
+            "contents": "구매 하시겠습니까?"
+        },
+		{
+            "ID": "BUY_TEXT_TITLE",
+            "contents": "아이템 구매 확인"
+        },
+		{
+            "ID": "BUILDING_BOX_BAR_TEXT",
+            "contents": "건설중 : %02d:%02d:%02d"
+        },
+		{
+            "ID": "CHR_BUY_LEVEL_CON",
+            "contents": "%s을(를) %d로 레벨업 하시겠습니까?"
+        },
+		{
+            "ID": "CHR_BUY_LEVEL_TITLE",
+            "contents": "캐릭터 레벨업 확인"
+        },
+		{
+            "ID": "EPLOYEE_NO_SPACE_TITLE",
+            "contents": "더 이상 고용할 수 없어요"
+        },
+		{
+            "ID": "EPLOYEE_NO_SPACE_CON",
+            "contents": "건물의 공간이 부족합니다.\n건물을 확장 시키거나 업그레이드를 해서\n공간을 확장 시켜 보세요"
+        },
+		{
+            "ID": "UNIT_NOT_HAVE_SKILL_TITLE",
+            "contents": "스킬이 없어요"
+        },
+		{
+            "ID": "UNIT_NOT_HAVE_SKILL_CON",
+            "contents": "3등급 이상부터 스킬을 사용할수 있어요.\n캐릭터를 업그레이드 해보세요!"
+        },
+		{
+            "ID": "UNIT_MAX_LEVEL",
+            "contents": "최고레벨 :%d"
+        },
+		{
+            "ID": "UPGRADE_FINISHED_TITLE",
+            "contents": "더 이상 업그레이드를 할수 없어요"
+        },
+		{
+            "ID": "UPGRADE_FINISHED_CON",
+            "contents": "모든 업그레이드를 완료한 캐릭터입니다."
+        },
+		{
+            "ID": "M_BUILD_INFO",
+            "contents": "골드 획득량 %0.0f%% 증가"
+        },
+		{
+            "ID": "M_BUILD_ROOM_TEXT",
+            "contents": "슬롯 %d칸"
+        },
+		{
+            "ID": "M_BUILD_ROOM_TEXT2",
+            "contents": "직원 %d명"
+        },
+		{
+            "ID": "M_BUILD_BONUS_TEXT_0",
+            "contents": "%d칸 확장"
+        },
+		{
+            "ID": "TEMP_WORKER",
+            "contents": "비정규직"
+        },
+		{
+            "ID": "KAKAO_EXIT_CON",
+            "contents": "탈퇴시 모든 저장된 정보가 없어집니다."
+        },
+		{
+            "ID": "KAKAO_EXIT_TITLE",
+            "contents": "우편왕에서 탈퇴 하시겠습니까?"
+        },
+		{
+            "ID": "KAKAO_LOGOUT_CON",
+            "contents": "정보는 서버에 저장되어 집니다."
+        },
+		{
+            "ID": "KAKAO_LOGOUT_TITLE",
+            "contents": "로그아웃 하시겠습니까?"
+		},
+		{
+            "ID": "fever_out",
+            "contents": "내 왔다!"
+		},
+		{
+            "ID": "fever_in",
+            "contents": "내좀 쉰다!"
+		},
+		{
+            "ID": "ready_go",
+            "contents": "준비~시작!"
+		},
+		{
+            "ID": "game_fail",
+            "contents": "됐다마! 고마해라!"
+		},
+		{
+            "ID": "Combo_kool",
+            "contents": "좋았어~!"
+		},
+		{
+            "ID": "Combo_fail",
+            "contents": "똑바로 안해?"
+		}
+		
+		
+    ] 
+
+}
