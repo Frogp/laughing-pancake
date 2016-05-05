@@ -114,6 +114,18 @@
     <ClCompile Include="..\Classes\GameText.cpp">
       <Filter>src\ClientLogic\GameData</Filter>
     </ClCompile>
+    <ClCompile Include="..\AutoClasses\logoani.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\LogoUI.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\LogoScene.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingSceneEx.cpp">
+      <Filter>src\Extentions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -202,6 +214,18 @@
     </ClInclude>
     <ClInclude Include="..\Classes\GameText.h">
       <Filter>src\ClientLogic\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\logoani.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\LogoUI.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\LogoScene.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingSceneEx.h">
+      <Filter>src\Extentions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,29 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="Logo" Type="Plist" ID="bd3bb528-9f6b-4025-94c1-b8cc1a2f22b1" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="SGD/sgd01.png" />
+      <FilePathData Path="SGD/sgd10.png" />
+      <FilePathData Path="SGD/sgd11.png" />
+      <FilePathData Path="SGD/sgd12.png" />
+      <FilePathData Path="SGD/sgd13.png" />
+      <FilePathData Path="SGD/sgd14.png" />
+      <FilePathData Path="SGD/sgd15.png" />
+      <FilePathData Path="SGD/sgd16.png" />
+      <FilePathData Path="SGD/sgd17.png" />
+      <FilePathData Path="SGD/sgd18.png" />
+      <FilePathData Path="SGD/sgd19.png" />
+      <FilePathData Path="SGD/sgd02.png" />
+      <FilePathData Path="SGD/sgd20.png" />
+      <FilePathData Path="SGD/sgd21.png" />
+      <FilePathData Path="SGD/sgd03.png" />
+      <FilePathData Path="SGD/sgd04.png" />
+      <FilePathData Path="SGD/sgd05.png" />
+      <FilePathData Path="SGD/sgd06.png" />
+      <FilePathData Path="SGD/sgd07.png" />
+      <FilePathData Path="SGD/sgd08.png" />
+      <FilePathData Path="SGD/sgd09.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

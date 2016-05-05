@@ -155,6 +155,9 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\AutoClasses\InGameScene.cpp" />
     <ClCompile Include="..\AutoClasses\InventoryUI.cpp" />
     <ClCompile Include="..\AutoClasses\LoadingScene.cpp" />
+    <ClCompile Include="..\AutoClasses\logoani.cpp" />
+    <ClCompile Include="..\AutoClasses\LogoScene.cpp" />
+    <ClCompile Include="..\AutoClasses\LogoUI.cpp" />
     <ClCompile Include="..\AutoClasses\MainScene.cpp" />
     <ClCompile Include="..\AutoClasses\MainUI.cpp" />
     <ClCompile Include="..\AutoClasses\MessageBoxUI.cpp" />
@@ -170,6 +173,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\InGameSceneEx.cpp" />
     <ClCompile Include="..\Classes\JobExample.cpp" />
     <ClCompile Include="..\Classes\JobLoadInGameText.cpp" />
+    <ClCompile Include="..\Classes\LoadingSceneEx.cpp" />
     <ClCompile Include="..\Classes\MainSceneEx.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -185,6 +189,9 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\AutoClasses\InGameScene.h" />
     <ClInclude Include="..\AutoClasses\InventoryUI.h" />
     <ClInclude Include="..\AutoClasses\LoadingScene.h" />
+    <ClInclude Include="..\AutoClasses\logoani.h" />
+    <ClInclude Include="..\AutoClasses\LogoScene.h" />
+    <ClInclude Include="..\AutoClasses\LogoUI.h" />
     <ClInclude Include="..\AutoClasses\MainScene.h" />
     <ClInclude Include="..\AutoClasses\MainUI.h" />
     <ClInclude Include="..\AutoClasses\MessageBoxUI.h" />
@@ -201,6 +208,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\JobExample.h" />
     <ClInclude Include="..\Classes\JobInterface.h" />
     <ClInclude Include="..\Classes\JobLoadInGameText.h" />
+    <ClInclude Include="..\Classes\LoadingSceneEx.h" />
     <ClInclude Include="..\Classes\MainSceneEx.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>

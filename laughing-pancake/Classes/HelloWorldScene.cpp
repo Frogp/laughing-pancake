@@ -1,7 +1,7 @@
 #include "HelloWorldScene.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include "MainSceneEx.h"
+#include "LoadingSceneEx.h"
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
@@ -84,7 +84,7 @@ bool HelloWorld::init()
         return false;
     }
     
-	MainSceneEx* data = new MainSceneEx();
+	LoadingSceneEx* data = new LoadingSceneEx();
 	addChild(data);
 	data->retain();
     return true;

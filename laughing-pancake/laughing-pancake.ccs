@@ -4,6 +4,7 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="ani">
+          <Folder Name="sgdlogo" />
           <ExportJsonFile Name="bike.ExportJson" />
           <Image Name="buwang_ani0.png" />
           <Image Name="buwang_ani1.png" />
@@ -27,6 +28,101 @@
           <ExportJsonFile Name="rank_icon.ExportJson" />
           <ExportJsonFile Name="star_ani.ExportJson" />
           <ExportJsonFile Name="unit_list.ExportJson" />
+        </Folder>
+        <Folder Name="armature">
+          <PlistImageFolder Image="Cyborg.png" PListFile="cyborg.plist" Name=".cyborg_PList.Dir">
+            <PlistImageFile Name="CyborgFolder-Chest.png" Key="CyborgFolder-Chest.png" />
+            <PlistImageFile Name="CyborgFolder-Head.png" Key="CyborgFolder-Head.png" />
+            <PlistImageFile Name="CyborgFolder-Hip.png" Key="CyborgFolder-Hip.png" />
+            <PlistImageFile Name="CyborgFolder-LeftArm.png" Key="CyborgFolder-LeftArm.png" />
+            <PlistImageFile Name="CyborgFolder-LeftHand.png" Key="CyborgFolder-LeftHand.png" />
+            <PlistImageFile Name="CyborgFolder-LeftShoulder.png" Key="CyborgFolder-LeftShoulder.png" />
+            <PlistImageFile Name="CyborgFolder-LeftThigh.png" Key="CyborgFolder-LeftThigh.png" />
+            <PlistImageFile Name="CyborgFolder-Leg.png" Key="CyborgFolder-Leg.png" />
+            <PlistImageFile Name="CyborgFolder-RightArm.png" Key="CyborgFolder-RightArm.png" />
+            <PlistImageFile Name="CyborgFolder-RightHand.png" Key="CyborgFolder-RightHand.png" />
+            <PlistImageFile Name="CyborgFolder-RightShoulder.png" Key="CyborgFolder-RightShoulder.png" />
+            <PlistImageFile Name="CyborgFolder-RightThigh.png" Key="CyborgFolder-RightThigh.png" />
+            <PlistImageFile Name="CyborgFolder-Trunk.png" Key="CyborgFolder-Trunk.png" />
+            <PlistImageFile Name="CyborgFolder-weapon1.png" Key="CyborgFolder-weapon1.png" />
+            <PlistImageFile Name="CyborgFolder-weapon2.png" Key="CyborgFolder-weapon2.png" />
+            <PlistImageFile Name="CyborgFolder-weapon3.png" Key="CyborgFolder-weapon3.png" />
+            <PlistImageFile Name="CyborgFolder-weapon4.png" Key="CyborgFolder-weapon4.png" />
+          </PlistImageFolder>
+          <Folder Name="Default">
+            <ExportJsonFile Name="DemoPlayer.ExportJson" />
+          </Folder>
+          <PlistImageFolder Image="Dragon.png" PListFile="Dragon.plist" Name=".Dragon_PList.Dir">
+            <PlistImageFile Name="parts-armL.png" Key="parts-armL.png" />
+            <PlistImageFile Name="parts-armR.png" Key="parts-armR.png" />
+            <PlistImageFile Name="parts-armUpperL.png" Key="parts-armUpperL.png" />
+            <PlistImageFile Name="parts-armUpperR.png" Key="parts-armUpperR.png" />
+            <PlistImageFile Name="parts-beardL.png" Key="parts-beardL.png" />
+            <PlistImageFile Name="parts-beardR.png" Key="parts-beardR.png" />
+            <PlistImageFile Name="parts-body.png" Key="parts-body.png" />
+            <PlistImageFile Name="parts-eyeL.png" Key="parts-eyeL.png" />
+            <PlistImageFile Name="parts-eyeR.png" Key="parts-eyeR.png" />
+            <PlistImageFile Name="parts-hair.png" Key="parts-hair.png" />
+            <PlistImageFile Name="parts-handL.png" Key="parts-handL.png" />
+            <PlistImageFile Name="parts-handR.png" Key="parts-handR.png" />
+            <PlistImageFile Name="parts-head.png" Key="parts-head.png" />
+            <PlistImageFile Name="parts-legL.png" Key="parts-legL.png" />
+            <PlistImageFile Name="parts-legR.png" Key="parts-legR.png" />
+            <PlistImageFile Name="parts-tail.png" Key="parts-tail.png" />
+            <PlistImageFile Name="parts-tailTip.png" Key="parts-tailTip.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="knight.png" PListFile="knight.plist" Name=".knight_PList.Dir">
+            <PlistImageFile Name="Knight_f-hero_arm.png" Key="Knight_f-hero_arm.png" />
+            <PlistImageFile Name="Knight_f-hero_body.png" Key="Knight_f-hero_body.png" />
+            <PlistImageFile Name="Knight_f-hero_head.png" Key="Knight_f-hero_head.png" />
+            <PlistImageFile Name="Knight_f-hero_leg.png" Key="Knight_f-hero_leg.png" />
+            <PlistImageFile Name="Knight_f-hero_sword.png" Key="Knight_f-hero_sword.png" />
+            <PlistImageFile Name="Knight_f-horse_body.png" Key="Knight_f-horse_body.png" />
+            <PlistImageFile Name="Knight_f-horse_head.png" Key="Knight_f-horse_head.png" />
+            <PlistImageFile Name="Knight_f-horse_leg.png" Key="Knight_f-horse_leg.png" />
+            <PlistImageFile Name="Knight_f-horse_tail.png" Key="Knight_f-horse_tail.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="robot.png" PListFile="robot.plist" Name=".robot_PList.Dir">
+            <PlistImageFile Name="robotFolder-bady-a1.png" Key="robotFolder-bady-a1.png" />
+            <PlistImageFile Name="robotFolder-bady-a2.png" Key="robotFolder-bady-a2.png" />
+            <PlistImageFile Name="robotFolder-bady-a3.png" Key="robotFolder-bady-a3.png" />
+            <PlistImageFile Name="robotFolder-bady-b1.png" Key="robotFolder-bady-b1.png" />
+            <PlistImageFile Name="robotFolder-bady-b2.png" Key="robotFolder-bady-b2.png" />
+            <PlistImageFile Name="robotFolder-bady-f.png" Key="robotFolder-bady-f.png" />
+            <PlistImageFile Name="robotFolder-bady-h.png" Key="robotFolder-bady-h.png" />
+            <PlistImageFile Name="robotFolder-bady-l1.png" Key="robotFolder-bady-l1.png" />
+            <PlistImageFile Name="robotFolder-bady-l2.png" Key="robotFolder-bady-l2.png" />
+          </PlistImageFolder>
+          <PlistImageFolder Image="weapon.png" PListFile="weapon.plist" Name=".weapon_PList.Dir">
+            <PlistImageFile Name="weapon_f-hammer.png" Key="weapon_f-hammer.png" />
+            <PlistImageFile Name="weapon_f-knife.png" Key="weapon_f-knife.png" />
+            <PlistImageFile Name="weapon_f-sword.png" Key="weapon_f-sword.png" />
+            <PlistImageFile Name="weapon_f-sword2.png" Key="weapon_f-sword2.png" />
+            <PlistImageFile Name="weapon_f-sword3.png" Key="weapon_f-sword3.png" />
+            <PlistImageFile Name="weapon_f-sword4.png" Key="weapon_f-sword4.png" />
+            <PlistImageFile Name="weapon_f-sword5.png" Key="weapon_f-sword5.png" />
+          </PlistImageFolder>
+          <File Name="bear.csb" />
+          <ExportJsonFile Name="bear.ExportJson" />
+          <Image Name="bg.jpg" />
+          <PlistParticleFile Name="blood.plist" />
+          <File Name="Cowboy.csb" />
+          <ExportJsonFile Name="Cowboy.ExportJson" />
+          <File Name="cyborg.xml" />
+          <File Name="Dragon.xml" />
+          <File Name="hero.csb" />
+          <ExportJsonFile Name="hero.ExportJson" />
+          <File Name="HeroAnimation.csb" />
+          <ExportJsonFile Name="HeroAnimation.ExportJson" />
+          <File Name="horse.csb" />
+          <ExportJsonFile Name="horse.ExportJson" />
+          <File Name="knight.xml" />
+          <PlistInfo Name="Logo.csi" Type="Plist" />
+          <File Name="robot.xml" />
+          <File Name="TestArmatureNode.csb" />
+          <File Name="testEasing.csb" />
+          <ExportJsonFile Name="testEasing.ExportJson" />
+          <File Name="weapon.xml" />
         </Folder>
         <Folder Name="img">
           <Folder Name="dummy">
@@ -476,6 +572,29 @@
             </Folder>
           </Folder>
         </Folder>
+        <Folder Name="SGD">
+          <Image Name="sgd01.png" />
+          <Image Name="sgd02.png" />
+          <Image Name="sgd03.png" />
+          <Image Name="sgd04.png" />
+          <Image Name="sgd05.png" />
+          <Image Name="sgd06.png" />
+          <Image Name="sgd07.png" />
+          <Image Name="sgd08.png" />
+          <Image Name="sgd09.png" />
+          <Image Name="sgd10.png" />
+          <Image Name="sgd11.png" />
+          <Image Name="sgd12.png" />
+          <Image Name="sgd13.png" />
+          <Image Name="sgd14.png" />
+          <Image Name="sgd15.png" />
+          <Image Name="sgd16.png" />
+          <Image Name="sgd17.png" />
+          <Image Name="sgd18.png" />
+          <Image Name="sgd19.png" />
+          <Image Name="sgd20.png" />
+          <Image Name="sgd21.png" />
+        </Folder>
         <Project Name="BettlePageUI.csd" Type="Layer" />
         <Project Name="BettleReadyUI.csd" Type="Layer" />
         <Project Name="BettleStartUI.csd" Type="Layer" />
@@ -487,6 +606,9 @@
         <Project Name="InGameScene.csd" Type="Scene" />
         <Project Name="InventoryUI.csd" Type="Layer" />
         <Project Name="LoadingScene.csd" Type="Scene" />
+        <PlistInfo Name="Logo.csi" Type="Plist" />
+        <Project Name="logoani.csd" Type="Node" />
+        <Project Name="LogoUI.csd" Type="Layer" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="MainUI.csd" Type="Layer" />
         <Project Name="MessageBoxUI.csd" Type="Layer" />

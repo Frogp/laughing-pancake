@@ -10,13 +10,24 @@ InGameSceneEx::InGameSceneEx()
 	m_InGameHUDEx = new InGameHUDEx();
 	this->addChild(m_InGameHUDEx);
 
-	cocostudio::ArmatureDataManager::getInstance()->addArmatureFileInfo("armature/robot.png", "armature/robot.plist", "armature/robot.xml");
+	cocostudio::ArmatureDataManager::getInstance()->addArmatureFileInfo("armature/hero.ExportJson");
 	
-	cocostudio::Armature* armature = cocostudio::Armature::create("robot");
+	cocostudio::Armature* armature = cocostudio::Armature::create("hero");
 	armature->getAnimation()->playWithIndex(0);
-	armature->setScale(0.48f);
-	armature->getAnimation()->setSpeedScale(0.5f);
+	//armature->setScale(0.48f);
+	//armature->setAnchorPoint(ccp(0.5, 0.5));
+	//armature->getAnimation()->setSpeedScale(0.5f);
 	armature->setZOrder(99);
+	
+	TMXObjectGroup* objectGroup = m_Map_3->getObjectGroup("Object Layer 1");
+
+	// 그룹 내 특정 오브젝트
+	ValueMap& objectStart = objectGroup->getObject("player1");
+
+	int x = objectStart["x"].asInt();
+	int y = objectStart["y"].asInt();
+
+	armature->setPosition(ccp(x, y));
 	m_Map_3->addChild(armature);
 	
 }
