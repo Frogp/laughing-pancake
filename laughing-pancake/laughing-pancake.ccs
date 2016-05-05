@@ -145,6 +145,7 @@
               <Image Name="back_04.png" />
               <Image Name="back_05.png" />
               <Image Name="back_06.png" />
+              <Image Name="background.png" />
             </Folder>
             <Folder Name="hand">
               <Image Name="hand_left_01.png" />
@@ -401,6 +402,9 @@
               <Image Name="tab_chack.png" />
               <Image Name="title_chk.png" />
               <Image Name="title_chk2.png" />
+              <Image Name="uibase1.png" />
+              <Image Name="uibase2.png" />
+              <Image Name="uibase3.png" />
               <Image Name="unit_1_c.png" />
               <Image Name="unit_1_n.png" />
               <Image Name="unit_2_c.png" />
@@ -594,6 +598,19 @@
           <Image Name="sgd19.png" />
           <Image Name="sgd20.png" />
           <Image Name="sgd21.png" />
+          <Image Name="sgd22.png" />
+          <Image Name="sgd23.png" />
+          <Image Name="sgd24.png" />
+          <Image Name="sgd25.png" />
+          <Image Name="sgd26.png" />
+          <Image Name="sgd27.png" />
+          <Image Name="sgd28.png" />
+          <Image Name="sgd29.png" />
+          <Image Name="sgd30.png" />
+          <Image Name="sgd31.png" />
+          <Image Name="sgd32.png" />
+          <Image Name="sgd33.png" />
+          <Image Name="sgd34.png" />
         </Folder>
         <Project Name="BettlePageUI.csd" Type="Layer" />
         <Project Name="BettleReadyUI.csd" Type="Layer" />
@@ -616,6 +633,7 @@
         <TmxFile Name="realtest2.tmx" />
         <Project Name="StoreUI.csd" Type="Layer" />
         <Project Name="StoryScene.csd" Type="Scene" />
+        <TTF Name="visitor1.ttf" />
       </RootFolder>
     </Group>
   </SolutionFolder>

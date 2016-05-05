@@ -19,7 +19,7 @@ public:
 	MainUI(Widget* _root);
 	void InitPage();
 public:
-	cocos2d::ui::ImageView * m_Image_1;
+	cocos2d::Sprite * m_background_1;
 	cocos2d::ui::Button*  m_Button_1;
 	cocos2d::ui::Button*  m_BtBettle;
 	cocos2d::ui::Button*  m_Button_1_0_0_0_0;
@@ -30,7 +30,6 @@ public:
 	cocos2d::ui::Button*  m_Button_1_0_0_0_0_0_0_0_1;
 	cocos2d::ui::Button*  m_Button_1_0;
 	cocos2d::ui::Button*  m_Button_1_1;
-	cocostudio::Armature * m_ArmatureNode_2;
 
 	static MainUI* Getinstance()
 	{

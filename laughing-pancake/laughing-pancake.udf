@@ -28,16 +28,5 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="LogoUI.csd" />
-          <FilePathData Path="LoadingScene.csd" />
-          <FilePathData Path="InGameScene.csd" />
-          <FilePathData Path="logoani.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="LogoUI.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>

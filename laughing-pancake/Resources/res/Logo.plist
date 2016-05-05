@@ -7,117 +7,7 @@
 			<key>SGD/sgd01.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd10.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{256,0},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd11.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{512,0},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd12.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{768,0},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd13.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,128},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd14.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,384},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd15.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,640},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd16.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{0,896},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd17.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{128,128},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd18.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{128,384},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<true />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd19.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{128,640},{256,128}}</string>
+				<string>{{2,2},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -128,51 +18,29 @@
 			<key>SGD/sgd02.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{256,128},{256,128}}</string>
+				<string>{{2,262},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd20.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{512,128},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
-				<key>sourceSize</key>
-				<string>{256,128}</string>
-			</dict>
-			<key>SGD/sgd21.png</key>
-			<dict>
-				<key>frame</key>
-				<string>{{768,128},{256,128}}</string>
-				<key>offset</key>
-				<string>{0,0}</string>
-				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{256,128}</string>
 			</dict>
 			<key>SGD/sgd03.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{256,256},{256,128}}</string>
+				<string>{{2,522},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{256,128}</string>
 			</dict>
 			<key>SGD/sgd04.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{512,256},{256,128}}</string>
+				<string>{{2,782},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -183,18 +51,18 @@
 			<key>SGD/sgd05.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{768,256},{256,128}}</string>
+				<string>{{134,2},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
-				<false />
+				<true />
 				<key>sourceSize</key>
 				<string>{256,128}</string>
 			</dict>
 			<key>SGD/sgd06.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{256,384},{256,128}}</string>
+				<string>{{134,262},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -205,7 +73,7 @@
 			<key>SGD/sgd07.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{256,640},{256,128}}</string>
+				<string>{{134,522},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -216,7 +84,7 @@
 			<key>SGD/sgd08.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{256,896},{256,128}}</string>
+				<string>{{262,782},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -227,13 +95,321 @@
 			<key>SGD/sgd09.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{384,384},{256,128}}</string>
+				<string>{{266,2},{256,128}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
 				<true />
 				<key>sourceSize</key>
 				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{266,262},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{266,522},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{398,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{398,262},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{398,522},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{522,782},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{530,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd17.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{530,262},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd18.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{530,522},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd19.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{662,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd20.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{662,262},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd21.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{662,522},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd22.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{782,782},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd23.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{794,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd24.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{794,262},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd25.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{794,522},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd26.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{926,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd27.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{926,262},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd28.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{926,522},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd29.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1042,782},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd30.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1302,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd31.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1058,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd32.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1562,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd33.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1822,2},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>SGD/sgd34.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1190,134},{256,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,128}</string>
+			</dict>
+			<key>img/ui/button/uibase1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1058,262},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>img/ui/button/uibase2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1450,134},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>img/ui/button/uibase3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1582,134},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
 			</dict>
 		</dict>
 		<key>metadata</key>
@@ -245,12 +421,12 @@
 			<key>realTextureFileName</key>
 			<string>Logo.png</string>
 			<key>size</key>
-			<string>{1024,1024}</string>
+			<string>{2048,1024}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>1024</integer>
+			<integer>2048</integer>
 			<key>height</key>
 			<integer>1024</integer>
 		</dict>

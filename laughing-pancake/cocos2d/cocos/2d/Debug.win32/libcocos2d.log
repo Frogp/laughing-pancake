@@ -1,4 +1,4 @@
-﻿빌드 시작: 2016-05-06 오전 12:13:48
+﻿빌드 시작: 2016-05-06 오전 2:19:01
      1>2 노드의 "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" 프로젝트(Build 대상)입니다.
      1>PreLinkEvent:
          if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
@@ -41,4 +41,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:01.82
+경과 시간: 00:00:01.02
