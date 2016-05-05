@@ -48,7 +48,7 @@
           <FilePathData Path="OptionUI.csd" />
           <FilePathData Path="MessageBoxUI.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="BettlePageUI.csd" />
+        <ActiveDocument Path="MainUI.csd" />
       </Value>
     </Item>
   </Properties>

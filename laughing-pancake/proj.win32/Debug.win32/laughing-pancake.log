@@ -1,60 +1,60 @@
-﻿빌드 시작: 2016-05-05 오전 11:51:25
+﻿빌드 시작: 2016-05-05 오후 12:38:12
      1>3 노드의 "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" 프로젝트(Build 대상)입니다.
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\extensions" /I..\Classes /I.. /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\\" /Fd"Debug.win32\vc140.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\InGameSceneEx.cpp
+         InGameSceneEx.cpp
+     1>c:\sgd\laughing-pancake\autoclasses\ingamescene.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\ui\uihelper.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\autoclasses\ingamehud.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\autoclasses\ingameoptionui.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\autoclasses\gameresualtui.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\sgd\laughing-pancake\classes\ingamesceneex.cpp(19): warning C4996: 'cocos2d::Node::setZOrder': deprecated로 선언되었습니다.
+         c:\sgd\laughing-pancake\cocos2d\cocos\2d\ccnode.h(159): note: 'cocos2d::Node::setZOrder' 선언을 참조하십시오.
+         c:\sgd\laughing-pancake\cocos2d\cocos\2d\ccnode.h(159): note: 'cocos2d::Node::setZOrder' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\\" /LIBPATH:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\BettlePageUI.obj
+         Debug.win32\BettleReadyUI.obj
+         Debug.win32\BettleStartUI.obj
+         Debug.win32\FriendList.obj
+         Debug.win32\FriendListUI.obj
+         Debug.win32\GameResualtUI.obj
+         Debug.win32\InGameHUD.obj
+         Debug.win32\InGameOptionUI.obj
+         Debug.win32\InGameScene.obj
+         Debug.win32\InventoryUI.obj
+         Debug.win32\LoadingScene.obj
+         Debug.win32\MainScene.obj
+         Debug.win32\MainUI.obj
+         Debug.win32\MessageBoxUI.obj
+         Debug.win32\OptionUI.obj
+         Debug.win32\StoreUI.obj
+         Debug.win32\StoryScene.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\ArdaClient.obj
+         Debug.win32\GameSceneEditor.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\InGameHUDEx.obj
+         Debug.win32\InGameSceneEx.obj
+         Debug.win32\JobExample.obj
+         Debug.win32\MainSceneEx.obj
+         Debug.win32\main.obj
+         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libSpine.lib"
+         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libbox2d.lib"
          laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
        CustomBuildStep:
          if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
          xcopy "C:\SGD\laughing-pancake\proj.win32\..\Resources" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" /D /E /I /F /Y
                
          :VCEnd
-         C:\SGD\laughing-pancake\Resources\armature\bear.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear.csb
-         C:\SGD\laughing-pancake\Resources\armature\bear.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\bear0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear0.plist
-         C:\SGD\laughing-pancake\Resources\armature\bear0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear0.png
-         C:\SGD\laughing-pancake\Resources\armature\bg.jpg -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bg.jpg
-         C:\SGD\laughing-pancake\Resources\armature\blood.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\blood.plist
-         C:\SGD\laughing-pancake\Resources\armature\Cowboy.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy.csb
-         C:\SGD\laughing-pancake\Resources\armature\Cowboy.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\Cowboy0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy0.plist
-         C:\SGD\laughing-pancake\Resources\armature\Cowboy0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy0.png
-         C:\SGD\laughing-pancake\Resources\armature\cyborg.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\cyborg.plist
-         C:\SGD\laughing-pancake\Resources\armature\cyborg.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\cyborg.png
-         C:\SGD\laughing-pancake\Resources\armature\cyborg.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\cyborg.xml
-         C:\SGD\laughing-pancake\Resources\armature\Dragon.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Dragon.plist
-         C:\SGD\laughing-pancake\Resources\armature\Dragon.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Dragon.png
-         C:\SGD\laughing-pancake\Resources\armature\Dragon.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Dragon.xml
-         C:\SGD\laughing-pancake\Resources\armature\hero.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero.csb
-         C:\SGD\laughing-pancake\Resources\armature\hero.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\hero0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero0.plist
-         C:\SGD\laughing-pancake\Resources\armature\hero0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero0.png
-         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation.csb
-         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation0.plist
-         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation0.png
-         C:\SGD\laughing-pancake\Resources\armature\horse.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse.csb
-         C:\SGD\laughing-pancake\Resources\armature\horse.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\horse0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse0.plist
-         C:\SGD\laughing-pancake\Resources\armature\horse0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse0.png
-         C:\SGD\laughing-pancake\Resources\armature\knight.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\knight.plist
-         C:\SGD\laughing-pancake\Resources\armature\knight.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\knight.png
-         C:\SGD\laughing-pancake\Resources\armature\knight.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\knight.xml
-         C:\SGD\laughing-pancake\Resources\armature\robot.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\robot.plist
-         C:\SGD\laughing-pancake\Resources\armature\robot.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\robot.png
-         C:\SGD\laughing-pancake\Resources\armature\robot.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\robot.xml
-         C:\SGD\laughing-pancake\Resources\armature\TestArmatureNode.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\TestArmatureNode.csb
-         C:\SGD\laughing-pancake\Resources\armature\testEasing.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing.csb
-         C:\SGD\laughing-pancake\Resources\armature\testEasing.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\testEasing0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing0.plist
-         C:\SGD\laughing-pancake\Resources\armature\testEasing0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing0.png
-         C:\SGD\laughing-pancake\Resources\armature\weapon.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\weapon.plist
-         C:\SGD\laughing-pancake\Resources\armature\weapon.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\weapon.png
-         C:\SGD\laughing-pancake\Resources\armature\weapon.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\weapon.xml
-         C:\SGD\laughing-pancake\Resources\armature\Default\DemoPlayer.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Default\DemoPlayer.ExportJson
-         C:\SGD\laughing-pancake\Resources\armature\Default\DemoPlayer0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Default\DemoPlayer0.plist
-         C:\SGD\laughing-pancake\Resources\armature\Default\DemoPlayer0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Default\DemoPlayer0.png
-         45개 파일이 복사되었습니다.
+         0개 파일이 복사되었습니다.
      1>"C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:02.82
+경과 시간: 00:00:06.38

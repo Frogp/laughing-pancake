@@ -16,8 +16,8 @@ InGameSceneEx::InGameSceneEx()
 	armature->getAnimation()->playWithIndex(0);
 	armature->setScale(0.48f);
 	armature->getAnimation()->setSpeedScale(0.5f);
-	addChild(armature);
-
+	armature->setZOrder(99);
+	m_Map_3->addChild(armature);
 	
 }
 
