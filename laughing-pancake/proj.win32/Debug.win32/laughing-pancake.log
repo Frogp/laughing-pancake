@@ -1,125 +1,60 @@
-﻿Build started 2016-04-14 오후 10:22:25.
-     1>Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" on node 3 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\extensions" /I..\Classes /I.. /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\AutoClasses\MainScene.cpp ..\Classes\ArdaClient.cpp ..\Classes\JobExample.cpp
-         MainScene.cpp
-         ArdaClient.cpp
-         JobExample.cpp
-     1>c:\sgd\laughing-pancake\autoclasses\mainscene.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-     1>c:\sgd\laughing-pancake\classes\ardaclient.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
-     1>c:\sgd\laughing-pancake\autoclasses\mainscene.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\AutoClasses\MainScene.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\AutoClasses\MainScene.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\ArdaClient.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\JobExample.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\AutoClasses\MainScene.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\AutoClasses\MainScene.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\ArdaClient.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\ArdaClient.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\JobExample.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\JobExample.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\AutoClasses\MainScene.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\ArdaClient.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\Classes\JobExample.cpp)
-     1>c:\sgd\laughing-pancake\cocos2d\cocos\ui\uihelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss (..\AutoClasses\MainScene.cpp)
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\\" /LIBPATH:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
-         Debug.win32\BettlePageUI.obj
-         Debug.win32\BettleReadyUI.obj
-         Debug.win32\BettleStartUI.obj
-         Debug.win32\FriendList.obj
-         Debug.win32\FriendListUI.obj
-         Debug.win32\GameResualtUI.obj
-         Debug.win32\InGameHUD.obj
-         Debug.win32\InGameOptionUI.obj
-         Debug.win32\InGameScene.obj
-         Debug.win32\InventoryUI.obj
-         Debug.win32\LoadingScene.obj
-         Debug.win32\MainScene.obj
-         Debug.win32\MainUI.obj
-         Debug.win32\MessageBoxUI.obj
-         Debug.win32\OptionUI.obj
-         Debug.win32\StoreUI.obj
-         Debug.win32\StoryScene.obj
-         Debug.win32\AppDelegate.obj
-         Debug.win32\ArdaClient.obj
-         Debug.win32\GameSceneEditor.obj
-         Debug.win32\HelloWorldScene.obj
-         Debug.win32\InGameHUDEx.obj
-         Debug.win32\InGameSceneEx.obj
-         Debug.win32\JobExample.obj
-         Debug.win32\MainSceneEx.obj
-         Debug.win32\main.obj
-         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libcocos2d.lib"
-         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libSpine.lib"
-         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libbox2d.lib"
-     1>BettlePageUI.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
-            Creating library C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.lib and object C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exp
+﻿빌드 시작: 2016-05-05 오전 11:51:25
+     1>3 노드의 "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
          laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
        CustomBuildStep:
          if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
          xcopy "C:\SGD\laughing-pancake\proj.win32\..\Resources" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" /D /E /I /F /Y
                
          :VCEnd
-         C:\SGD\laughing-pancake\Resources\res\BettlePageUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettlePageUI.csb
-         C:\SGD\laughing-pancake\Resources\res\BettleReadyUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettleReadyUI.csb
-         C:\SGD\laughing-pancake\Resources\res\BettleStartUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettleStartUI.csb
-         C:\SGD\laughing-pancake\Resources\res\FriendListUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\FriendListUI.csb
-         C:\SGD\laughing-pancake\Resources\res\GameResualtUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\GameResualtUI.csb
-         C:\SGD\laughing-pancake\Resources\res\InGameHUD.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InGameHUD.csb
-         C:\SGD\laughing-pancake\Resources\res\InGameOptionUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InGameOptionUI.csb
-         C:\SGD\laughing-pancake\Resources\res\InGameScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InGameScene.csb
-         C:\SGD\laughing-pancake\Resources\res\InventoryUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InventoryUI.csb
-         C:\SGD\laughing-pancake\Resources\res\LoadingScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\LoadingScene.csb
-         C:\SGD\laughing-pancake\Resources\res\MainScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\MainScene.csb
-         C:\SGD\laughing-pancake\Resources\res\MainUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\MainUI.csb
-         C:\SGD\laughing-pancake\Resources\res\MessageBoxUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\MessageBoxUI.csb
-         C:\SGD\laughing-pancake\Resources\res\OptionUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\OptionUI.csb
-         C:\SGD\laughing-pancake\Resources\res\realtest2.tmx -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\realtest2.tmx
-         C:\SGD\laughing-pancake\Resources\res\StoreUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\StoreUI.csb
-         C:\SGD\laughing-pancake\Resources\res\StoryScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\StoryScene.csb
-         C:\SGD\laughing-pancake\Resources\res\tile.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\tile.png
-         C:\SGD\laughing-pancake\Resources\res\ani\complete2_fx.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\ani\complete2_fx.plist
-         C:\SGD\laughing-pancake\Resources\res\ani\complete2_fx.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\ani\complete2_fx.png
-         C:\SGD\laughing-pancake\Resources\res\ani\rank_icon.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\ani\rank_icon.ExportJson
-         C:\SGD\laughing-pancake\Resources\res\ani\rank_icon0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\ani\rank_icon0.plist
-         C:\SGD\laughing-pancake\Resources\res\ani\rank_icon0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\ani\rank_icon0.png
-         C:\SGD\laughing-pancake\Resources\res\Default\DemoPlayer.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\Default\DemoPlayer.ExportJson
-         C:\SGD\laughing-pancake\Resources\res\Default\DemoPlayer0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\Default\DemoPlayer0.plist
-         C:\SGD\laughing-pancake\Resources\res\Default\DemoPlayer0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\Default\DemoPlayer0.png
-         C:\SGD\laughing-pancake\Resources\res\Default\LoadingBarFile.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\Default\LoadingBarFile.png
-         C:\SGD\laughing-pancake\Resources\res\img\dummy\pc02_7.jpg -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\dummy\pc02_7.jpg
-         C:\SGD\laughing-pancake\Resources\res\img\fx\item_fx.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\fx\item_fx.plist
-         C:\SGD\laughing-pancake\Resources\res\img\fx\item_fx.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\fx\item_fx.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\bar\loadingbar.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\bar\loadingbar.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\bar\loadingbar_back.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\bar\loadingbar_back.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\box\roundbox_1.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\box\roundbox_1.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\box\titlebox1.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\box\titlebox1.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\box\titlebox1_1.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\box\titlebox1_1.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\box\uibox_02.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\box\uibox_02.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\box\white_box3.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\box\white_box3.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\box\white_box4.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\box\white_box4.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\box_button_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\box_button_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_blue1_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_blue1_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_blue1_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_blue1_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_gray_false.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_gray_false.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_green_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_green_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_green_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_green_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_org_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_org_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_org_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_org_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_red_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_red_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_red_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_red_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_yellow_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_yellow_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\button_yellow_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\button_yellow_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\menu_off_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\menu_off_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\menu_on_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\menu_on_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\menu_on_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\menu_on_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\title_chk2.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\title_chk2.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\xbutton_c.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\xbutton_c.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\button\xbutton_n.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\button\xbutton_n.png
-         C:\SGD\laughing-pancake\Resources\res\img\ui\icon\box_open_img.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\img\ui\icon\box_open_img.png
-         57개 파일이 복사되었습니다.
-     1>Done Building Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" (Build target(s)).
+         C:\SGD\laughing-pancake\Resources\armature\bear.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear.csb
+         C:\SGD\laughing-pancake\Resources\armature\bear.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\bear0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear0.plist
+         C:\SGD\laughing-pancake\Resources\armature\bear0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bear0.png
+         C:\SGD\laughing-pancake\Resources\armature\bg.jpg -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\bg.jpg
+         C:\SGD\laughing-pancake\Resources\armature\blood.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\blood.plist
+         C:\SGD\laughing-pancake\Resources\armature\Cowboy.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy.csb
+         C:\SGD\laughing-pancake\Resources\armature\Cowboy.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\Cowboy0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy0.plist
+         C:\SGD\laughing-pancake\Resources\armature\Cowboy0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Cowboy0.png
+         C:\SGD\laughing-pancake\Resources\armature\cyborg.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\cyborg.plist
+         C:\SGD\laughing-pancake\Resources\armature\cyborg.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\cyborg.png
+         C:\SGD\laughing-pancake\Resources\armature\cyborg.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\cyborg.xml
+         C:\SGD\laughing-pancake\Resources\armature\Dragon.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Dragon.plist
+         C:\SGD\laughing-pancake\Resources\armature\Dragon.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Dragon.png
+         C:\SGD\laughing-pancake\Resources\armature\Dragon.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Dragon.xml
+         C:\SGD\laughing-pancake\Resources\armature\hero.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero.csb
+         C:\SGD\laughing-pancake\Resources\armature\hero.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\hero0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero0.plist
+         C:\SGD\laughing-pancake\Resources\armature\hero0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\hero0.png
+         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation.csb
+         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation0.plist
+         C:\SGD\laughing-pancake\Resources\armature\HeroAnimation0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\HeroAnimation0.png
+         C:\SGD\laughing-pancake\Resources\armature\horse.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse.csb
+         C:\SGD\laughing-pancake\Resources\armature\horse.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\horse0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse0.plist
+         C:\SGD\laughing-pancake\Resources\armature\horse0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\horse0.png
+         C:\SGD\laughing-pancake\Resources\armature\knight.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\knight.plist
+         C:\SGD\laughing-pancake\Resources\armature\knight.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\knight.png
+         C:\SGD\laughing-pancake\Resources\armature\knight.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\knight.xml
+         C:\SGD\laughing-pancake\Resources\armature\robot.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\robot.plist
+         C:\SGD\laughing-pancake\Resources\armature\robot.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\robot.png
+         C:\SGD\laughing-pancake\Resources\armature\robot.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\robot.xml
+         C:\SGD\laughing-pancake\Resources\armature\TestArmatureNode.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\TestArmatureNode.csb
+         C:\SGD\laughing-pancake\Resources\armature\testEasing.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing.csb
+         C:\SGD\laughing-pancake\Resources\armature\testEasing.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\testEasing0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing0.plist
+         C:\SGD\laughing-pancake\Resources\armature\testEasing0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\testEasing0.png
+         C:\SGD\laughing-pancake\Resources\armature\weapon.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\weapon.plist
+         C:\SGD\laughing-pancake\Resources\armature\weapon.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\weapon.png
+         C:\SGD\laughing-pancake\Resources\armature\weapon.xml -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\weapon.xml
+         C:\SGD\laughing-pancake\Resources\armature\Default\DemoPlayer.ExportJson -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Default\DemoPlayer.ExportJson
+         C:\SGD\laughing-pancake\Resources\armature\Default\DemoPlayer0.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Default\DemoPlayer0.plist
+         C:\SGD\laughing-pancake\Resources\armature\Default\DemoPlayer0.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\armature\Default\DemoPlayer0.png
+         45개 파일이 복사되었습니다.
+     1>"C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
-Build succeeded.
+빌드했습니다.
 
-Time Elapsed 00:00:14.57
+경과 시간: 00:00:02.82

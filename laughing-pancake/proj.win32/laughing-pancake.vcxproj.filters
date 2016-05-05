@@ -13,9 +13,6 @@
     <Filter Include="AutoClasses">
       <UniqueIdentifier>{35612534-4e0c-425f-af36-8f1b9ff4d115}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\Extention">
-      <UniqueIdentifier>{a9526b18-8a85-426e-ae74-7c633c4b3473}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\ClientLogic">
       <UniqueIdentifier>{5171f6a6-d54d-496e-b63a-ec21f7b5b820}</UniqueIdentifier>
     </Filter>
@@ -24,6 +21,9 @@
     </Filter>
     <Filter Include="src\ClientLogic\Job\Interface">
       <UniqueIdentifier>{4dfadbfb-84d8-45d5-932b-25574c36815d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Extentions">
+      <UniqueIdentifier>{a9526b18-8a85-426e-ae74-7c633c4b3473}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -82,16 +82,16 @@
       <Filter>AutoClasses</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\MainSceneEx.cpp">
-      <Filter>src\Extention</Filter>
+      <Filter>src\Extentions</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\GameSceneEditor.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\InGameSceneEx.cpp">
-      <Filter>src\Extention</Filter>
+      <Filter>src\Extentions</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\InGameHUDEx.cpp">
-      <Filter>src\Extention</Filter>
+      <Filter>src\Extentions</Filter>
     </ClCompile>
     <ClCompile Include="..\AutoClasses\BettlePageUI.cpp">
       <Filter>AutoClasses</Filter>
@@ -162,16 +162,16 @@
       <Filter>AutoClasses</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\MainSceneEx.h">
-      <Filter>src\Extention</Filter>
+      <Filter>src\Extentions</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\GameSceneEditor.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\InGameSceneEx.h">
-      <Filter>src\Extention</Filter>
+      <Filter>src\Extentions</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\InGameHUDEx.h">
-      <Filter>src\Extention</Filter>
+      <Filter>src\Extentions</Filter>
     </ClInclude>
     <ClInclude Include="..\AutoClasses\BettlePageUI.h">
       <Filter>AutoClasses</Filter>
