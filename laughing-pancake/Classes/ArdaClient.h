@@ -17,6 +17,9 @@ public:
 
 	Vector<JobInterface*> vecJob;
 
+	///*****///Game Data                                //
+	std::map<std::string, std::string> GameInText;
+
 	void Init();
 	static ArdaClient* GetInstace();
 

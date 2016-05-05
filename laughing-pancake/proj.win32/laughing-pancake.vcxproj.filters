@@ -25,6 +25,9 @@
     <Filter Include="src\Extentions">
       <UniqueIdentifier>{a9526b18-8a85-426e-ae74-7c633c4b3473}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\ClientLogic\GameData">
+      <UniqueIdentifier>{68b236ea-0e53-4cd9-b19a-8d9ef12ad75f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -103,6 +106,9 @@
       <Filter>src\ClientLogic</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\JobExample.cpp">
+      <Filter>src\ClientLogic\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JobLoadInGameText.cpp">
       <Filter>src\ClientLogic\Job</Filter>
     </ClCompile>
   </ItemGroup>
@@ -187,6 +193,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\JobInterface.h">
       <Filter>src\ClientLogic\Job\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JobLoadInGameText.h">
+      <Filter>src\ClientLogic\Job</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

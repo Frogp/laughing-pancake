@@ -1,5 +1,6 @@
 #include "ArdaClient.h"
 #include "JobExample.h"
+#include "JobLoadInGameText.h"
 
 ArdaClient* ArdaClient::instance;
 
@@ -16,11 +17,16 @@ ArdaClient* ArdaClient::GetInstace()
 ArdaClient::ArdaClient()
 {
 
-	// ¿Ã∑∏∞‘ øπ¡¶√≥∑≥ √ﬂ∞° «œº≈æﬂ«’¥œ¥Ÿ
 	JobInterface* Example = new JobExample();
-	Example->autorelease(); //¿⁄µø ∞¸∏Æ «Æø° √ﬂ∞°
-	Example->retain(); // ∑°∆€∑±Ω∫ ƒ´øÓ∆Æ ¡ı∞°
-	vecJob.pushBack(Example); //¡˝æÓ≥÷¿Ω
+	Example->autorelease();
+	Example->retain(); 
+	vecJob.pushBack(Example); 
+	//////////////////////////////////////////
+
+	JobInterface* Example = new JobLoadInGameText();
+	Example->autorelease();
+	Example->retain(); 
+	vecJob.pushBack(Example); 
 	//////////////////////////////////////////
 
 	//JobInterface* Example2 = new JobSomting();

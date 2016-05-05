@@ -168,6 +168,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\InGameHUDEx.cpp" />
     <ClCompile Include="..\Classes\InGameSceneEx.cpp" />
     <ClCompile Include="..\Classes\JobExample.cpp" />
+    <ClCompile Include="..\Classes\JobLoadInGameText.cpp" />
     <ClCompile Include="..\Classes\MainSceneEx.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -197,6 +198,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\InGameSceneEx.h" />
     <ClInclude Include="..\Classes\JobExample.h" />
     <ClInclude Include="..\Classes\JobInterface.h" />
+    <ClInclude Include="..\Classes\JobLoadInGameText.h" />
     <ClInclude Include="..\Classes\MainSceneEx.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
