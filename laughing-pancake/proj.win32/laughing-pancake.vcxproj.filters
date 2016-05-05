@@ -111,6 +111,9 @@
     <ClCompile Include="..\Classes\JobLoadInGameText.cpp">
       <Filter>src\ClientLogic\Job</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\GameText.cpp">
+      <Filter>src\ClientLogic\GameData</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -196,6 +199,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\JobLoadInGameText.h">
       <Filter>src\ClientLogic\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameText.h">
+      <Filter>src\ClientLogic\GameData</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

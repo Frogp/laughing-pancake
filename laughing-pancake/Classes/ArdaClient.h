@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include "JobInterface.h"
+#include "GameText.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -17,9 +18,8 @@ public:
 
 	Vector<JobInterface*> vecJob;
 
-	///*****///Game Data                                //
-	std::map<std::string, std::string> GameInText;
-
+	GameText m_GameText;
+	
 	void Init();
 	static ArdaClient* GetInstace();
 

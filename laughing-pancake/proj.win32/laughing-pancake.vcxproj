@@ -164,6 +164,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\ArdaClient.cpp" />
     <ClCompile Include="..\Classes\GameSceneEditor.cpp" />
+    <ClCompile Include="..\Classes\GameText.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\InGameHUDEx.cpp" />
     <ClCompile Include="..\Classes\InGameSceneEx.cpp" />
@@ -193,6 +194,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ArdaClient.h" />
     <ClInclude Include="..\Classes\GameSceneEditor.h" />
+    <ClInclude Include="..\Classes\GameText.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\InGameHUDEx.h" />
     <ClInclude Include="..\Classes\InGameSceneEx.h" />

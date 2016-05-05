@@ -33,10 +33,10 @@ void JobLoadInGameText::Process()
 				const GenericValue<UTF8<> >&  ID = obj["ID"];
 				const GenericValue<UTF8<> >&  contents = obj["contents"];
 				
-				ArdaClient::GetInstace()->GameInText[ID.GetString()] = contents.GetString();
+				ArdaClient::GetInstace()->m_GameText.GameInText[ID.GetString()] = contents.GetString();
 			}
 		}
-		if (ArdaClient::GetInstace()->GameInText.size() != 0)
+		if (ArdaClient::GetInstace()->m_GameText.GameInText.size() != 0)
 		{
 			isGameInText = true;
 			cocos2d::log("GameInText Complete");

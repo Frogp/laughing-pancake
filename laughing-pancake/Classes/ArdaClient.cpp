@@ -23,7 +23,7 @@ ArdaClient::ArdaClient()
 	vecJob.pushBack(Example); 
 	//////////////////////////////////////////
 
-	JobInterface* Example = new JobLoadInGameText();
+	JobInterface* Job1 = new JobLoadInGameText();
 	Example->autorelease();
 	Example->retain(); 
 	vecJob.pushBack(Example); 
@@ -38,7 +38,6 @@ ArdaClient::ArdaClient()
 
 void ArdaClient::Init()
 {
-	//job µÓ∑œµ» µø¿€¿ª ¡¯«‡«‘.
 	Vector<JobInterface*>::iterator vistor = vecJob.begin();
 	while( vistor != vecJob.end())
 	{
