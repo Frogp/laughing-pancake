@@ -20,6 +20,7 @@ public:
 	void InitPage();
 public:
 
+	cocostudio::timeline::ActionTimeline* actionStoreUI;
 	static StoreUI* Getinstance()
 	{
 		return StoreUI::instance;	}

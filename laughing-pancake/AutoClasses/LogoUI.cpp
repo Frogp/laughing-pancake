@@ -24,7 +24,7 @@ LogoUI::LogoUI(Widget* _root)
 }
 void LogoUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionLogoUI = CSLoader::createTimeline("LogoUI.csb");
+	actionLogoUI = CSLoader::createTimeline("LogoUI.csb");
 	root->runAction(actionLogoUI);
 	m_FileNode_1= static_cast<logoani *>(root->getChildByName("FileNode_1"));
 	m_FileNode_1->retain();

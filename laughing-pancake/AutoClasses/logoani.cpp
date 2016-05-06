@@ -24,7 +24,7 @@ logoani::logoani(Widget* _root)
 }
 void logoani::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionlogoani = CSLoader::createTimeline("logoani.csb");
+	actionlogoani = CSLoader::createTimeline("logoani.csb");
 	root->runAction(actionlogoani);
 	LogoPlay = actionlogoani->getAnimationInfo("LogoPlay");
 	m_Sprite_5= static_cast<cocos2d::Sprite *>(root->getChildByName("Sprite_5"));

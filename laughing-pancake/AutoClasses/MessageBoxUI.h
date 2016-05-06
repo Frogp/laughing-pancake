@@ -22,6 +22,7 @@ public:
 public:
 	CCMessageBoxUI::Panel_1 * m_Panel_1;
 
+	cocostudio::timeline::ActionTimeline* actionMessageBoxUI;
 	static MessageBoxUI* Getinstance()
 	{
 		return MessageBoxUI::instance;	}

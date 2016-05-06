@@ -24,6 +24,6 @@ StoreUI::StoreUI(Widget* _root)
 }
 void StoreUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionStoreUI = CSLoader::createTimeline("StoreUI.csb");
+	actionStoreUI = CSLoader::createTimeline("StoreUI.csb");
 	root->runAction(actionStoreUI);
 }

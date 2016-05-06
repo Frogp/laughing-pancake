@@ -34,6 +34,7 @@ public:
 	cocostudio::Armature * m_ArmatureNode_2;
 	cocos2d::ui::Button*  m_Button_2_0;
 
+	cocostudio::timeline::ActionTimeline* actionGameResualtUI;
 	static GameResualtUI* Getinstance()
 	{
 		return GameResualtUI::instance;	}

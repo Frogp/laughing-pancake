@@ -29,6 +29,7 @@ public:
 	cocos2d::Sprite * m_loadingbar_back_1;
 	cocos2d::ui::LoadingBar * m_LoadingBar_1;
 
+	cocostudio::timeline::ActionTimeline* actionInGameHUD;
 	static InGameHUD* Getinstance()
 	{
 		return InGameHUD::instance;	}

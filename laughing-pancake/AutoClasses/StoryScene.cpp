@@ -24,6 +24,6 @@ StoryScene::StoryScene(Widget* _root)
 }
 void StoryScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionStoryScene = CSLoader::createTimeline("StoryScene.csb");
+	actionStoryScene = CSLoader::createTimeline("StoryScene.csb");
 	root->runAction(actionStoryScene);
 }

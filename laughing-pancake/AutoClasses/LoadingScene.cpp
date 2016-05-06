@@ -24,6 +24,6 @@ LoadingScene::LoadingScene(Widget* _root)
 }
 void LoadingScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionLoadingScene = CSLoader::createTimeline("LoadingScene.csb");
+	actionLoadingScene = CSLoader::createTimeline("LoadingScene.csb");
 	root->runAction(actionLoadingScene);
 }

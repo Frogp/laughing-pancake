@@ -21,8 +21,7 @@ MainSceneEx::MainSceneEx()
 	addChild(m_FileNode_3);
 	m_FileNode_3->setVisible(false);
 
-	
-
+	m_FileNode_1->actionMainUI->play("Oppening",false);
 
 	m_FileNode_1->m_BtBettle->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{

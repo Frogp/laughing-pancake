@@ -25,6 +25,7 @@ public:
 	cocos2d::ui::Button*  m_Button_1_0;
 	cocos2d::ui::Text * m_Text_1;
 
+	cocostudio::timeline::ActionTimeline* actionBettleReadyUI;
 	cocostudio::timeline::AnimationInfo SpacialAnation;
 	cocostudio::timeline::AnimationInfo MoveAni;
 	static BettleReadyUI* Getinstance()

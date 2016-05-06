@@ -21,6 +21,7 @@ public:
 public:
 	cocos2d::TMXTiledMap * m_Map_3;
 
+	cocostudio::timeline::ActionTimeline* actionInGameScene;
 	static InGameScene* Getinstance()
 	{
 		return InGameScene::instance;	}

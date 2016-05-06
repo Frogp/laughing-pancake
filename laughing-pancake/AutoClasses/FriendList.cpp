@@ -24,6 +24,6 @@ FriendList::FriendList(Widget* _root)
 }
 void FriendList::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionFriendList = CSLoader::createTimeline("FriendList.csb");
+	actionFriendList = CSLoader::createTimeline("FriendList.csb");
 	root->runAction(actionFriendList);
 }

@@ -21,6 +21,7 @@ public:
 public:
 	cocos2d::Sprite * m_Sprite_5;
 
+	cocostudio::timeline::ActionTimeline* actionlogoani;
 	cocostudio::timeline::AnimationInfo LogoPlay;
 	static logoani* Getinstance()
 	{

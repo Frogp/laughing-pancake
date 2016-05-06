@@ -31,6 +31,7 @@ public:
 	cocos2d::ui::Button*  m_close;
 	cocos2d::ui::Button*  m_Surrender;
 
+	cocostudio::timeline::ActionTimeline* actionInGameOptionUI;
 	static InGameOptionUI* Getinstance()
 	{
 		return InGameOptionUI::instance;	}

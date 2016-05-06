@@ -20,6 +20,7 @@ public:
 	void InitPage();
 public:
 
+	cocostudio::timeline::ActionTimeline* actionInventoryUI;
 	static InventoryUI* Getinstance()
 	{
 		return InventoryUI::instance;	}

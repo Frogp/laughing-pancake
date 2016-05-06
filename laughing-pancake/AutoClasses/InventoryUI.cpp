@@ -24,6 +24,6 @@ InventoryUI::InventoryUI(Widget* _root)
 }
 void InventoryUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInventoryUI = CSLoader::createTimeline("InventoryUI.csb");
+	actionInventoryUI = CSLoader::createTimeline("InventoryUI.csb");
 	root->runAction(actionInventoryUI);
 }

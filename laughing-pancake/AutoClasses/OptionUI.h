@@ -22,6 +22,7 @@ public:
 public:
 	CCOptionUI::Panel_1 * m_Panel_1;
 
+	cocostudio::timeline::ActionTimeline* actionOptionUI;
 	static OptionUI* Getinstance()
 	{
 		return OptionUI::instance;	}

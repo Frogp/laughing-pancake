@@ -486,6 +486,10 @@ namespace AutoCodeGenerator.CocosGenerator
             {
                 widgetclass = "cocos2d::ParticleSystem *";
             }
+            else //if (string.Equals(classname, "Particle") == true)
+            {
+                widgetclass = "cocos2d::Node *";
+            }
             //
             return widgetclass;
         }
@@ -494,6 +498,7 @@ namespace AutoCodeGenerator.CocosGenerator
         {
             string outputstring = "";
 
+            
             foreach (string itemObj in root)
             {
                 //outputstring += "/////////////" + itemObj + "ANIMATION/////////////\n";
@@ -543,6 +548,8 @@ namespace AutoCodeGenerator.CocosGenerator
             headerGen += GenChildName(Widgetlist);
 
             headerGen += "\n";
+
+            headerGen += "\tcocostudio::timeline::ActionTimeline* action" + ClassName + ";\n";
 
             headerGen += GenAniName(AnimationList);
 
@@ -720,7 +727,7 @@ namespace AutoCodeGenerator.CocosGenerator
 
 
             string outputstring = "";
-            outputstring += "\tcocostudio::timeline::ActionTimeline* action" + ClassName + " = CSLoader::createTimeline(\"" + ClassName + ".csb\");\n";
+            outputstring += "\taction" + ClassName + " = CSLoader::createTimeline(\"" + ClassName + ".csb\");\n";
             outputstring += "\t" + "root->runAction(action" + ClassName + ");\n";
 
             foreach (string itemObj in AnimationList)

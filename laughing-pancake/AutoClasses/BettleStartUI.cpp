@@ -24,7 +24,7 @@ BettleStartUI::BettleStartUI(Widget* _root)
 }
 void BettleStartUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionBettleStartUI = CSLoader::createTimeline("BettleStartUI.csb");
+	actionBettleStartUI = CSLoader::createTimeline("BettleStartUI.csb");
 	root->runAction(actionBettleStartUI);
 	Layout *_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	_Panel_1->retain();

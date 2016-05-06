@@ -24,7 +24,7 @@ MessageBoxUI::MessageBoxUI(Widget* _root)
 }
 void MessageBoxUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionMessageBoxUI = CSLoader::createTimeline("MessageBoxUI.csb");
+	actionMessageBoxUI = CSLoader::createTimeline("MessageBoxUI.csb");
 	root->runAction(actionMessageBoxUI);
 	Layout *_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	_Panel_1->retain();

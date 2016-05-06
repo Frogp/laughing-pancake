@@ -24,7 +24,7 @@ InGameHUD::InGameHUD(Widget* _root)
 }
 void InGameHUD::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInGameHUD = CSLoader::createTimeline("InGameHUD.csb");
+	actionInGameHUD = CSLoader::createTimeline("InGameHUD.csb");
 	root->runAction(actionInGameHUD);
 	m_Menu= static_cast<cocos2d::ui::Button* >(root->getChildByName("Menu"));
 	m_Menu->retain();

@@ -24,7 +24,7 @@ GameResualtUI::GameResualtUI(Widget* _root)
 }
 void GameResualtUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionGameResualtUI = CSLoader::createTimeline("GameResualtUI.csb");
+	actionGameResualtUI = CSLoader::createTimeline("GameResualtUI.csb");
 	root->runAction(actionGameResualtUI);
 	m_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	m_Panel_1->retain();

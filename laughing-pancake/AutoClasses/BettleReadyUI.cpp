@@ -24,7 +24,7 @@ BettleReadyUI::BettleReadyUI(Widget* _root)
 }
 void BettleReadyUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionBettleReadyUI = CSLoader::createTimeline("BettleReadyUI.csb");
+	actionBettleReadyUI = CSLoader::createTimeline("BettleReadyUI.csb");
 	root->runAction(actionBettleReadyUI);
 	SpacialAnation = actionBettleReadyUI->getAnimationInfo("SpacialAnation");
 	MoveAni = actionBettleReadyUI->getAnimationInfo("MoveAni");

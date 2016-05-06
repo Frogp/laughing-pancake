@@ -20,6 +20,7 @@ public:
 	void InitPage();
 public:
 
+	cocostudio::timeline::ActionTimeline* actionFriendListUI;
 	static FriendListUI* Getinstance()
 	{
 		return FriendListUI::instance;	}

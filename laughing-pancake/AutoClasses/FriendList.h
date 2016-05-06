@@ -20,6 +20,7 @@ public:
 	void InitPage();
 public:
 
+	cocostudio::timeline::ActionTimeline* actionFriendList;
 	static FriendList* Getinstance()
 	{
 		return FriendList::instance;	}

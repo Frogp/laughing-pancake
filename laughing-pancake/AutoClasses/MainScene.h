@@ -20,6 +20,7 @@ public:
 	void InitPage();
 public:
 
+	cocostudio::timeline::ActionTimeline* actionMainScene;
 	static MainScene* Getinstance()
 	{
 		return MainScene::instance;	}

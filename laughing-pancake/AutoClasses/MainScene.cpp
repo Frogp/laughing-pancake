@@ -24,6 +24,6 @@ MainScene::MainScene(Widget* _root)
 }
 void MainScene::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionMainScene = CSLoader::createTimeline("MainScene.csb");
+	actionMainScene = CSLoader::createTimeline("MainScene.csb");
 	root->runAction(actionMainScene);
 }

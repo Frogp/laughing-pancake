@@ -3,6 +3,8 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "MainUI/Node_1_0.h"
+#include "MainUI/Node_1.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -19,18 +21,19 @@ public:
 	MainUI(Widget* _root);
 	void InitPage();
 public:
-	cocos2d::Sprite * m_background_1;
-	cocos2d::ui::Button*  m_Button_1;
+	cocos2d::Sprite * m_background;
+	cocos2d::ui::Button*  m_BtAdventure;
+	CCMainUI::Node_1_0 * m_Node_1_0;
 	cocos2d::ui::Button*  m_BtBettle;
-	cocos2d::ui::Button*  m_Button_1_0_0_0_0;
-	cocos2d::ui::Button*  m_Button_1_0_0_0_0_0;
-	cocos2d::ui::Button*  m_Button_1_0_0_0_0_0_0;
-	cocos2d::ui::Button*  m_Button_1_0_0_0_0_0_0_0;
-	cocos2d::ui::Button*  m_Button_1_0_0_0_0_0_0_0_0;
-	cocos2d::ui::Button*  m_Button_1_0_0_0_0_0_0_0_1;
-	cocos2d::ui::Button*  m_Button_1_0;
-	cocos2d::ui::Button*  m_Button_1_1;
+	CCMainUI::Node_1 * m_Node_1;
+	cocos2d::ui::Button*  m_BtFriends;
+	cocos2d::ui::Button*  m_BtAchiv;
+	cocos2d::ui::Button*  m_BtLevel;
+	cocos2d::ui::Button*  m_BtMoney;
+	cocos2d::ui::Button*  m_BtOption;
 
+	cocostudio::timeline::ActionTimeline* actionMainUI;
+	cocostudio::timeline::AnimationInfo Oppening;
 	static MainUI* Getinstance()
 	{
 		return MainUI::instance;	}

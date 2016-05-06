@@ -31,6 +31,7 @@ public:
 	cocos2d::Sprite * m_menu_off_n_1_0;
 	cocos2d::ui::Text * m_Text_2_0;
 
+	cocostudio::timeline::ActionTimeline* actionBettleStartUI;
 	static BettleStartUI* Getinstance()
 	{
 		return BettleStartUI::instance;	}

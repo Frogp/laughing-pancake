@@ -31,6 +31,7 @@ public:
 	cocos2d::ui::Text * m_Text_1;
 	cocos2d::ui::Text * m_Text_1_0;
 
+	cocostudio::timeline::ActionTimeline* actionBettlePageUI;
 	static BettlePageUI* Getinstance()
 	{
 		return BettlePageUI::instance;	}

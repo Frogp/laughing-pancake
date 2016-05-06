@@ -24,6 +24,6 @@ FriendListUI::FriendListUI(Widget* _root)
 }
 void FriendListUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionFriendListUI = CSLoader::createTimeline("FriendListUI.csb");
+	actionFriendListUI = CSLoader::createTimeline("FriendListUI.csb");
 	root->runAction(actionFriendListUI);
 }

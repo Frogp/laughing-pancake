@@ -24,7 +24,7 @@ InGameOptionUI::InGameOptionUI(Widget* _root)
 }
 void InGameOptionUI::InitPage()
 {
-	cocostudio::timeline::ActionTimeline* actionInGameOptionUI = CSLoader::createTimeline("InGameOptionUI.csb");
+	actionInGameOptionUI = CSLoader::createTimeline("InGameOptionUI.csb");
 	root->runAction(actionInGameOptionUI);
 	m_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
 	m_Panel_1->retain();

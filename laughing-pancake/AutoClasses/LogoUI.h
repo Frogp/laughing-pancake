@@ -22,6 +22,7 @@ public:
 public:
 	logoani * m_FileNode_1;
 
+	cocostudio::timeline::ActionTimeline* actionLogoUI;
 	static LogoUI* Getinstance()
 	{
 		return LogoUI::instance;	}
