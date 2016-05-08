@@ -1,0 +1,27 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="LPlogo" Type="Plist" ID="67a35145-7ace-4a8c-bbeb-d72505c8ff33" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="LP/ani01.png" />
+      <FilePathData Path="LP/ani02.png" />
+      <FilePathData Path="LP/ani03.png" />
+      <FilePathData Path="LP/ani04.png" />
+      <FilePathData Path="LP/ani05.png" />
+      <FilePathData Path="LP/ani06.png" />
+      <FilePathData Path="LP/ani07.png" />
+      <FilePathData Path="LP/ani08.png" />
+      <FilePathData Path="LP/ani09.png" />
+      <FilePathData Path="LP/ani10.png" />
+      <FilePathData Path="LP/ani11.png" />
+      <FilePathData Path="LP/ani12.png" />
+      <FilePathData Path="LP/ani13.png" />
+      <FilePathData Path="LP/ani14.png" />
+      <FilePathData Path="LP/ani15.png" />
+      <FilePathData Path="LP/ani16.png" />
+      <FilePathData Path="LP/ani17.png" />
+      <FilePathData Path="LP/ani19.png" />
+      <FilePathData Path="LP/ani20.png" />
+    </ImageFiles>
+    <MaxSize Width="2048" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

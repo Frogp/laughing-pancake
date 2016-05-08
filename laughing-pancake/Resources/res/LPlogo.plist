@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>LP/ani01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,256},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,512},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,768},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,0},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani06.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,256},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,512},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani08.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,768},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{512,0},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{512,256},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{512,512},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{512,768},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,0},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,256},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,512},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani16.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,768},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani17.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1024,0},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani19.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1024,256},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>LP/ani20.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1024,512},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>LPlogo.png</string>
+			<key>realTextureFileName</key>
+			<string>LPlogo.png</string>
+			<key>size</key>
+			<string>{2048,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>
