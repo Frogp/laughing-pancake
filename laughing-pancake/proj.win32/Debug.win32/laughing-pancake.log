@@ -1,4 +1,4 @@
-﻿빌드 시작: 2016-05-06 오후 12:16:21
+﻿빌드 시작: 2016-05-08 오후 10:27:01
      1>3 노드의 "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" 프로젝트(Build 대상)입니다.
      1>Link:
          laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
@@ -7,31 +7,9 @@
          xcopy "C:\SGD\laughing-pancake\proj.win32\..\Resources" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" /D /E /I /F /Y
                
          :VCEnd
-         C:\SGD\laughing-pancake\Resources\res\BettlePageUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettlePageUI.csb
-         C:\SGD\laughing-pancake\Resources\res\BettleReadyUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettleReadyUI.csb
-         C:\SGD\laughing-pancake\Resources\res\BettleStartUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\BettleStartUI.csb
-         C:\SGD\laughing-pancake\Resources\res\FriendListUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\FriendListUI.csb
-         C:\SGD\laughing-pancake\Resources\res\GameResualtUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\GameResualtUI.csb
-         C:\SGD\laughing-pancake\Resources\res\InGameHUD.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InGameHUD.csb
-         C:\SGD\laughing-pancake\Resources\res\InGameOptionUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InGameOptionUI.csb
-         C:\SGD\laughing-pancake\Resources\res\InGameScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InGameScene.csb
-         C:\SGD\laughing-pancake\Resources\res\InventoryUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\InventoryUI.csb
-         C:\SGD\laughing-pancake\Resources\res\LoadingScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\LoadingScene.csb
-         C:\SGD\laughing-pancake\Resources\res\Logo.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\Logo.plist
-         C:\SGD\laughing-pancake\Resources\res\Logo.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\Logo.png
-         C:\SGD\laughing-pancake\Resources\res\logoani.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\logoani.csb
-         C:\SGD\laughing-pancake\Resources\res\LogoUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\LogoUI.csb
-         C:\SGD\laughing-pancake\Resources\res\MainScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\MainScene.csb
-         C:\SGD\laughing-pancake\Resources\res\MainUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\MainUI.csb
-         C:\SGD\laughing-pancake\Resources\res\MessageBoxUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\MessageBoxUI.csb
-         C:\SGD\laughing-pancake\Resources\res\OptionUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\OptionUI.csb
-         C:\SGD\laughing-pancake\Resources\res\StoreUI.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\StoreUI.csb
-         C:\SGD\laughing-pancake\Resources\res\StoryScene.csb -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\StoryScene.csb
-         C:\SGD\laughing-pancake\Resources\res\armature\Logo.plist -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\armature\Logo.plist
-         C:\SGD\laughing-pancake\Resources\res\armature\Logo.png -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\res\armature\Logo.png
-         22개 파일이 복사되었습니다.
+         0개 파일이 복사되었습니다.
      1>"C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.17
+경과 시간: 00:00:00.26

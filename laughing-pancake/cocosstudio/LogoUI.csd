@@ -16,6 +16,16 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="logoani.csd" Plist="" />
           </AbstractNodeData>
+          <AbstractNodeData Name="LPlogoUI" ActionTag="1259200118" Tag="17" IconVisible="True" LeftMargin="640.6242" RightMargin="639.3758" TopMargin="392.2701" BottomMargin="407.7299" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="640.6242" Y="407.7299" />
+            <Scale ScaleX="3.2567" ScaleY="3.2567" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5005" Y="0.5097" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="LPlogo.csd" Plist="" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

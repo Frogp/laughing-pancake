@@ -4,6 +4,7 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "logoani.h"
+#include "LPlogo.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -21,6 +22,7 @@ public:
 	void InitPage();
 public:
 	logoani * m_FileNode_1;
+	LPlogo * m_LPlogoUI;
 
 	cocostudio::timeline::ActionTimeline* actionLogoUI;
 	static LogoUI* Getinstance()

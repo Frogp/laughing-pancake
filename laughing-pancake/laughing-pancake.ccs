@@ -576,6 +576,29 @@
             </Folder>
           </Folder>
         </Folder>
+        <Folder Name="LP">
+          <Image Name="ani01.png" />
+          <Image Name="ani02.png" />
+          <Image Name="ani03.png" />
+          <Image Name="ani04.png" />
+          <Image Name="ani05.png" />
+          <Image Name="ani06.png" />
+          <Image Name="ani07.png" />
+          <Image Name="ani08.png" />
+          <Image Name="ani09.png" />
+          <Image Name="ani10.png" />
+          <Image Name="ani11.png" />
+          <Image Name="ani12.png" />
+          <Image Name="ani13.png" />
+          <Image Name="ani14.png" />
+          <Image Name="ani15.png" />
+          <Image Name="ani16.png" />
+          <Image Name="ani17.png" />
+          <Image Name="ani19.png" />
+          <Image Name="ani20.png" />
+          <Image Name="uibase3.png" />
+          <Image Name="uibase4.png" />
+        </Folder>
         <Folder Name="SGD">
           <Image Name="sgd01.png" />
           <Image Name="sgd02.png" />
@@ -626,6 +649,7 @@
         <PlistInfo Name="Logo.csi" Type="Plist" />
         <Project Name="logoani.csd" Type="Node" />
         <Project Name="LogoUI.csd" Type="Layer" />
+        <PlistInfo Name="LPlogo.csi" Type="Plist" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="MainUI.csd" Type="Layer" />
         <Project Name="MessageBoxUI.csd" Type="Layer" />
@@ -634,6 +658,7 @@
         <Project Name="StoreUI.csd" Type="Layer" />
         <Project Name="StoryScene.csd" Type="Scene" />
         <TTF Name="visitor1.ttf" />
+        <Project Name="LPlogo.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>
