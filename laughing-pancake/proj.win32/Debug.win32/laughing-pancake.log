@@ -1,15 +1,2 @@
-﻿Build started 2016-05-13 오전 10:29:20.
-     1>Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" on node 3 (Build target(s)).
-     1>Link:
-         laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
-       CustomBuildStep:
-         if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
-         xcopy "C:\SGD\laughing-pancake\proj.win32\..\Resources" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" /D /E /I /F /Y
-               
-         :VCEnd
-         0개 파일이 복사되었습니다.
-     1>Done Building Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.41
+﻿  laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
+  0개 파일이 복사되었습니다.

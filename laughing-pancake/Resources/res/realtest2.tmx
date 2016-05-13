@@ -3,29 +3,39 @@
  <tileset firstgid="1" name="tile" tilewidth="150" tileheight="200" tilecount="20" columns="5">
   <image source="tile.png" width="800" height="800"/>
  </tileset>
- <layer name="Movable" width="9" height="9">
+ <layer name="Movable" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYCAdsGDhExLDxWfBwsclRggTYw6x7sMnhg4AXIQAoQ==
   </data>
  </layer>
- <layer name="Player1spawn" width="9" height="9">
+ <layer name="Player1spawn" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYBgF+AALEWoAAdQABQ==
   </data>
  </layer>
- <layer name="Player2spawn" width="9" height="9">
+ <layer name="Player2spawn" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYKAcsFDBjKEMAAVEAAU=
   </data>
  </layer>
- <layer name="Water" width="9" height="9">
+ <layer name="Water" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYMAEjGgYGyAkj66OkBpqAGLMIeQeYvyFHj4ADVwAFQ==
   </data>
  </layer>
- <layer name="Tree" width="9" height="9">
+ <layer name="Tree" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJxjYmBgYELD6ICQPDZ1hNQQAsSoIQYQMocY9xDyFwAjPAAr
+  </data>
+ </layer>
+ <layer name="SELECTED" width="9" height="9" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjY2BgYBvFFGEAOKsB5w==
+  </data>
+ </layer>
+ <layer name="All" width="9" height="9">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYELDjGgYXZ4FTZ4FitHVsOBRw4KmhgUNo6shBhNjDiH3EOMv9PABAIqUAN8=
   </data>
  </layer>
  <objectgroup name="Object Layer 1">

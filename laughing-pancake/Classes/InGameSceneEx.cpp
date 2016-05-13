@@ -1,5 +1,6 @@
 #include "InGameSceneEx.h"
 #include "cocostudio/CocoStudio.h"
+#include "TMXLayerUtil.h"
 
 InGameSceneEx::InGameSceneEx()
 {
@@ -20,6 +21,7 @@ InGameSceneEx::InGameSceneEx()
 	armature->setZOrder(99);
 	
 	TMXObjectGroup* objectGroup = m_Map_3->getObjectGroup("Object Layer 1");
+	auto _layer = m_Map_3->layerNamed("All");
 
 	// 그룹 내 특정 오브젝트
 	ValueMap& objectStart = objectGroup->getObject("player1");
@@ -29,6 +31,8 @@ InGameSceneEx::InGameSceneEx()
 
 	armature->setPosition(ccp(x, y));
 	m_Map_3->addChild(armature);
+
+	TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), ccp(0, 8), _layer);
 	
 }
 
@@ -40,3 +44,5 @@ void InGameSceneEx::onTouchesMoved(const std::vector<Touch*>& touches, Event  *e
 	auto currentPos = m_Map_3->getPosition();
 	m_Map_3->setPosition(currentPos + diff);
 }
+
+

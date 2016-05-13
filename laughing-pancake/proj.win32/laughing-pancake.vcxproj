@@ -179,6 +179,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\LoadingSceneEx.cpp" />
     <ClCompile Include="..\Classes\MainSceneEx.cpp" />
     <ClCompile Include="..\Classes\ObjCharictorEx.cpp" />
+    <ClCompile Include="..\Classes\TMXLayerUtil.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -218,6 +219,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\LoadingSceneEx.h" />
     <ClInclude Include="..\Classes\MainSceneEx.h" />
     <ClInclude Include="..\Classes\ObjCharictorEx.h" />
+    <ClInclude Include="..\Classes\TMXLayerUtil.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

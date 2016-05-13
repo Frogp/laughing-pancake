@@ -659,6 +659,8 @@
         <Project Name="BettlePageUI.csd" Type="Layer" />
         <Project Name="BettleReadyUI.csd" Type="Layer" />
         <Project Name="BettleStartUI.csd" Type="Layer" />
+        <Project Name="ConnerItem.csd" Type="Node" />
+        <PlistInfo Name="ConnerItem.csi" Type="Plist" />
         <Project Name="FriendListUI.csd" Type="Layer" />
         <Project Name="GameResualtUI.csd" Type="Layer" />
         <Image Name="HelloWorld.png" />
@@ -680,8 +682,6 @@
         <Project Name="StoreUI.csd" Type="Layer" />
         <Project Name="StoryScene.csd" Type="Scene" />
         <TTF Name="visitor1.ttf" />
-        <PlistInfo Name="ConnerItem.csi" Type="Plist" />
-        <Project Name="ConnerItem.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -37,6 +37,18 @@ MainSceneEx::MainSceneEx()
 		}
 	});
 
+	m_FileNode_1->m_BtAdventure->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	{
+		if (type == Widget::TouchEventType::ENDED)
+		{
+			auto director = Director::getInstance();
+			Scene* scene = Scene::create();
+			Layer *layer = new InGameSceneEx();
+			scene->addChild(layer);
+			director->replaceScene((Scene*)scene);
+		}
+	});
+
 	m_BettlePageUI->m_Panel_8->m_btBack->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		if (type == Widget::TouchEventType::ENDED)

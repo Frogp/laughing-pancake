@@ -31,6 +31,9 @@
     <Filter Include="src\Extentions\SubClassEx">
       <UniqueIdentifier>{8d9c1bfd-65d6-4eca-b8ac-8a61a8b1ac9b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\ClientLogic\Map">
+      <UniqueIdentifier>{ecc0d2b1-2b2c-4244-84a2-8fe5ca6a5771}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -140,6 +143,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\ObjCharictorEx.cpp">
       <Filter>src\Extentions\SubClassEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TMXLayerUtil.cpp">
+      <Filter>src\ClientLogic\Map</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -253,6 +259,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\ObjCharictorEx.h">
       <Filter>src\Extentions\SubClassEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TMXLayerUtil.h">
+      <Filter>src\ClientLogic\Map</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
