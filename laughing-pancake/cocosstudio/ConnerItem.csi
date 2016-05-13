@@ -1,0 +1,21 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="ConnerItem" Type="Plist" ID="4aa5113d-aaea-44e3-97e4-5b1e3e490129" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem04.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem05.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem06.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem07.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem08.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem09.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem10.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem11.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem12.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem13.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem14.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem15.png" />
+      <FilePathData Path="img/ui/box/ConneritemAtlas/Conneritem16.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>
