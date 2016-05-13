@@ -169,6 +169,7 @@
             </Folder>
             <Folder Name="npc">
               <Image Name="black_back.png" />
+              <Image Name="Char1.png" />
               <Image Name="jebi01.png" />
               <Image Name="talk_box.png" />
             </Folder>
@@ -295,14 +296,34 @@
               <Image Name="time_bar.png" />
             </Folder>
             <Folder Name="box">
+              <Folder Name="ConneritemAtlas">
+                <Image Name="Conneritem04.png" />
+                <Image Name="Conneritem05.png" />
+                <Image Name="Conneritem06.png" />
+                <Image Name="Conneritem07.png" />
+                <Image Name="Conneritem08.png" />
+                <Image Name="Conneritem09.png" />
+                <Image Name="Conneritem10.png" />
+                <Image Name="Conneritem11.png" />
+                <Image Name="Conneritem12.png" />
+                <Image Name="Conneritem13.png" />
+                <Image Name="Conneritem14.png" />
+                <Image Name="Conneritem15.png" />
+                <Image Name="Conneritem16.png" />
+              </Folder>
               <Image Name="bar_black.png" />
               <Image Name="best_score_img.png" />
               <Image Name="bike_body.png" />
               <Image Name="black_box.png" />
               <Image Name="black_box2.png" />
               <Image Name="boost_back.png" />
+              <Image Name="Boxdot.png" />
               <Image Name="cash_in_box.png" />
               <Image Name="cash_in_box2.png" />
+              <Image Name="Conneritem.png" />
+              <Image Name="Conneritem2.png" />
+              <Image Name="Conneritem3.png" />
+              <Image Name="Conneritem4.png" />
               <Image Name="deco1.png" />
               <Image Name="item_select.png" />
               <Image Name="item_select2.png" />
@@ -649,6 +670,7 @@
         <PlistInfo Name="Logo.csi" Type="Plist" />
         <Project Name="logoani.csd" Type="Node" />
         <Project Name="LogoUI.csd" Type="Layer" />
+        <Project Name="LPlogo.csd" Type="Node" />
         <PlistInfo Name="LPlogo.csi" Type="Plist" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="MainUI.csd" Type="Layer" />
@@ -658,7 +680,8 @@
         <Project Name="StoreUI.csd" Type="Layer" />
         <Project Name="StoryScene.csd" Type="Scene" />
         <TTF Name="visitor1.ttf" />
-        <Project Name="LPlogo.csd" Type="Node" />
+        <PlistInfo Name="ConnerItem.csi" Type="Plist" />
+        <Project Name="ConnerItem.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>

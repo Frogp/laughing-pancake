@@ -147,6 +147,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\AutoClasses\BettlePageUI.cpp" />
     <ClCompile Include="..\AutoClasses\BettleReadyUI.cpp" />
     <ClCompile Include="..\AutoClasses\BettleStartUI.cpp" />
+    <ClCompile Include="..\AutoClasses\ConnerItem.cpp" />
     <ClCompile Include="..\AutoClasses\FriendList.cpp" />
     <ClCompile Include="..\AutoClasses\FriendListUI.cpp" />
     <ClCompile Include="..\AutoClasses\GameResualtUI.cpp" />
@@ -158,6 +159,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\AutoClasses\logoani.cpp" />
     <ClCompile Include="..\AutoClasses\LogoScene.cpp" />
     <ClCompile Include="..\AutoClasses\LogoUI.cpp" />
+    <ClCompile Include="..\AutoClasses\LPlogo.cpp" />
     <ClCompile Include="..\AutoClasses\MainScene.cpp" />
     <ClCompile Include="..\AutoClasses\MainUI.cpp" />
     <ClCompile Include="..\AutoClasses\MessageBoxUI.cpp" />
@@ -166,6 +168,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\AutoClasses\StoryScene.cpp" />
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\ArdaClient.cpp" />
+    <ClCompile Include="..\Classes\BettlePageUIEx.cpp" />
     <ClCompile Include="..\Classes\GameSceneEditor.cpp" />
     <ClCompile Include="..\Classes\GameText.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
@@ -175,12 +178,14 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\JobLoadInGameText.cpp" />
     <ClCompile Include="..\Classes\LoadingSceneEx.cpp" />
     <ClCompile Include="..\Classes\MainSceneEx.cpp" />
+    <ClCompile Include="..\Classes\ObjCharictorEx.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\AutoClasses\BettlePageUI.h" />
     <ClInclude Include="..\AutoClasses\BettleReadyUI.h" />
     <ClInclude Include="..\AutoClasses\BettleStartUI.h" />
+    <ClInclude Include="..\AutoClasses\ConnerItem.h" />
     <ClInclude Include="..\AutoClasses\FriendList.h" />
     <ClInclude Include="..\AutoClasses\FriendListUI.h" />
     <ClInclude Include="..\AutoClasses\GameResualtUI.h" />
@@ -192,6 +197,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\AutoClasses\logoani.h" />
     <ClInclude Include="..\AutoClasses\LogoScene.h" />
     <ClInclude Include="..\AutoClasses\LogoUI.h" />
+    <ClInclude Include="..\AutoClasses\LPlogo.h" />
     <ClInclude Include="..\AutoClasses\MainScene.h" />
     <ClInclude Include="..\AutoClasses\MainUI.h" />
     <ClInclude Include="..\AutoClasses\MessageBoxUI.h" />
@@ -200,6 +206,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\AutoClasses\StoryScene.h" />
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ArdaClient.h" />
+    <ClInclude Include="..\Classes\BettlePageUIEx.h" />
     <ClInclude Include="..\Classes\GameSceneEditor.h" />
     <ClInclude Include="..\Classes\GameText.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
@@ -210,6 +217,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\JobLoadInGameText.h" />
     <ClInclude Include="..\Classes\LoadingSceneEx.h" />
     <ClInclude Include="..\Classes\MainSceneEx.h" />
+    <ClInclude Include="..\Classes\ObjCharictorEx.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

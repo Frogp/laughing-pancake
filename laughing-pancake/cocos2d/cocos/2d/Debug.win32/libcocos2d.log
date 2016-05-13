@@ -1,5 +1,5 @@
-﻿빌드 시작: 2016-05-08 오후 10:27:00
-     1>2 노드의 "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" 프로젝트(Build 대상)입니다.
+﻿Build started 2016-05-13 오전 10:29:18.
+     1>Project "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" on node 2 (Build target(s)).
      1>PreLinkEvent:
          if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
          xcopy /Y /Q "C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\prebuilt\win32\*.*" "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
@@ -37,8 +37,8 @@
          2개 파일이 복사되었습니다.
        Link:
          libcocos2d.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\libcocos2d.dll
-     1>"C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+     1>Done Building Project "C:\SGD\laughing-pancake\cocos2d\cocos\2d\libcocos2d.vcxproj" (Build target(s)).
 
-빌드했습니다.
+Build succeeded.
 
-경과 시간: 00:00:01.17
+Time Elapsed 00:00:02.02

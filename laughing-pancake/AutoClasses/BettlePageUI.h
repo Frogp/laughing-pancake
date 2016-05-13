@@ -3,8 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include "BettlePageUI/Panel_2.h"
-#include "BettlePageUI/Panel_3.h"
+#include "BettlePageUI/Panel_8.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -21,17 +20,10 @@ public:
 	BettlePageUI(Widget* _root);
 	void InitPage();
 public:
-	CCBettlePageUI::Panel_2 * m_Panel_2;
-	cocos2d::Sprite * m_titlebox1_1;
-	CCBettlePageUI::Panel_3 * m_Panel_3;
-	cocos2d::Sprite * m_titlebox1_1_6;
-	cocos2d::ui::Button*  m_BtNormal;
-	cocos2d::ui::Button*  m_Button_1;
-	cocos2d::ui::Button*  m_BtRank;
-	cocos2d::ui::Text * m_Text_1;
-	cocos2d::ui::Text * m_Text_1_0;
+	CCBettlePageUI::Panel_8 * m_Panel_8;
 
 	cocostudio::timeline::ActionTimeline* actionBettlePageUI;
+	cocostudio::timeline::AnimationInfo Oppening;
 	static BettlePageUI* Getinstance()
 	{
 		return BettlePageUI::instance;	}

@@ -39,6 +39,12 @@
       <FilePathData Path="img/ui/button/uibase1.png" />
       <FilePathData Path="img/ui/button/uibase2.png" />
       <FilePathData Path="img/ui/button/uibase3.png" />
+      <FilePathData Path="img/ui/box/Boxdot.png" />
+      <FilePathData Path="img/ui/box/Conneritem.png" />
+      <FilePathData Path="img/ui/box/Conneritem2.png" />
+      <FilePathData Path="img/ui/box/Conneritem3.png" />
+      <FilePathData Path="img/ui/box/Conneritem4.png" />
+      <FilePathData Path="img/game/npc/Char1.png" />
     </ImageFiles>
     <MaxSize Width="2048" Height="1024" />
   </Content>

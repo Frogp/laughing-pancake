@@ -28,6 +28,9 @@
     <Filter Include="src\ClientLogic\GameData">
       <UniqueIdentifier>{68b236ea-0e53-4cd9-b19a-8d9ef12ad75f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Extentions\SubClassEx">
+      <UniqueIdentifier>{8d9c1bfd-65d6-4eca-b8ac-8a61a8b1ac9b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -125,6 +128,18 @@
     </ClCompile>
     <ClCompile Include="..\Classes\LoadingSceneEx.cpp">
       <Filter>src\Extentions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BettlePageUIEx.cpp">
+      <Filter>src\Extentions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\ConnerItem.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AutoClasses\LPlogo.cpp">
+      <Filter>AutoClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ObjCharictorEx.cpp">
+      <Filter>src\Extentions\SubClassEx</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -226,6 +241,18 @@
     </ClInclude>
     <ClInclude Include="..\Classes\LoadingSceneEx.h">
       <Filter>src\Extentions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BettlePageUIEx.h">
+      <Filter>src\Extentions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\ConnerItem.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AutoClasses\LPlogo.h">
+      <Filter>AutoClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ObjCharictorEx.h">
+      <Filter>src\Extentions\SubClassEx</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

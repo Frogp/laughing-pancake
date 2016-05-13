@@ -34,6 +34,8 @@ public:
 
 	cocostudio::timeline::ActionTimeline* actionMainUI;
 	cocostudio::timeline::AnimationInfo Oppening;
+	cocostudio::timeline::AnimationInfo NextView;
+	cocostudio::timeline::AnimationInfo ReView;
 	static MainUI* Getinstance()
 	{
 		return MainUI::instance;	}

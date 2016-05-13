@@ -26,100 +26,187 @@ void BettlePageUI::InitPage()
 {
 	actionBettlePageUI = CSLoader::createTimeline("BettlePageUI.csb");
 	root->runAction(actionBettlePageUI);
-	Layout *_Panel_2= static_cast<Layout *>(root->getChildByName("Panel_2"));
-	_Panel_2->retain();
-	m_Panel_2 = new CCBettlePageUI::Panel_2();
-	m_Panel_2->root = _Panel_2;
+	Oppening = actionBettlePageUI->getAnimationInfo("Oppening");
+	Layout *_Panel_8= static_cast<Layout *>(root->getChildByName("Panel_8"));
+	_Panel_8->retain();
+	m_Panel_8 = new CCBettlePageUI::Panel_8();
+	m_Panel_8->root = _Panel_8;
 	{
-		ListView *_ListView_1= static_cast<ListView *>(_Panel_2->getChildByName("ListView_1"));
-		_ListView_1->retain();
-		m_Panel_2->m_ListView_1 = new CCPanel_2::ListView_1();
-		m_Panel_2->m_ListView_1->root = _ListView_1;
+		Layout *_Panel_2= static_cast<Layout *>(_Panel_8->getChildByName("Panel_2"));
+		_Panel_2->retain();
+		m_Panel_8->m_Panel_2 = new CCPanel_8::Panel_2();
+		m_Panel_8->m_Panel_2->root = _Panel_2;
 		{
-			Layout *_Panel_1= static_cast<Layout *>(_ListView_1->getChildByName("Panel_1"));
-			_Panel_1->retain();
-			m_Panel_2->m_ListView_1->m_Panel_1 = new CCListView_1::Panel_1();
-			m_Panel_2->m_ListView_1->m_Panel_1->root = _Panel_1;
+			Layout *_Panel_1_0= static_cast<Layout *>(_Panel_2->getChildByName("Panel_1_0"));
+			_Panel_1_0->retain();
+			m_Panel_8->m_Panel_2->m_Panel_1_0 = new CCPanel_2::Panel_1_0();
+			m_Panel_8->m_Panel_2->m_Panel_1_0->root = _Panel_1_0;
 			{
-				m_Panel_2->m_ListView_1->m_Panel_1->m_Button_1_0= static_cast<cocos2d::ui::Button* >(_Panel_1->getChildByName("Button_1_0"));
-				m_Panel_2->m_ListView_1->m_Panel_1->m_Button_1_0->retain();
+				m_Panel_8->m_Panel_2->m_Panel_1_0->m_Conneritem3_18= static_cast<cocos2d::Sprite *>(_Panel_1_0->getChildByName("Conneritem3_18"));
+				m_Panel_8->m_Panel_2->m_Panel_1_0->m_Conneritem3_18->retain();
+				m_Panel_8->m_Panel_2->m_Panel_1_0->m_Conneritem3_18_0= static_cast<cocos2d::Sprite *>(_Panel_1_0->getChildByName("Conneritem3_18_0"));
+				m_Panel_8->m_Panel_2->m_Panel_1_0->m_Conneritem3_18_0->retain();
+				m_Panel_8->m_Panel_2->m_Panel_1_0->m_Text_1_0= static_cast<cocos2d::ui::Text *>(_Panel_1_0->getChildByName("Text_1_0"));
+				m_Panel_8->m_Panel_2->m_Panel_1_0->m_Text_1_0->retain();
+			}
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0= static_cast<cocos2d::Sprite *>(_Panel_2->getChildByName("Conneritem_3_0"));
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0->retain();
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0_0= static_cast<cocos2d::Sprite *>(_Panel_2->getChildByName("Conneritem_3_0_0"));
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0_0->retain();
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0_0_0= static_cast<cocos2d::Sprite *>(_Panel_2->getChildByName("Conneritem_3_0_0_0"));
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0_0_0->retain();
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0_0_0_0= static_cast<cocos2d::Sprite *>(_Panel_2->getChildByName("Conneritem_3_0_0_0_0"));
+			m_Panel_8->m_Panel_2->m_Conneritem_3_0_0_0_0->retain();
+			m_Panel_8->m_Panel_2->m_Conneritem2_8= static_cast<cocos2d::Sprite *>(_Panel_2->getChildByName("Conneritem2_8"));
+			m_Panel_8->m_Panel_2->m_Conneritem2_8->retain();
+			m_Panel_8->m_Panel_2->m_Conneritem2_8_0= static_cast<cocos2d::Sprite *>(_Panel_2->getChildByName("Conneritem2_8_0"));
+			m_Panel_8->m_Panel_2->m_Conneritem2_8_0->retain();
+			Layout *_ObjCharictor= static_cast<Layout *>(_Panel_2->getChildByName("ObjCharictor"));
+			_ObjCharictor->retain();
+			m_Panel_8->m_Panel_2->m_ObjCharictor = new CCPanel_2::ObjCharictor();
+			m_Panel_8->m_Panel_2->m_ObjCharictor->root = _ObjCharictor;
+			{
+				m_Panel_8->m_Panel_2->m_ObjCharictor->m_DeckName= static_cast<cocos2d::ui::Text *>(_ObjCharictor->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_ObjCharictor->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_ObjCharictor->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_ObjCharictor->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_ObjCharictor->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_ObjCharictor->m_FileNode_2= static_cast<cocos2d::Node *>(_ObjCharictor->getChildByName("FileNode_2"));
+				m_Panel_8->m_Panel_2->m_ObjCharictor->m_FileNode_2->retain();
+			}
+			Layout *_Pn_2= static_cast<Layout *>(_Panel_2->getChildByName("Pn_2"));
+			_Pn_2->retain();
+			m_Panel_8->m_Panel_2->m_Pn_2 = new CCPanel_2::Pn_2();
+			m_Panel_8->m_Panel_2->m_Pn_2->root = _Pn_2;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_2->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_2->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_2->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_2->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_2->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_2->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_2->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_2->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_2->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_3= static_cast<Layout *>(_Panel_2->getChildByName("Pn_3"));
+			_Pn_3->retain();
+			m_Panel_8->m_Panel_2->m_Pn_3 = new CCPanel_2::Pn_3();
+			m_Panel_8->m_Panel_2->m_Pn_3->root = _Pn_3;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_3->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_3->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_3->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_3->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_3->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_3->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_3->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_3->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_3->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_4= static_cast<Layout *>(_Panel_2->getChildByName("Pn_4"));
+			_Pn_4->retain();
+			m_Panel_8->m_Panel_2->m_Pn_4 = new CCPanel_2::Pn_4();
+			m_Panel_8->m_Panel_2->m_Pn_4->root = _Pn_4;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_4->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_4->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_4->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_4->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_4->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_4->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_4->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_4->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_4->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_5= static_cast<Layout *>(_Panel_2->getChildByName("Pn_5"));
+			_Pn_5->retain();
+			m_Panel_8->m_Panel_2->m_Pn_5 = new CCPanel_2::Pn_5();
+			m_Panel_8->m_Panel_2->m_Pn_5->root = _Pn_5;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_5->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_5->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_5->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_5->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_5->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_5->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_5->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_5->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_5->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_6= static_cast<Layout *>(_Panel_2->getChildByName("Pn_6"));
+			_Pn_6->retain();
+			m_Panel_8->m_Panel_2->m_Pn_6 = new CCPanel_2::Pn_6();
+			m_Panel_8->m_Panel_2->m_Pn_6->root = _Pn_6;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_6->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_6->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_6->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_6->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_6->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_6->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_6->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_6->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_6->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_7= static_cast<Layout *>(_Panel_2->getChildByName("Pn_7"));
+			_Pn_7->retain();
+			m_Panel_8->m_Panel_2->m_Pn_7 = new CCPanel_2::Pn_7();
+			m_Panel_8->m_Panel_2->m_Pn_7->root = _Pn_7;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_7->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_7->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_7->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_7->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_7->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_7->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_7->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_7->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_7->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_8= static_cast<Layout *>(_Panel_2->getChildByName("Pn_8"));
+			_Pn_8->retain();
+			m_Panel_8->m_Panel_2->m_Pn_8 = new CCPanel_2::Pn_8();
+			m_Panel_8->m_Panel_2->m_Pn_8->root = _Pn_8;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_8->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_8->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_8->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_8->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_8->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_8->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_8->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_8->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_8->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_9= static_cast<Layout *>(_Panel_2->getChildByName("Pn_9"));
+			_Pn_9->retain();
+			m_Panel_8->m_Panel_2->m_Pn_9 = new CCPanel_2::Pn_9();
+			m_Panel_8->m_Panel_2->m_Pn_9->root = _Pn_9;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_9->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_9->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_9->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_9->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_9->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_9->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_9->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_9->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_9->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_10= static_cast<Layout *>(_Panel_2->getChildByName("Pn_10"));
+			_Pn_10->retain();
+			m_Panel_8->m_Panel_2->m_Pn_10 = new CCPanel_2::Pn_10();
+			m_Panel_8->m_Panel_2->m_Pn_10->root = _Pn_10;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_10->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_10->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_10->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_10->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_10->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_10->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_10->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_10->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_10->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_11= static_cast<Layout *>(_Panel_2->getChildByName("Pn_11"));
+			_Pn_11->retain();
+			m_Panel_8->m_Panel_2->m_Pn_11 = new CCPanel_2::Pn_11();
+			m_Panel_8->m_Panel_2->m_Pn_11->root = _Pn_11;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_11->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_11->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_11->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_11->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_11->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_11->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_11->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_11->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_11->m_FileNode_2_0->retain();
+			}
+			Layout *_Pn_12= static_cast<Layout *>(_Panel_2->getChildByName("Pn_12"));
+			_Pn_12->retain();
+			m_Panel_8->m_Panel_2->m_Pn_12 = new CCPanel_2::Pn_12();
+			m_Panel_8->m_Panel_2->m_Pn_12->root = _Pn_12;
+			{
+				m_Panel_8->m_Panel_2->m_Pn_12->m_DeckName= static_cast<cocos2d::ui::Text *>(_Pn_12->getChildByName("DeckName"));
+				m_Panel_8->m_Panel_2->m_Pn_12->m_DeckName->retain();
+				m_Panel_8->m_Panel_2->m_Pn_12->m_ImgChar= static_cast<cocos2d::ui::ImageView *>(_Pn_12->getChildByName("ImgChar"));
+				m_Panel_8->m_Panel_2->m_Pn_12->m_ImgChar->retain();
+				m_Panel_8->m_Panel_2->m_Pn_12->m_FileNode_2_0= static_cast<cocos2d::Node *>(_Pn_12->getChildByName("FileNode_2_0"));
+				m_Panel_8->m_Panel_2->m_Pn_12->m_FileNode_2_0->retain();
 			}
 		}
+		m_Panel_8->m_btBack= static_cast<cocos2d::ui::Button* >(_Panel_8->getChildByName("btBack"));
+		m_Panel_8->m_btBack->retain();
 	}
-	m_titlebox1_1= static_cast<cocos2d::Sprite *>(root->getChildByName("titlebox1_1"));
-	m_titlebox1_1->retain();
-	Layout *_Panel_3= static_cast<Layout *>(root->getChildByName("Panel_3"));
-	_Panel_3->retain();
-	m_Panel_3 = new CCBettlePageUI::Panel_3();
-	m_Panel_3->root = _Panel_3;
-	{
-		ListView *_ListView_2= static_cast<ListView *>(_Panel_3->getChildByName("ListView_2"));
-		_ListView_2->retain();
-		m_Panel_3->m_ListView_2 = new CCPanel_3::ListView_2();
-		m_Panel_3->m_ListView_2->root = _ListView_2;
-		{
-			Layout *_Panel_4= static_cast<Layout *>(_ListView_2->getChildByName("Panel_4"));
-			_Panel_4->retain();
-			m_Panel_3->m_ListView_2->m_Panel_4 = new CCListView_2::Panel_4();
-			m_Panel_3->m_ListView_2->m_Panel_4->root = _Panel_4;
-			{
-				m_Panel_3->m_ListView_2->m_Panel_4->m_Button_2= static_cast<cocos2d::ui::Button* >(_Panel_4->getChildByName("Button_2"));
-				m_Panel_3->m_ListView_2->m_Panel_4->m_Button_2->retain();
-			}
-		}
-		ListView *_ListView_2_0= static_cast<ListView *>(_Panel_3->getChildByName("ListView_2_0"));
-		_ListView_2_0->retain();
-		m_Panel_3->m_ListView_2_0 = new CCPanel_3::ListView_2_0();
-		m_Panel_3->m_ListView_2_0->root = _ListView_2_0;
-		{
-			Layout *_Panel_4= static_cast<Layout *>(_ListView_2_0->getChildByName("Panel_4"));
-			_Panel_4->retain();
-			m_Panel_3->m_ListView_2_0->m_Panel_4 = new CCListView_2_0::Panel_4();
-			m_Panel_3->m_ListView_2_0->m_Panel_4->root = _Panel_4;
-			{
-				m_Panel_3->m_ListView_2_0->m_Panel_4->m_Button_2= static_cast<cocos2d::ui::Button* >(_Panel_4->getChildByName("Button_2"));
-				m_Panel_3->m_ListView_2_0->m_Panel_4->m_Button_2->retain();
-			}
-		}
-		ListView *_ListView_2_1= static_cast<ListView *>(_Panel_3->getChildByName("ListView_2_1"));
-		_ListView_2_1->retain();
-		m_Panel_3->m_ListView_2_1 = new CCPanel_3::ListView_2_1();
-		m_Panel_3->m_ListView_2_1->root = _ListView_2_1;
-		{
-			Layout *_Panel_4= static_cast<Layout *>(_ListView_2_1->getChildByName("Panel_4"));
-			_Panel_4->retain();
-			m_Panel_3->m_ListView_2_1->m_Panel_4 = new CCListView_2_1::Panel_4();
-			m_Panel_3->m_ListView_2_1->m_Panel_4->root = _Panel_4;
-			{
-				m_Panel_3->m_ListView_2_1->m_Panel_4->m_Button_2= static_cast<cocos2d::ui::Button* >(_Panel_4->getChildByName("Button_2"));
-				m_Panel_3->m_ListView_2_1->m_Panel_4->m_Button_2->retain();
-			}
-		}
-		ListView *_ListView_2_2= static_cast<ListView *>(_Panel_3->getChildByName("ListView_2_2"));
-		_ListView_2_2->retain();
-		m_Panel_3->m_ListView_2_2 = new CCPanel_3::ListView_2_2();
-		m_Panel_3->m_ListView_2_2->root = _ListView_2_2;
-		{
-			Layout *_Panel_4= static_cast<Layout *>(_ListView_2_2->getChildByName("Panel_4"));
-			_Panel_4->retain();
-			m_Panel_3->m_ListView_2_2->m_Panel_4 = new CCListView_2_2::Panel_4();
-			m_Panel_3->m_ListView_2_2->m_Panel_4->root = _Panel_4;
-			{
-				m_Panel_3->m_ListView_2_2->m_Panel_4->m_Button_2= static_cast<cocos2d::ui::Button* >(_Panel_4->getChildByName("Button_2"));
-				m_Panel_3->m_ListView_2_2->m_Panel_4->m_Button_2->retain();
-			}
-		}
-	}
-	m_titlebox1_1_6= static_cast<cocos2d::Sprite *>(root->getChildByName("titlebox1_1_6"));
-	m_titlebox1_1_6->retain();
-	m_BtNormal= static_cast<cocos2d::ui::Button* >(root->getChildByName("BtNormal"));
-	m_BtNormal->retain();
-	m_Button_1= static_cast<cocos2d::ui::Button* >(root->getChildByName("Button_1"));
-	m_Button_1->retain();
-	m_BtRank= static_cast<cocos2d::ui::Button* >(root->getChildByName("BtRank"));
-	m_BtRank->retain();
-	m_Text_1= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_1"));
-	m_Text_1->retain();
-	m_Text_1_0= static_cast<cocos2d::ui::Text *>(root->getChildByName("Text_1_0"));
-	m_Text_1_0->retain();
 }

@@ -27,6 +27,8 @@ void MainUI::InitPage()
 	actionMainUI = CSLoader::createTimeline("MainUI.csb");
 	root->runAction(actionMainUI);
 	Oppening = actionMainUI->getAnimationInfo("Oppening");
+	NextView = actionMainUI->getAnimationInfo("NextView");
+	ReView = actionMainUI->getAnimationInfo("ReView");
 	m_background= static_cast<cocos2d::Sprite *>(root->getChildByName("background"));
 	m_background->retain();
 	m_BtAdventure= static_cast<cocos2d::ui::Button* >(root->getChildByName("BtAdventure"));

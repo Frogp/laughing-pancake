@@ -411,6 +411,72 @@
 				<key>sourceSize</key>
 				<string>{128,128}</string>
 			</dict>
+			<key>img/ui/box/Boxdot.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{247,914},{64,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,64}</string>
+			</dict>
+			<key>img/ui/box/Conneritem.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1714,262},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>img/ui/box/Conneritem2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{115,959},{32,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{32,128}</string>
+			</dict>
+			<key>img/ui/box/Conneritem3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{315,914},{64,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{64,64}</string>
+			</dict>
+			<key>img/ui/box/Conneritem4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,959},{109,41}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{109,41}</string>
+			</dict>
+			<key>img/game/npc/Char1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,914},{161,41}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{161,41}</string>
+			</dict>
 		</dict>
 		<key>metadata</key>
 		<dict>

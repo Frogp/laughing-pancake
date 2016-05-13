@@ -468,7 +468,14 @@ namespace AutoCodeGenerator.CocosGenerator
             }//
             else if (string.Equals(classname, "ProjectNode") == true)
             {
-                widgetclass = itemObj.OutName + " *";
+                if (itemObj.OutName != null)
+                {
+                    widgetclass = itemObj.OutName + " *";
+                }
+                else
+                {
+                    widgetclass = "cocos2d::Node *";
+                }
             }
             else if (string.Equals(classname, "GameMap") == true)
             {
@@ -487,10 +494,11 @@ namespace AutoCodeGenerator.CocosGenerator
                 widgetclass = "cocos2d::ParticleSystem *";
             }
             else //if (string.Equals(classname, "Particle") == true)
-            {
+            {//ProjectNodeObjectData
                 widgetclass = "cocos2d::Node *";
             }
             //
+            
             return widgetclass;
         }
 
