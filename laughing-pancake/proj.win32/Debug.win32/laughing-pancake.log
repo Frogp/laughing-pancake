@@ -1,6 +1,88 @@
-﻿Build started 2016-05-13 오전 10:29:20.
+﻿Build started 2016-05-13 오후 6:45:19.
      1>Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" on node 3 (Build target(s)).
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\extensions" /I..\Classes /I.. /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\SGD\laughing-pancake\cocos2d\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\ObjCharictorEx.cpp
+         ObjCharictorEx.cpp
+     1>c:\sgd\laughing-pancake\autoclasses\bettlepageui.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\base\ccutf8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\cocos2d\cocos\ui\uihelper.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\bettlepageui\panel_8.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_8\panel_2.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\panel_1_0.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\panel_1_0.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_1.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_1.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_2.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_2.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_3.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_3.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_4.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_4.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_5.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_5.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_6.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_6.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_7.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+     1>c:\sgd\laughing-pancake\autoclasses\panel_2\objcharictor_7.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\panel_8\panel_2.h(26): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+     1>c:\sgd\laughing-pancake\autoclasses\bettlepageui\panel_8.h(17): warning C4996: 'cocos2d::CCObject': was declared deprecated
+                 c:\sgd\laughing-pancake\cocos2d\cocos\deprecated\ccdeprecated.h(538) : see declaration of 'cocos2d::CCObject'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\\" /LIBPATH:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\BettlePageUI.obj
+         Debug.win32\BettleReadyUI.obj
+         Debug.win32\BettleStartUI.obj
+         Debug.win32\ConnerItem.obj
+         Debug.win32\FriendList.obj
+         Debug.win32\FriendListUI.obj
+         Debug.win32\GameResualtUI.obj
+         Debug.win32\InGameHUD.obj
+         Debug.win32\InGameOptionUI.obj
+         Debug.win32\InGameScene.obj
+         Debug.win32\InventoryUI.obj
+         Debug.win32\LoadingScene.obj
+         Debug.win32\logoani.obj
+         Debug.win32\LogoScene.obj
+         Debug.win32\LogoUI.obj
+         Debug.win32\LPlogo.obj
+         Debug.win32\MainScene.obj
+         Debug.win32\MainUI.obj
+         Debug.win32\MessageBoxUI.obj
+         Debug.win32\OptionUI.obj
+         Debug.win32\StoreUI.obj
+         Debug.win32\StoryScene.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\ArdaClient.obj
+         Debug.win32\BettlePageUIEx.obj
+         Debug.win32\GameSceneEditor.obj
+         Debug.win32\GameText.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\InGameHUDEx.obj
+         Debug.win32\InGameSceneEx.obj
+         Debug.win32\JobExample.obj
+         Debug.win32\JobLoadInGameText.obj
+         Debug.win32\LoadingSceneEx.obj
+         Debug.win32\MainSceneEx.obj
+         Debug.win32\ObjCharictorEx.obj
+         Debug.win32\main.obj
+         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libSpine.lib"
+         "C:\SGD\laughing-pancake\proj.win32\Debug.win32\libbox2d.lib"
          laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
        CustomBuildStep:
          if not exist "C:\SGD\laughing-pancake\proj.win32\Debug.win32\" mkdir "C:\SGD\laughing-pancake\proj.win32\Debug.win32\"
@@ -12,4 +94,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.41
+Time Elapsed 00:00:09.11

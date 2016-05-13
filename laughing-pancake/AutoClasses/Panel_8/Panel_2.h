@@ -5,17 +5,13 @@
 #include "cocostudio/CocoStudio.h"
 #include "../Panel_2/Panel_1_0.h"
 #include "../Panel_2/ObjCharictor.h"
-#include "../Panel_2/Pn_2.h"
-#include "../Panel_2/Pn_3.h"
-#include "../Panel_2/Pn_4.h"
-#include "../Panel_2/Pn_5.h"
-#include "../Panel_2/Pn_6.h"
-#include "../Panel_2/Pn_7.h"
-#include "../Panel_2/Pn_8.h"
-#include "../Panel_2/Pn_9.h"
-#include "../Panel_2/Pn_10.h"
-#include "../Panel_2/Pn_11.h"
-#include "../Panel_2/Pn_12.h"
+#include "../Panel_2/ObjCharictor_1.h"
+#include "../Panel_2/ObjCharictor_2.h"
+#include "../Panel_2/ObjCharictor_3.h"
+#include "../Panel_2/ObjCharictor_4.h"
+#include "../Panel_2/ObjCharictor_5.h"
+#include "../Panel_2/ObjCharictor_6.h"
+#include "../Panel_2/ObjCharictor_7.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -39,17 +35,13 @@ public:
 	cocos2d::Sprite * m_Conneritem2_8;
 	cocos2d::Sprite * m_Conneritem2_8_0;
 	CCPanel_2::ObjCharictor * m_ObjCharictor;
-	CCPanel_2::Pn_2 * m_Pn_2;
-	CCPanel_2::Pn_3 * m_Pn_3;
-	CCPanel_2::Pn_4 * m_Pn_4;
-	CCPanel_2::Pn_5 * m_Pn_5;
-	CCPanel_2::Pn_6 * m_Pn_6;
-	CCPanel_2::Pn_7 * m_Pn_7;
-	CCPanel_2::Pn_8 * m_Pn_8;
-	CCPanel_2::Pn_9 * m_Pn_9;
-	CCPanel_2::Pn_10 * m_Pn_10;
-	CCPanel_2::Pn_11 * m_Pn_11;
-	CCPanel_2::Pn_12 * m_Pn_12;
+	CCPanel_2::ObjCharictor_1 * m_ObjCharictor_1;
+	CCPanel_2::ObjCharictor_2 * m_ObjCharictor_2;
+	CCPanel_2::ObjCharictor_3 * m_ObjCharictor_3;
+	CCPanel_2::ObjCharictor_4 * m_ObjCharictor_4;
+	CCPanel_2::ObjCharictor_5 * m_ObjCharictor_5;
+	CCPanel_2::ObjCharictor_6 * m_ObjCharictor_6;
+	CCPanel_2::ObjCharictor_7 * m_ObjCharictor_7;
 	cocos2d::Node* root;
 };
 }

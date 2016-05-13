@@ -15,7 +15,7 @@ public:
 
 	void OpenUI();
 
-	ObjCharictorEx* ItemList[12];
+	ObjCharictorEx* ItemList[8];
 
 	void update(float dt);
 };

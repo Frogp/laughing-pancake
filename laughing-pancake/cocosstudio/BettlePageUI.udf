@@ -4,14 +4,13 @@
       <Value ctype="GuidesData">
         <HorizontalList>
           <Guides Direction="Horizontal" Position="129.9665" />
-          <Guides Direction="Horizontal" Position="316.3812" />
-          <Guides Direction="Horizontal" Position="496.8525" />
+          <Guides Direction="Horizontal" Position="396.9904" />
         </HorizontalList>
         <VerticalList>
-          <Guides Position="89.7187" />
-          <Guides Position="368.9920" />
-          <Guides Position="665.9969" />
-          <Guides Position="941.9456" />
+          <Guides Position="50.1305" />
+          <Guides Position="337.9061" />
+          <Guides Position="624.8655" />
+          <Guides Position="913.6332" />
         </VerticalList>
       </Value>
     </Item>
