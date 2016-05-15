@@ -36,6 +36,8 @@ public:
 	cocostudio::timeline::AnimationInfo Oppening;
 	cocostudio::timeline::AnimationInfo NextView;
 	cocostudio::timeline::AnimationInfo ReView;
+	cocostudio::timeline::AnimationInfo BtBettlePress;
+	cocostudio::timeline::AnimationInfo ReCall;
 	static MainUI* Getinstance()
 	{
 		return MainUI::instance;	}

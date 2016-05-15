@@ -17,7 +17,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.5010" Y="0.9501" />
                 <PreSize X="0.4396" Y="0.1483" />
-                <FileData Type="Normal" Path="img/ui/box/titlebox1.png" Plist="" />
+                <FileData Type="Default" Path="Default/ImageFile.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_1" ActionTag="-1384774495" Tag="60" IconVisible="False" LeftMargin="360.9578" RightMargin="370.0422" TopMargin="-9.2961" BottomMargin="418.2961" FontSize="36" LabelText="옵션" HorizontalAlignmentType="HT_Center" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="72.0000" Y="36.0000" />
@@ -40,8 +40,8 @@
                 <PreSize X="0.0959" Y="0.1730" />
                 <TextColor A="255" R="65" G="65" B="70" />
                 <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-                <PressedFileData Type="Normal" Path="img/ui/button/xbutton_c.png" Plist="" />
-                <NormalFileData Type="Normal" Path="img/ui/button/xbutton_n.png" Plist="" />
+                <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+                <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
@@ -84,7 +84,7 @@
                 <NormalBackFileData Type="Default" Path="Default/CheckBox_Normal.png" Plist="" />
                 <PressedBackFileData Type="Default" Path="Default/CheckBox_Press.png" Plist="" />
                 <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-                <NodeNormalFileData Type="Normal" Path="img/ui/button/title_chk2.png" Plist="" />
+                <NodeNormalFileData Type="Default" Path="Default/CheckBoxNode_Normal.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_3" ActionTag="-304208634" Tag="65" IconVisible="False" LeftMargin="94.7060" RightMargin="616.2940" TopMargin="309.6671" BottomMargin="115.3329" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -109,7 +109,7 @@
                 <NormalBackFileData Type="Default" Path="Default/CheckBox_Normal.png" Plist="" />
                 <PressedBackFileData Type="Default" Path="Default/CheckBox_Press.png" Plist="" />
                 <DisableBackFileData Type="Default" Path="Default/CheckBox_Disable.png" Plist="" />
-                <NodeNormalFileData Type="Normal" Path="img/ui/button/title_chk2.png" Plist="" />
+                <NodeNormalFileData Type="Default" Path="Default/CheckBoxNode_Normal.png" Plist="" />
                 <NodeDisableFileData Type="Default" Path="Default/CheckBoxNode_Disable.png" Plist="" />
               </AbstractNodeData>
               <AbstractNodeData Name="Text_3_0" ActionTag="-438368210" Tag="67" IconVisible="False" LeftMargin="526.3378" RightMargin="184.6622" TopMargin="307.1908" BottomMargin="117.8092" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">

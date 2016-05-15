@@ -2,7 +2,7 @@
   <PropertyGroup Name="BettlePageUI" Type="Layer" ID="f4a4ac96-c3b0-4e52-b2c6-f08a95f6e8f8" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="35" Speed="1.0000" ActivedAnimationName="Oppening">
+      <Animation Duration="49" Speed="1.0000" ActivedAnimationName="Selection">
         <Timeline ActionTag="1493280518" Property="Position">
           <PointFrame FrameIndex="15" X="514.1171" Y="581.4437">
             <EasingData Type="2" />
@@ -27,11 +27,29 @@
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
+        <Timeline ActionTag="1938309784" Property="Position">
+          <PointFrame FrameIndex="35" X="672.7461" Y="354.7596">
+            <EasingData Type="2" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="1938309784" Property="Scale">
+          <ScaleFrame FrameIndex="35" X="1.1700" Y="1.1700">
+            <EasingData Type="2" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="1938309784" Property="RotationSkew">
+          <ScaleFrame FrameIndex="35" X="0.0000" Y="0.0000">
+            <EasingData Type="2" />
+          </ScaleFrame>
+        </Timeline>
         <Timeline ActionTag="1519515867" Property="Position">
           <PointFrame FrameIndex="0" X="641.1913" Y="401.1913">
             <EasingData Type="8" />
           </PointFrame>
           <PointFrame FrameIndex="25" X="641.1913" Y="401.1913">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="49" X="641.1913" Y="401.1913">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -42,6 +60,9 @@
           <ScaleFrame FrameIndex="25" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="49" X="0.0001" Y="0.0001">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1519515867" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
@@ -50,17 +71,36 @@
           <ScaleFrame FrameIndex="25" X="0.0000" Y="0.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="49" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
       </Animation>
       <AnimationList>
         <AnimationInfo Name="Oppening" StartIndex="0" EndIndex="35">
           <RenderColor A="255" R="127" G="255" B="212" />
         </AnimationInfo>
+        <AnimationInfo Name="Selection" StartIndex="35" EndIndex="49">
+          <RenderColor A="150" R="138" G="43" B="226" />
+        </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Layer" Tag="45" ctype="GameLayerObjectData">
         <Size X="1280.0000" Y="800.0000" />
         <Children>
-          <AbstractNodeData Name="Panel_8" ActionTag="1519515867" Tag="74" IconVisible="False" LeftMargin="1.1913" RightMargin="-1.1913" TopMargin="-1.1913" BottomMargin="1.1913" TouchEnable="True" ClipAble="False" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_69" ActionTag="-216757861" Tag="900" IconVisible="False" RightMargin="1080.0000" TopMargin="600.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="103" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Size X="200.0000" Y="200.0000" />
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="6.3778" ScaleY="3.9984" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.1563" Y="0.2500" />
+            <SingleColor A="255" R="0" G="0" B="0" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Panel_8" ActionTag="1519515867" Tag="74" IconVisible="False" LeftMargin="1.1913" RightMargin="-1.1913" TopMargin="-1.1913" BottomMargin="1.1913" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="1280.0000" Y="800.0000" />
             <Children>
               <AbstractNodeData Name="Panel_2" ActionTag="1938309784" Tag="61" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="135.6978" RightMargin="133.1022" TopMargin="122.4124" BottomMargin="90.6276" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
@@ -116,10 +156,10 @@
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Conneritem_3_0" ActionTag="359171740" Tag="125" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" HorizontalEdge="RightEdge" VerticalEdge="TopEdge" LeftMargin="865.5956" RightMargin="17.6044" TopMargin="17.3768" BottomMargin="441.5831" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="Conneritem_3_0" ActionTag="359171740" Tag="125" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" HorizontalEdge="RightEdge" VerticalEdge="TopEdge" LeftMargin="865.5956" RightMargin="17.6044" TopMargin="17.3768" BottomMargin="441.5832" ctype="SpriteObjectData">
                     <Size X="128.0000" Y="128.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="929.5956" Y="505.5831" />
+                    <Position X="929.5956" Y="505.5832" />
                     <Scale ScaleX="1.5000" ScaleY="1.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.9193" Y="0.8614" />
@@ -127,10 +167,10 @@
                     <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem.png" Plist="Logo.plist" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Conneritem_3_0_0" ActionTag="2006360073" Tag="126" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" LeftMargin="18.2307" RightMargin="864.9693" TopMargin="15.8969" BottomMargin="443.0631" ctype="SpriteObjectData">
+                  <AbstractNodeData Name="Conneritem_3_0_0" ActionTag="2006360073" Tag="126" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" LeftMargin="18.2307" RightMargin="864.9693" TopMargin="15.8969" BottomMargin="443.0630" ctype="SpriteObjectData">
                     <Size X="128.0000" Y="128.0000" />
                     <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="82.2307" Y="507.0631" />
+                    <Position X="82.2307" Y="507.0630" />
                     <Scale ScaleX="1.5000" ScaleY="1.5000" />
                     <CColor A="255" R="255" G="255" B="255" />
                     <PrePosition X="0.0813" Y="0.8639" />
@@ -182,577 +222,609 @@
                     <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem2.png" Plist="Logo.plist" />
                     <BlendFunc Src="1" Dst="771" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="ObjCharictor" ActionTag="1393449910" Tag="40" IconVisible="False" LeftMargin="38.7343" RightMargin="778.4657" TopMargin="98.3813" BottomMargin="385.5787" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor" ActionTag="2002505297" Tag="392" IconVisible="False" LeftMargin="3.8426" RightMargin="761.3574" TopMargin="84.7506" BottomMargin="299.2094" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="-1544660441" Tag="42" IconVisible="False" LeftMargin="7.3300" RightMargin="88.6700" TopMargin="28.7641" BottomMargin="54.2359" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                      <AbstractNodeData Name="BtClicker" ActionTag="2030632548" Tag="393" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="1129575670" Tag="394" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="-349343021" Tag="395" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                         <Size X="98.0000" Y="20.0000" />
                         <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="74.2359" />
+                        <Position X="32.1319" Y="101.2043" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7207" />
-                        <PreSize X="0.5052" Y="0.1942" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-375681827" Tag="75" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="916235715" Tag="396" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2" ActionTag="437600974" Tag="191" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="993207486" Tag="397" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="38.7343" Y="385.5787" />
+                    <Position X="3.8426" Y="299.2094" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0383" Y="0.6569" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.0038" Y="0.5098" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_2" ActionTag="2054060927" Alpha="41" Tag="283" IconVisible="False" LeftMargin="276.4110" RightMargin="540.7890" TopMargin="99.4006" BottomMargin="384.5594" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_1" ActionTag="-836942716" Tag="400" IconVisible="False" LeftMargin="249.1063" RightMargin="516.0937" TopMargin="84.7511" BottomMargin="299.2089" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="720211573" Tag="284" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="1837679860" Tag="401" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="1255616822" Tag="402" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="-513157030" Tag="403" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-1455849635" Tag="285" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="1577501877" Tag="404" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="-2109877647" Tag="286" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="-317729009" Tag="405" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="276.4110" Y="384.5594" />
+                    <Position X="249.1063" Y="299.2089" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2733" Y="0.6552" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.2463" Y="0.5098" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_3" ActionTag="1028399069" Alpha="41" Tag="289" IconVisible="False" LeftMargin="530.2595" RightMargin="286.9405" TopMargin="99.4008" BottomMargin="384.5591" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_2" ActionTag="907198607" Tag="408" IconVisible="False" LeftMargin="495.1071" RightMargin="270.0929" TopMargin="84.7506" BottomMargin="299.2094" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="392813897" Tag="290" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="324693949" Tag="409" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="-1940846237" Tag="410" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="-1805546846" Tag="411" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="1123994287" Tag="291" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="-35373751" Tag="412" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="-951301212" Tag="292" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="935087461" Tag="413" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="530.2595" Y="384.5591" />
+                    <Position X="495.1071" Y="299.2094" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5244" Y="0.6552" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.4896" Y="0.5098" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_4" ActionTag="276210824" Alpha="41" Tag="295" IconVisible="False" LeftMargin="766.1052" RightMargin="51.0948" TopMargin="99.4039" BottomMargin="384.5561" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_3" ActionTag="-1118505341" Tag="416" IconVisible="False" LeftMargin="741.9175" RightMargin="23.2825" TopMargin="84.7508" BottomMargin="299.2092" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="-803693673" Tag="296" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="709147609" Tag="417" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="1920886128" Tag="418" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="773662790" Tag="419" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="1593910907" Tag="297" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="794359894" Tag="420" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="18013514" Tag="298" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="-1224668778" Tag="421" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="766.1052" Y="384.5561" />
+                    <Position X="741.9175" Y="299.2092" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7576" Y="0.6552" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.7337" Y="0.5098" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_5" ActionTag="-453769954" Alpha="41" Tag="301" IconVisible="False" LeftMargin="37.7155" RightMargin="779.4845" TopMargin="253.6492" BottomMargin="230.3108" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_4" ActionTag="924195263" Tag="424" IconVisible="False" LeftMargin="3.8421" RightMargin="761.3579" TopMargin="312.9769" BottomMargin="70.9830" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="-1927891126" Tag="302" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="1806515517" Tag="425" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="-8100025" Tag="426" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="1729423776" Tag="427" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="747019018" Tag="303" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="58537303" Tag="428" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="-784407369" Tag="304" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="-887886052" Tag="429" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="37.7155" Y="230.3108" />
+                    <Position X="3.8421" Y="70.9830" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0373" Y="0.3924" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.0038" Y="0.1209" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_6" ActionTag="-600069726" Alpha="41" Tag="307" IconVisible="False" LeftMargin="276.4108" RightMargin="540.7892" TopMargin="253.6490" BottomMargin="230.3109" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_5" ActionTag="-573885000" Tag="432" IconVisible="False" LeftMargin="249.1065" RightMargin="516.0935" TopMargin="312.9771" BottomMargin="70.9829" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="-1926473380" Tag="308" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="217790530" Tag="433" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="1642317061" Tag="434" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="-386647394" Tag="435" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="1582820161" Tag="309" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="-475058436" Tag="436" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="1388395130" Tag="310" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="-845404782" Tag="437" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="276.4108" Y="230.3109" />
+                    <Position X="249.1065" Y="70.9829" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2733" Y="0.3924" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.2463" Y="0.1209" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_7" ActionTag="78742235" Alpha="41" Tag="313" IconVisible="False" LeftMargin="530.2599" RightMargin="286.9401" TopMargin="253.6492" BottomMargin="230.3108" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_6" ActionTag="-1445811460" Tag="440" IconVisible="False" LeftMargin="495.9169" RightMargin="269.2831" TopMargin="312.9771" BottomMargin="70.9829" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="1249003016" Tag="314" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="1823409160" Tag="441" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="1670922781" Tag="442" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="-1634136338" Tag="443" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-667673990" Tag="315" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="321203964" Tag="444" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="1888987299" Tag="316" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="-1252293864" Tag="445" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="530.2599" Y="230.3108" />
+                    <Position X="495.9169" Y="70.9829" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5244" Y="0.3924" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.4904" Y="0.1209" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
                     <ColorVector ScaleY="1.0000" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_8" ActionTag="-789956830" Alpha="41" Tag="319" IconVisible="False" LeftMargin="766.1119" RightMargin="51.0881" TopMargin="253.6490" BottomMargin="230.3109" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
+                  <AbstractNodeData Name="ObjCharictor_7" ActionTag="477303471" Tag="448" IconVisible="False" LeftMargin="741.9181" RightMargin="23.2819" TopMargin="312.9771" BottomMargin="70.9829" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="-50" Scale9OriginY="-50" Scale9Width="100" Scale9Height="100" ctype="PanelObjectData">
+                    <Size X="246.0000" Y="203.0000" />
                     <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="1306911494" Tag="320" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
+                      <AbstractNodeData Name="BtClicker" ActionTag="-1204273074" Tag="449" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="0.0000" RightMargin="0.0000" TopMargin="-1.9998" BottomMargin="-0.0002" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+                        <Size X="246.0000" Y="205.0000" />
+                        <AnchorPoint />
+                        <Position X="0.0000" Y="-0.0002" />
                         <Scale ScaleX="1.0000" ScaleY="1.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
+                        <PrePosition X="0.0000" Y="0.0000" />
+                        <PreSize X="1.0000" Y="1.0099" />
+                        <TextColor A="255" R="65" G="65" B="70" />
+                        <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+                        <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase3.png" Plist="Logo.plist" />
+                        <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+                        <OutlineColor A="255" R="255" G="0" B="0" />
+                        <ShadowColor A="255" R="110" G="110" B="110" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="Panel_1" ActionTag="-151576002" Tag="450" IconVisible="False" LeftMargin="24.8016" RightMargin="27.1984" TopMargin="74.0556" BottomMargin="25.9444" ClipAble="False" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+                        <Size X="194.0000" Y="103.0000" />
+                        <AnchorPoint />
+                        <Position X="24.8016" Y="25.9444" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1008" Y="0.1278" />
+                        <PreSize X="0.7886" Y="0.5074" />
+                        <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                        <SingleColor A="255" R="150" G="200" B="255" />
+                        <FirstColor A="255" R="150" G="200" B="255" />
+                        <EndColor A="255" R="255" G="255" B="255" />
+                        <ColorVector ScaleY="1.0000" />
+                      </AbstractNodeData>
+                      <AbstractNodeData Name="DeckName" ActionTag="746203856" Tag="451" IconVisible="False" LeftMargin="32.1319" RightMargin="115.8681" TopMargin="101.7957" BottomMargin="81.2043" FontSize="20" LabelText="Level 20" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+                        <Size X="98.0000" Y="20.0000" />
+                        <AnchorPoint ScaleY="1.0000" />
+                        <Position X="32.1319" Y="101.2043" />
+                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                        <CColor A="255" R="255" G="255" B="255" />
+                        <PrePosition X="0.1306" Y="0.4985" />
+                        <PreSize X="0.3984" Y="0.0985" />
                         <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
                         <OutlineColor A="255" R="255" G="0" B="0" />
                         <ShadowColor A="255" R="110" G="110" B="110" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-1821516120" Tag="321" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
+                      <AbstractNodeData Name="ImgChar" ActionTag="834741353" Tag="452" IconVisible="False" LeftMargin="41.3017" RightMargin="43.6983" TopMargin="124.5306" BottomMargin="37.4694" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
                         <Size X="161.0000" Y="41.0000" />
                         <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
+                        <Position X="121.8017" Y="57.9694" />
                         <Scale ScaleX="1.1300" ScaleY="1.1300" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
+                        <PrePosition X="0.4951" Y="0.2856" />
+                        <PreSize X="0.6545" Y="0.2020" />
                         <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
                       </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="-1915508729" Tag="322" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+                      <AbstractNodeData Name="FileNode_2" ActionTag="-55651678" Tag="453" IconVisible="True" LeftMargin="125.8023" RightMargin="120.1977" TopMargin="63.0306" BottomMargin="139.9694" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                         <Size X="0.0000" Y="0.0000" />
                         <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
+                        <Position X="125.8023" Y="139.9694" />
                         <Scale ScaleX="2.0000" ScaleY="2.0000" />
                         <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
+                        <PrePosition X="0.5114" Y="0.6895" />
                         <PreSize X="0.0000" Y="0.0000" />
                         <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
                       </AbstractNodeData>
                     </Children>
                     <AnchorPoint />
-                    <Position X="766.1119" Y="230.3109" />
+                    <Position X="741.9181" Y="70.9829" />
                     <Scale ScaleX="1.0000" ScaleY="1.0000" />
                     <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7576" Y="0.3924" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
-                    <SingleColor A="255" R="150" G="200" B="255" />
-                    <FirstColor A="255" R="150" G="200" B="255" />
-                    <EndColor A="255" R="255" G="255" B="255" />
-                    <ColorVector ScaleY="1.0000" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_9" ActionTag="1776999979" Alpha="41" Tag="325" IconVisible="False" LeftMargin="37.7151" RightMargin="779.4849" TopMargin="412.9778" BottomMargin="70.9822" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
-                    <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="-1858746188" Tag="326" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
-                        <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-1014534298" Tag="327" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
-                        <Size X="161.0000" Y="41.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
-                        <Scale ScaleX="1.1300" ScaleY="1.1300" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
-                        <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="-1340034023" Tag="328" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
-                        <Size X="0.0000" Y="0.0000" />
-                        <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
-                        <Scale ScaleX="2.0000" ScaleY="2.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
-                        <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint />
-                    <Position X="37.7151" Y="70.9822" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.0373" Y="0.1209" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
-                    <SingleColor A="255" R="150" G="200" B="255" />
-                    <FirstColor A="255" R="150" G="200" B="255" />
-                    <EndColor A="255" R="255" G="255" B="255" />
-                    <ColorVector ScaleY="1.0000" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_10" ActionTag="-2087506067" Alpha="41" Tag="331" IconVisible="False" LeftMargin="276.4101" RightMargin="540.7899" TopMargin="412.9774" BottomMargin="70.9826" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
-                    <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="1691921620" Tag="332" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
-                        <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-1281244034" Tag="333" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
-                        <Size X="161.0000" Y="41.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
-                        <Scale ScaleX="1.1300" ScaleY="1.1300" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
-                        <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="1879887946" Tag="334" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
-                        <Size X="0.0000" Y="0.0000" />
-                        <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
-                        <Scale ScaleX="2.0000" ScaleY="2.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
-                        <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint />
-                    <Position X="276.4101" Y="70.9826" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.2733" Y="0.1209" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
-                    <SingleColor A="255" R="150" G="200" B="255" />
-                    <FirstColor A="255" R="150" G="200" B="255" />
-                    <EndColor A="255" R="255" G="255" B="255" />
-                    <ColorVector ScaleY="1.0000" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_11" ActionTag="107798490" Alpha="41" Tag="337" IconVisible="False" LeftMargin="530.2618" RightMargin="286.9382" TopMargin="412.9769" BottomMargin="70.9831" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
-                    <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="-981259433" Tag="338" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
-                        <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-2004393800" Tag="339" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
-                        <Size X="161.0000" Y="41.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
-                        <Scale ScaleX="1.1300" ScaleY="1.1300" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
-                        <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="1561362883" Tag="340" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
-                        <Size X="0.0000" Y="0.0000" />
-                        <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
-                        <Scale ScaleX="2.0000" ScaleY="2.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
-                        <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint />
-                    <Position X="530.2618" Y="70.9831" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.5244" Y="0.1209" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
-                    <SingleColor A="255" R="150" G="200" B="255" />
-                    <FirstColor A="255" R="150" G="200" B="255" />
-                    <EndColor A="255" R="255" G="255" B="255" />
-                    <ColorVector ScaleY="1.0000" />
-                  </AbstractNodeData>
-                  <AbstractNodeData Name="Pn_12" ActionTag="-360415747" Alpha="41" Tag="343" IconVisible="False" LeftMargin="766.1147" RightMargin="51.0853" TopMargin="412.9769" BottomMargin="70.9831" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
-                    <Size X="194.0000" Y="103.0000" />
-                    <Children>
-                      <AbstractNodeData Name="DeckName" ActionTag="259806642" Tag="344" IconVisible="False" LeftMargin="7.3300" RightMargin="41.6700" TopMargin="27.5500" BottomMargin="57.4500" FontSize="20" LabelText="No Character" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-                        <Size X="145.0000" Y="18.0000" />
-                        <AnchorPoint ScaleY="1.0000" />
-                        <Position X="7.3300" Y="75.4500" />
-                        <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.0378" Y="0.7325" />
-                        <PreSize X="0.7474" Y="0.1748" />
-                        <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
-                        <OutlineColor A="255" R="255" G="0" B="0" />
-                        <ShadowColor A="255" R="110" G="110" B="110" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="ImgChar" ActionTag="-1576898619" Tag="345" IconVisible="False" LeftMargin="16.5000" RightMargin="16.5000" TopMargin="51.5000" BottomMargin="10.5000" LeftEage="53" RightEage="53" TopEage="13" BottomEage="13" Scale9OriginX="53" Scale9OriginY="13" Scale9Width="55" Scale9Height="15" ctype="ImageViewObjectData">
-                        <Size X="161.0000" Y="41.0000" />
-                        <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                        <Position X="97.0000" Y="31.0000" />
-                        <Scale ScaleX="1.1300" ScaleY="1.1300" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5000" Y="0.3010" />
-                        <PreSize X="0.8299" Y="0.3981" />
-                        <FileData Type="MarkedSubImage" Path="img/game/npc/Char1.png" Plist="Logo.plist" />
-                      </AbstractNodeData>
-                      <AbstractNodeData Name="FileNode_2_0" ActionTag="1642925868" Tag="346" IconVisible="True" LeftMargin="101.0000" RightMargin="93.0000" TopMargin="-10.0000" BottomMargin="113.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
-                        <Size X="0.0000" Y="0.0000" />
-                        <AnchorPoint />
-                        <Position X="101.0000" Y="113.0000" />
-                        <Scale ScaleX="2.0000" ScaleY="2.0000" />
-                        <CColor A="255" R="255" G="255" B="255" />
-                        <PrePosition X="0.5206" Y="1.0971" />
-                        <PreSize X="0.0000" Y="0.0000" />
-                        <FileData Type="Normal" Path="ConnerItem.csd" Plist="" />
-                      </AbstractNodeData>
-                    </Children>
-                    <AnchorPoint />
-                    <Position X="766.1147" Y="70.9831" />
-                    <Scale ScaleX="1.0000" ScaleY="1.0000" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.7576" Y="0.1209" />
-                    <PreSize X="0.1919" Y="0.1755" />
-                    <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
+                    <PrePosition X="0.7337" Y="0.1209" />
+                    <PreSize X="0.2433" Y="0.3458" />
                     <SingleColor A="255" R="150" G="200" B="255" />
                     <FirstColor A="255" R="150" G="200" B="255" />
                     <EndColor A="255" R="255" G="255" B="255" />
@@ -790,7 +862,7 @@
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="641.1913" Y="401.1913" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Scale ScaleX="0.0001" ScaleY="0.0001" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5009" Y="0.5015" />
             <PreSize X="1.0000" Y="1.0000" />

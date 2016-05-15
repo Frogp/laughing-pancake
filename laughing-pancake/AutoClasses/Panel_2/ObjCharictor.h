@@ -18,6 +18,8 @@ class ObjCharictor : public CCObject
 public:
 	ObjCharictor() {}
 public:
+	cocos2d::ui::Button*  m_BtClicker;
+	Layout * m_Panel_1;
 	cocos2d::ui::Text * m_DeckName;
 	cocos2d::ui::ImageView * m_ImgChar;
 	cocos2d::Node * m_FileNode_2;

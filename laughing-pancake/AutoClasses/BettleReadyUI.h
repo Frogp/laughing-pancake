@@ -3,6 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "BettleReadyUI/Panel_2.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -19,15 +20,12 @@ public:
 	BettleReadyUI(Widget* _root);
 	void InitPage();
 public:
-	Layout * m_Panel_5;
-	cocos2d::ui::ImageView * m_Image_1;
-	cocos2d::ui::Button*  m_Button_1;
-	cocos2d::ui::Button*  m_Button_1_0;
-	cocos2d::ui::Text * m_Text_1;
+	Layout * m_Panel_24;
+	CCBettleReadyUI::Panel_2 * m_Panel_2;
 
 	cocostudio::timeline::ActionTimeline* actionBettleReadyUI;
-	cocostudio::timeline::AnimationInfo SpacialAnation;
-	cocostudio::timeline::AnimationInfo MoveAni;
+	cocostudio::timeline::AnimationInfo Opening;
+	cocostudio::timeline::AnimationInfo Closed;
 	static BettleReadyUI* Getinstance()
 	{
 		return BettleReadyUI::instance;	}

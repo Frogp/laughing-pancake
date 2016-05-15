@@ -20,10 +20,12 @@ public:
 	BettlePageUI(Widget* _root);
 	void InitPage();
 public:
+	Layout * m_Panel_69;
 	CCBettlePageUI::Panel_8 * m_Panel_8;
 
 	cocostudio::timeline::ActionTimeline* actionBettlePageUI;
 	cocostudio::timeline::AnimationInfo Oppening;
+	cocostudio::timeline::AnimationInfo Selection;
 	static BettlePageUI* Getinstance()
 	{
 		return BettlePageUI::instance;	}

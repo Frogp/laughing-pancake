@@ -14,9 +14,9 @@ class MainSceneEx : public MainScene
 {
 public:
 	MainSceneEx();
-	MainUI* m_FileNode_1;
-	BettleReadyUI* m_FileNode_2;
-	BettleStartUI* m_FileNode_3;
+	MainUI* m_MainUI;
+	BettleReadyUI* m_BettleReadyUI;
+	BettleStartUI* m_BettleStartUI;
 	BettlePageUIEx* m_BettlePageUI;
 };
 #endif // __MAINSCENEEX_H__
