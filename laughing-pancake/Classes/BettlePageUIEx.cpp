@@ -1,5 +1,5 @@
 #include "BettlePageUIEx.h"
-
+#include "AutoClasses\BettleStartUI.h"
 BettlePageUIEx::BettlePageUIEx()
 {
 	BettlePageUI::BettlePageUI();
@@ -32,11 +32,19 @@ BettlePageUIEx::BettlePageUIEx()
 		m_ObjCharictor->init();
 		m_ObjCharictor->IdleAnimation();
 
-		(static_cast<Layout *>(m_ObjCharictor->root))->addTouchEventListener([=](Ref* obj, Widget::TouchEventType type)
+		(static_cast<Button *>(m_ObjCharictor->m_BtClicker))->addTouchEventListener([=](Ref* obj, Widget::TouchEventType type)
 		{
 			if (type == Widget::TouchEventType::BEGAN)
 			{
 				m_ObjCharictor->ClickAnimation();
+
+				this->actionBettlePageUI->setAnimationEndCallFunc("Selection", [=]()
+				{
+					BettleStartUI::Getinstance()->setVisible(true);
+					BettleStartUI::Getinstance()->actionBettleStartUI->play("Openging", false);
+				});
+				this->actionBettlePageUI->play("Selection", false);
+
 			}
 		});
 		ItemList[i] = m_ObjCharictor;

@@ -2,7 +2,7 @@
   <PropertyGroup Name="BettlePageUI" Type="Layer" ID="f4a4ac96-c3b0-4e52-b2c6-f08a95f6e8f8" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="35" Speed="1.0000" ActivedAnimationName="Oppening">
+      <Animation Duration="49" Speed="1.0000" ActivedAnimationName="Selection">
         <Timeline ActionTag="1493280518" Property="Position">
           <PointFrame FrameIndex="15" X="514.1171" Y="581.4437">
             <EasingData Type="2" />
@@ -27,11 +27,29 @@
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
+        <Timeline ActionTag="1938309784" Property="Position">
+          <PointFrame FrameIndex="35" X="672.7461" Y="354.7596">
+            <EasingData Type="2" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="1938309784" Property="Scale">
+          <ScaleFrame FrameIndex="35" X="1.1700" Y="1.1700">
+            <EasingData Type="2" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="1938309784" Property="RotationSkew">
+          <ScaleFrame FrameIndex="35" X="0.0000" Y="0.0000">
+            <EasingData Type="2" />
+          </ScaleFrame>
+        </Timeline>
         <Timeline ActionTag="1519515867" Property="Position">
           <PointFrame FrameIndex="0" X="641.1913" Y="401.1913">
             <EasingData Type="8" />
           </PointFrame>
           <PointFrame FrameIndex="25" X="641.1913" Y="401.1913">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="49" X="641.1913" Y="401.1913">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -42,6 +60,9 @@
           <ScaleFrame FrameIndex="25" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="49" X="0.0001" Y="0.0001">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1519515867" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
@@ -50,17 +71,36 @@
           <ScaleFrame FrameIndex="25" X="0.0000" Y="0.0000">
             <EasingData Type="0" />
           </ScaleFrame>
+          <ScaleFrame FrameIndex="49" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
         </Timeline>
       </Animation>
       <AnimationList>
         <AnimationInfo Name="Oppening" StartIndex="0" EndIndex="35">
           <RenderColor A="255" R="127" G="255" B="212" />
         </AnimationInfo>
+        <AnimationInfo Name="Selection" StartIndex="35" EndIndex="49">
+          <RenderColor A="150" R="138" G="43" B="226" />
+        </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Layer" Tag="45" ctype="GameLayerObjectData">
         <Size X="1280.0000" Y="800.0000" />
         <Children>
-          <AbstractNodeData Name="Panel_8" ActionTag="1519515867" Tag="74" IconVisible="False" LeftMargin="1.1913" RightMargin="-1.1913" TopMargin="-1.1913" BottomMargin="1.1913" TouchEnable="True" ClipAble="False" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_69" ActionTag="-216757861" Tag="900" IconVisible="False" RightMargin="1080.0000" TopMargin="600.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="103" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+            <Size X="200.0000" Y="200.0000" />
+            <AnchorPoint />
+            <Position />
+            <Scale ScaleX="6.3778" ScaleY="3.9984" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.1563" Y="0.2500" />
+            <SingleColor A="255" R="0" G="0" B="0" />
+            <FirstColor A="255" R="150" G="200" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Panel_8" ActionTag="1519515867" Tag="74" IconVisible="False" LeftMargin="1.1913" RightMargin="-1.1913" TopMargin="-1.1913" BottomMargin="1.1913" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="1280.0000" Y="800.0000" />
             <Children>
               <AbstractNodeData Name="Panel_2" ActionTag="1938309784" Tag="61" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="135.6978" RightMargin="133.1022" TopMargin="122.4124" BottomMargin="90.6276" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
@@ -822,7 +862,7 @@
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="641.1913" Y="401.1913" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Scale ScaleX="0.0001" ScaleY="0.0001" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5009" Y="0.5015" />
             <PreSize X="1.0000" Y="1.0000" />

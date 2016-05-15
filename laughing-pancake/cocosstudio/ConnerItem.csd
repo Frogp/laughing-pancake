@@ -2,7 +2,7 @@
   <PropertyGroup Name="ConnerItem" Type="Node" ID="1979f825-0e12-412f-8356-508b8567bac8" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="95" Speed="1.0000" ActivedAnimationName="IdleAnimation">
+      <Animation Duration="95" Speed="1.0000" ActivedAnimationName="ClickAnimation">
         <Timeline ActionTag="963760121" Property="Position">
           <PointFrame FrameIndex="17" X="0.0000" Y="0.0000">
             <EasingData Type="0" />

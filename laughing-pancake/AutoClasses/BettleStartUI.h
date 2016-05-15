@@ -3,7 +3,11 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include "BettleStartUI/Panel_1.h"
+#include "BettleStartUI/Panel_2.h"
+#include "BettleStartUI/Chain1.h"
+#include "BettleStartUI/Chain2.h"
+#include "BettleStartUI/Chain3.h"
+#include "BettleStartUI/Chain4.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -20,18 +24,16 @@ public:
 	BettleStartUI(Widget* _root);
 	void InitPage();
 public:
-	CCBettleStartUI::Panel_1 * m_Panel_1;
-	cocos2d::ui::ImageView * m_Image_5;
-	cocos2d::ui::Text * m_Text_1;
-	cocos2d::Sprite * m_menu_off_n_1;
-	cocos2d::ui::Text * m_Text_2;
-	cocos2d::ui::Button*  m_Button_1;
-	cocos2d::ui::Button*  m_Button_1_0;
-	cocos2d::ui::ImageView * m_Image_3;
-	cocos2d::Sprite * m_menu_off_n_1_0;
-	cocos2d::ui::Text * m_Text_2_0;
+	Layout * m_Panel_1;
+	CCBettleStartUI::Panel_2 * m_Panel_2;
+	CCBettleStartUI::Chain1 * m_Chain1;
+	CCBettleStartUI::Chain2 * m_Chain2;
+	CCBettleStartUI::Chain3 * m_Chain3;
+	CCBettleStartUI::Chain4 * m_Chain4;
 
 	cocostudio::timeline::ActionTimeline* actionBettleStartUI;
+	cocostudio::timeline::AnimationInfo Openging;
+	cocostudio::timeline::AnimationInfo MatchingFound;
 	static BettleStartUI* Getinstance()
 	{
 		return BettleStartUI::instance;	}

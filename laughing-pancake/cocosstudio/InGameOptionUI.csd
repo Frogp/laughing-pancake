@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2199" Y="0.1928" />
             <PreSize X="0.5598" Y="0.5835" />
-            <FileData Type="Normal" Path="img/ui/box/uibox_02.png" Plist="" />
+            <FileData Type="Normal" Path="" Plist="" />
             <SingleColor A="255" R="150" G="200" B="255" />
             <FirstColor A="255" R="150" G="200" B="255" />
             <EndColor A="255" R="255" G="255" B="255" />
@@ -31,7 +31,7 @@
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Normal" Path="img/ui/button/xbutton_n.png" Plist="" />
+            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -121,7 +121,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5014" Y="0.7545" />
             <PreSize X="0.2758" Y="0.0825" />
-            <FileData Type="Normal" Path="img/ui/box/titlebox1.png" Plist="" />
+            <FileData Type="Default" Path="Default/Sprite.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="close" ActionTag="2012360453" Tag="47" IconVisible="False" LeftMargin="680.1256" RightMargin="441.3217" TopMargin="508.5710" BottomMargin="218.4030" TouchEnable="True" FontSize="24" ButtonText="닫기" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">

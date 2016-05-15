@@ -27,6 +27,9 @@ void BettlePageUI::InitPage()
 	actionBettlePageUI = CSLoader::createTimeline("BettlePageUI.csb");
 	root->runAction(actionBettlePageUI);
 	Oppening = actionBettlePageUI->getAnimationInfo("Oppening");
+	Selection = actionBettlePageUI->getAnimationInfo("Selection");
+	m_Panel_69= static_cast<Layout *>(root->getChildByName("Panel_69"));
+	m_Panel_69->retain();
 	Layout *_Panel_8= static_cast<Layout *>(root->getChildByName("Panel_8"));
 	_Panel_8->retain();
 	m_Panel_8 = new CCBettlePageUI::Panel_8();
