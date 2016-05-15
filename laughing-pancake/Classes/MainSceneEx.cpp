@@ -108,7 +108,17 @@ MainSceneEx::MainSceneEx()
 	m_BettleStartUI->m_Panel_2->m_BtCancel->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		if (type == Widget::TouchEventType::ENDED)
-			m_BettleStartUI->setVisible(false);
+		{
+			m_BettleStartUI->actionBettleStartUI->setAnimationEndCallFunc("MatchingFound", [=]()
+			{
+				BettlePageUI::Getinstance()->setVisible(false);
+				m_BettlePageUI->setVisible(true);
+				m_BettlePageUI->OpenUI();
+			});
+			m_BettleStartUI->actionBettleStartUI->play("MatchingFound", false);
+			
+			
+		}
 	});
 
 	//m_FileNode_3->m_Button_1_0->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)

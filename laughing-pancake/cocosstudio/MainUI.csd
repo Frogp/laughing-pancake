@@ -599,6 +599,17 @@
             <FileData Type="Normal" Path="img/game/back/background.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
+          <AbstractNodeData Name="Particle_1" ActionTag="2106484829" Tag="1114" IconVisible="True" LeftMargin="646.4612" RightMargin="633.5388" TopMargin="436.3658" BottomMargin="363.6342" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="646.4612" Y="363.6342" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5050" Y="0.4545" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="img/fx/main_fx.plist" Plist="" />
+            <BlendFunc Src="770" Dst="1" />
+          </AbstractNodeData>
           <AbstractNodeData Name="BtAdventure" ActionTag="1856116158" Tag="24" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="409.6000" RightMargin="409.6000" TopMargin="272.5600" BottomMargin="415.4400" TouchEnable="True" FontSize="48" ButtonText="ADVENTURE" Scale9Enable="True" LeftEage="39" RightEage="39" TopEage="34" BottomEage="39" Scale9OriginX="39" Scale9OriginY="34" Scale9Width="50" Scale9Height="55" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="460.8000" Y="112.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />

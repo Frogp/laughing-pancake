@@ -2,46 +2,46 @@
   <PropertyGroup Name="BettleReadyUI" Type="Layer" ID="8dd4bbe7-e119-43e7-8d7c-d7f0c7deb5ef" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="20" Speed="1.0000" ActivedAnimationName="Closed">
+      <Animation Duration="47" Speed="1.0000" ActivedAnimationName="Opening">
         <Timeline ActionTag="1238101058" Property="Position">
           <PointFrame FrameIndex="0" X="654.3200" Y="-326.8377">
-            <EasingData Type="23" />
+            <EasingData Type="26" />
           </PointFrame>
-          <PointFrame FrameIndex="10" X="654.3200" Y="354.7596">
+          <PointFrame FrameIndex="20" X="654.3200" Y="354.7596">
             <EasingData Type="0" />
           </PointFrame>
-          <PointFrame FrameIndex="20" X="654.3200" Y="-326.8400">
+          <PointFrame FrameIndex="47" X="654.3200" Y="-326.8400">
             <EasingData Type="17" />
           </PointFrame>
         </Timeline>
         <Timeline ActionTag="1238101058" Property="Scale">
           <ScaleFrame FrameIndex="0" X="1.1700" Y="1.1700">
-            <EasingData Type="23" />
-          </ScaleFrame>
-          <ScaleFrame FrameIndex="10" X="1.1700" Y="1.1700">
-            <EasingData Type="0" />
+            <EasingData Type="26" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="20" X="1.1700" Y="1.1700">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="47" X="1.1700" Y="1.1700">
             <EasingData Type="17" />
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1238101058" Property="RotationSkew">
           <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
-            <EasingData Type="23" />
-          </ScaleFrame>
-          <ScaleFrame FrameIndex="10" X="0.0000" Y="0.0000">
-            <EasingData Type="0" />
+            <EasingData Type="26" />
           </ScaleFrame>
           <ScaleFrame FrameIndex="20" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="47" X="0.0000" Y="0.0000">
             <EasingData Type="17" />
           </ScaleFrame>
         </Timeline>
       </Animation>
       <AnimationList>
-        <AnimationInfo Name="Opening" StartIndex="0" EndIndex="10">
+        <AnimationInfo Name="Opening" StartIndex="0" EndIndex="20">
           <RenderColor A="150" R="255" G="218" B="185" />
         </AnimationInfo>
-        <AnimationInfo Name="Closed" StartIndex="10" EndIndex="20">
+        <AnimationInfo Name="Closed" StartIndex="20" EndIndex="47">
           <RenderColor A="150" R="34" G="139" B="34" />
         </AnimationInfo>
       </AnimationList>
@@ -61,7 +61,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panel_2" ActionTag="1238101058" Tag="591" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="341.6083" RightMargin="349.5917" TopMargin="355.5323" BottomMargin="33.5077" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_2" ActionTag="1238101058" Tag="591" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="341.6083" RightMargin="349.5917" TopMargin="219.2124" BottomMargin="169.8276" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
             <Size X="588.8000" Y="410.9600" />
             <Children>
               <AbstractNodeData Name="Conneritem_3_0" ActionTag="1201438784" Tag="596" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" HorizontalEdge="RightEdge" VerticalEdge="TopEdge" LeftMargin="443.1956" RightMargin="17.6044" TopMargin="17.3768" BottomMargin="265.5832" ctype="SpriteObjectData">
@@ -220,10 +220,10 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5311" ScaleY="0.4500" />
-            <Position X="654.3200" Y="218.4397" />
+            <Position X="654.3200" Y="354.7596" />
             <Scale ScaleX="1.1700" ScaleY="1.1700" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5112" Y="0.2730" />
+            <PrePosition X="0.5112" Y="0.4434" />
             <PreSize X="0.4600" Y="0.5137" />
             <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
             <SingleColor A="255" R="150" G="200" B="255" />

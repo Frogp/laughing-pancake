@@ -28,5 +28,29 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="BettlePageUI.csd" />
+          <FilePathData Path="BettleReadyUI.csd" />
+          <FilePathData Path="BettleStartUI.csd" />
+          <FilePathData Path="MainUI.csd" />
+          <FilePathData Path="ConnerItem.csd" />
+          <FilePathData Path="ConnerItem.csi" />
+          <FilePathData Path="FriendListUI.csd" />
+          <FilePathData Path="GameResualtUI.csd" />
+          <FilePathData Path="InGameHUD.csd" />
+          <FilePathData Path="InGameOptionUI.csd" />
+          <FilePathData Path="InGameScene.csd" />
+          <FilePathData Path="InventoryUI.csd" />
+          <FilePathData Path="Logo.csi" />
+          <FilePathData Path="MessageBoxUI.csd" />
+          <FilePathData Path="OptionUI.csd" />
+          <FilePathData Path="StoreUI.csd" />
+          <FilePathData Path="StoryScene.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="BettleStartUI.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>

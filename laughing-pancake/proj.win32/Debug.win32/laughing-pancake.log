@@ -1,4 +1,4 @@
-﻿Build started 2016-05-15 오후 5:49:40.
+﻿Build started 2016-05-15 오후 7:18:50.
      1>Project "C:\SGD\laughing-pancake\proj.win32\laughing-pancake.vcxproj" on node 3 (Build target(s)).
      1>Link:
          laughing-pancake.vcxproj -> C:\SGD\laughing-pancake\proj.win32\Debug.win32\laughing-pancake.exe
@@ -12,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.42
+Time Elapsed 00:00:00.37

@@ -2,12 +2,12 @@
   <PropertyGroup Name="BettlePageUI" Type="Layer" ID="f4a4ac96-c3b0-4e52-b2c6-f08a95f6e8f8" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="49" Speed="1.0000" ActivedAnimationName="Selection">
+      <Animation Duration="35" Speed="1.0000" ActivedAnimationName="Selection">
         <Timeline ActionTag="1493280518" Property="Position">
           <PointFrame FrameIndex="15" X="514.1171" Y="581.4437">
             <EasingData Type="2" />
           </PointFrame>
-          <PointFrame FrameIndex="35" X="514.1171" Y="581.4437">
+          <PointFrame FrameIndex="25" X="514.1171" Y="581.4437">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -15,7 +15,7 @@
           <ScaleFrame FrameIndex="15" X="0.0010" Y="1.0000">
             <EasingData Type="2" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="35" X="1.0000" Y="1.0000">
+          <ScaleFrame FrameIndex="25" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -23,22 +23,22 @@
           <ScaleFrame FrameIndex="15" X="0.0000" Y="0.0000">
             <EasingData Type="2" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="35" X="0.0000" Y="0.0000">
+          <ScaleFrame FrameIndex="25" X="0.0000" Y="0.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1938309784" Property="Position">
-          <PointFrame FrameIndex="35" X="672.7461" Y="354.7596">
+          <PointFrame FrameIndex="25" X="672.7461" Y="354.7596">
             <EasingData Type="2" />
           </PointFrame>
         </Timeline>
         <Timeline ActionTag="1938309784" Property="Scale">
-          <ScaleFrame FrameIndex="35" X="1.1700" Y="1.1700">
+          <ScaleFrame FrameIndex="25" X="1.1700" Y="1.1700">
             <EasingData Type="2" />
           </ScaleFrame>
         </Timeline>
         <Timeline ActionTag="1938309784" Property="RotationSkew">
-          <ScaleFrame FrameIndex="35" X="0.0000" Y="0.0000">
+          <ScaleFrame FrameIndex="25" X="0.0000" Y="0.0000">
             <EasingData Type="2" />
           </ScaleFrame>
         </Timeline>
@@ -49,7 +49,7 @@
           <PointFrame FrameIndex="25" X="641.1913" Y="401.1913">
             <EasingData Type="0" />
           </PointFrame>
-          <PointFrame FrameIndex="49" X="641.1913" Y="401.1913">
+          <PointFrame FrameIndex="35" X="641.1913" Y="401.1913">
             <EasingData Type="0" />
           </PointFrame>
         </Timeline>
@@ -60,7 +60,7 @@
           <ScaleFrame FrameIndex="25" X="1.0000" Y="1.0000">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="49" X="0.0001" Y="0.0001">
+          <ScaleFrame FrameIndex="35" X="0.0001" Y="0.0001">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
@@ -71,16 +71,16 @@
           <ScaleFrame FrameIndex="25" X="0.0000" Y="0.0000">
             <EasingData Type="0" />
           </ScaleFrame>
-          <ScaleFrame FrameIndex="49" X="0.0000" Y="0.0000">
+          <ScaleFrame FrameIndex="35" X="0.0000" Y="0.0000">
             <EasingData Type="0" />
           </ScaleFrame>
         </Timeline>
       </Animation>
       <AnimationList>
-        <AnimationInfo Name="Oppening" StartIndex="0" EndIndex="35">
+        <AnimationInfo Name="Oppening" StartIndex="0" EndIndex="25">
           <RenderColor A="255" R="127" G="255" B="212" />
         </AnimationInfo>
-        <AnimationInfo Name="Selection" StartIndex="35" EndIndex="49">
+        <AnimationInfo Name="Selection" StartIndex="25" EndIndex="35">
           <RenderColor A="150" R="138" G="43" B="226" />
         </AnimationInfo>
       </AnimationList>
@@ -862,7 +862,7 @@
             </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="641.1913" Y="401.1913" />
-            <Scale ScaleX="0.0001" ScaleY="0.0001" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5009" Y="0.5015" />
             <PreSize X="1.0000" Y="1.0000" />
