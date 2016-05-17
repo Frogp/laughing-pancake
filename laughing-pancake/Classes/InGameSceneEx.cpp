@@ -32,7 +32,11 @@ InGameSceneEx::InGameSceneEx()
 	armature->setPosition(ccp(x, y));
 	m_Map_3->addChild(armature);
 
-	TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), ccp(0, 8), _layer);
+	/*********** Finding Path, Test Function ****************/
+	//TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), ccp(0, 8), _layer);
+	
+	/*********** Show avaliable Area of size, Test Function ****************/
+	TMXLayerUtil::getInstance()->SetTestArea(ccp(4,5), 2, _layer);
 	
 }
 

@@ -19,7 +19,8 @@ public:
 
 	
 	void SetTestPath(Point End, Point Start, cocos2d::TMXLayer * layer);
-
+	void SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer);
+	//Test Functions
 
 	static TMXLayerUtil* getInstance()
 	{
@@ -38,6 +39,7 @@ private:
 	void bfs(Point End, Point Start);
 	void dfs(int sx, int sy, int sl, cocos2d::TMXLayer * layer);
 	
+	void showArea(Point coord, int size, cocos2d::TMXLayer *layer);
 	const int ROWS = 9;
 	const int COLS = 9;
 	int map[9][9] = { 1, };

@@ -28,5 +28,15 @@
         <EnableHTML5Advanced Value="False" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="InGameOptionUI.csd" />
+          <FilePathData Path="InGameScene.csd" />
+          <FilePathData Path="InventoryUI.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="InGameScene.csd" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>

@@ -10,7 +10,48 @@ TMXLayerUtil::~TMXLayerUtil()
 {
 }
 
+void TMXLayerUtil::showArea(Point Start, int size, cocos2d::TMXLayer *layer)
+{
+	int xc[10000], yc[10000], lc[10000], pos, cnt;
+	const int initl = 10;
+	pos = 0;
+	cnt = 0;
+	lc[cnt] = initl;
+	xc[cnt] = Start.x;
+	yc[cnt++] = Start.y;
+	map[(int)Start.y][(int)Start.x] = 11;
+	while (pos < cnt)
+	{
 
+		for (int i = 0; i < 6; i++)
+		{
+			int x, y, l;
+			Point dir;
+			l = lc[pos] + 1;
+			if ((yc[pos]) % 2 == 0)
+				dir = even_directions[i];
+			else
+				dir = odd_directions[i];
+
+			x = xc[pos] + dir.x;
+			y = yc[pos] + dir.y;
+			
+	
+			if (x >= 0 && y >= 0 && x < ROWS && y < COLS
+				&& map[y][x] == 0 && l<=(size+ initl))
+			{
+				layer->setTileGID(5, Vec2((float)x, (float)y)); //Path Tile Show
+				lc[cnt] = l;
+				xc[cnt] = x;
+				yc[cnt++] = y;
+
+				map[y][x] = l;
+			}
+
+		}
+		pos++;
+	}
+}
 void TMXLayerUtil::bfs(Point End, Point Start)
 {
 	int xc[10000], yc[10000], lc[10000], pos, cnt;
@@ -25,7 +66,7 @@ void TMXLayerUtil::bfs(Point End, Point Start)
 	{
 
 		//printf("%d %d\n", xc[pos], yc[pos]);
-		//maze[yc[pos]][xc[pos]] = lc[pos];
+
 		if (xc[pos] == (int)End.x && yc[pos] == (int)End.y)
 			break;
 		for (int i = 0; i < 6; i++)
@@ -40,6 +81,7 @@ void TMXLayerUtil::bfs(Point End, Point Start)
 
 			x = xc[pos] + dir.x;
 			y = yc[pos] + dir.y;
+
 			//printf("%d %d", x,y);
 			//printf("%d->%d %d->%d\n", directions[i].x,x, directions[i].y,y);
 			if (x >= 0 && y >= 0 && x < ROWS && y < COLS
@@ -113,5 +155,12 @@ void TMXLayerUtil::SetTestPath(Point End, Point Start, cocos2d::TMXLayer *layer)
 	layer->setTileGID(6, Vec2((float)Start.x, (float)Start.y));
 	layer->setTileGID(7, Vec2((float)End.x, (float)End.y));
 }
+void TMXLayerUtil::SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer)
+{
+	Init_Map(layer);
 
+	showArea(Coords, size, layer);
+
+	layer->setTileGID(6, Vec2((float)Coords.x, (float)Coords.y));
+}
 

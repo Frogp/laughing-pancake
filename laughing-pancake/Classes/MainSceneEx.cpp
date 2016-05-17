@@ -34,7 +34,7 @@ MainSceneEx::MainSceneEx()
 		}
 	});
 
-	m_FileNode_1->m_BtAdventure->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	m_MainUI->m_BtAdventure->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		if (type == Widget::TouchEventType::ENDED)
 		{
@@ -45,7 +45,7 @@ MainSceneEx::MainSceneEx()
 			director->replaceScene((Scene*)scene);
 		}
 	});
-
+	
 	m_BettlePageUI->m_Panel_8->m_btBack->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		if (type == Widget::TouchEventType::ENDED)
