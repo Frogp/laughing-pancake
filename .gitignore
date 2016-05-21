@@ -185,3 +185,4 @@ tests/cpp-tests/Resources/audio
 
 # SymbolFile
 *.pdb
+laughing-pancake/proj.win32/laughing-pancake.VC.db

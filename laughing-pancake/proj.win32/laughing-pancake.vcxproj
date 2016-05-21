@@ -169,6 +169,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\ArdaClient.cpp" />
     <ClCompile Include="..\Classes\BettlePageUIEx.cpp" />
+    <ClCompile Include="..\Classes\Charactor.cpp" />
     <ClCompile Include="..\Classes\GameSceneEditor.cpp" />
     <ClCompile Include="..\Classes\GameText.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
@@ -180,6 +181,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\MainSceneEx.cpp" />
     <ClCompile Include="..\Classes\ObjCharictorEx.cpp" />
     <ClCompile Include="..\Classes\TMXLayerUtil.cpp" />
+    <ClCompile Include="..\Classes\VisualCharactor.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +210,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\ArdaClient.h" />
     <ClInclude Include="..\Classes\BettlePageUIEx.h" />
+    <ClInclude Include="..\Classes\Charactor.h" />
     <ClInclude Include="..\Classes\GameSceneEditor.h" />
     <ClInclude Include="..\Classes\GameText.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
@@ -220,6 +223,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\MainSceneEx.h" />
     <ClInclude Include="..\Classes\ObjCharictorEx.h" />
     <ClInclude Include="..\Classes\TMXLayerUtil.h" />
+    <ClInclude Include="..\Classes\VisualCharactor.h" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

@@ -22,6 +22,7 @@ MainSceneEx::MainSceneEx()
 	m_BettleStartUI->setVisible(false);
 
 
+
 	m_MainUI->actionMainUI->play("Oppening",false);
 
 	m_MainUI->m_BtBettle->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)

@@ -3,6 +3,9 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "VisualCharactor.h"
+#include <vector>
+
 USING_NS_CC;
 using namespace cocos2d;
 using namespace ui;
@@ -15,13 +18,16 @@ public:
 	~TMXLayerUtil();
 
 	
+	void Init_Map(cocos2d::TMXLayer *layer, Size tilesize);
 
 	
 	
-	void SetTestPath(Point End, Point Start, cocos2d::TMXLayer * layer, Size tilesize);
-	void SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer, Size tilesize);
-	void SetTestMove(Point Coords, cocos2d::TMXLayer *layer, Size tilesize, cocostudio::Armature* armature);
+	std::vector<Point> SetTestPath(Point End, Point Start, cocos2d::TMXLayer * layer);
+	void SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer);
+	void SetTestMove(Point Coords, cocos2d::TMXLayer *layer, Size tilesize, VisualCharactor* armature);
 	//Test Functions
+	
+	
 
 	static TMXLayerUtil* getInstance()
 	{
@@ -31,19 +37,20 @@ public:
 		}
 		return TMXLayerUtil::instance;
 	}
+
+	Point GenAbsoulutePosition(Point To);
 	
 private:
 
 	TMXLayerUtil();
-	void Init_Map(cocos2d::TMXLayer *layer, Size tilesize);
-
+	
 	void bfs(Point End, Point Start);
-	void dfs(int sx, int sy, int sl, cocos2d::TMXLayer * layer);
+	void GetMovePos(Point pos, int sl, std::vector<Point>& data);
 	
 	void showArea(Point coord, int size, cocos2d::TMXLayer *layer);
 
 
-	bool moveTo(Point To, cocostudio::Armature* armature, Size tilesize, cocos2d::TMXLayer *layer);
+	bool moveTo(Point To, VisualCharactor* armature, Size tilesize, cocos2d::TMXLayer *layer);
 
 	const int ROWS = 9;
 	const int COLS = 9;

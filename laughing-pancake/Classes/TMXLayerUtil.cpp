@@ -2,6 +2,11 @@
 
 TMXLayerUtil * TMXLayerUtil::instance;
 
+Point TMXLayerUtil::GenAbsoulutePosition(Point To)
+{
+	return ccp(coordMap[(int)To.y][(int)To.x].x, coordMap[(int)To.y][(int)To.x].y);
+}
+
 TMXLayerUtil::TMXLayerUtil()
 {
 }
@@ -14,11 +19,11 @@ TMXLayerUtil::~TMXLayerUtil()
 	coordMap ¿¡¼­ ¸Ê ÁÂÇ¥¿Í ´ëÀÀ µÇ´Â ui »ó ÁÂÇ¥·Î Ä³¸¯ÅÍ setposition ÇØÁÜ.
 */
 
-bool TMXLayerUtil::moveTo(Point To, cocostudio::Armature* armature, Size tilesize, cocos2d::TMXLayer *layer)
+bool TMXLayerUtil::moveTo(Point To, VisualCharactor* armature, Size tilesize, cocos2d::TMXLayer *layer)
 {
 	if (map[(int)To.y][(int)To.x] == 0)
 	{
-		armature->setPosition(ccp(coordMap[(int)To.y][(int)To.x].x, coordMap[(int)To.y][(int)To.x].y));
+		armature->SetMoveAnimation(GenAbsoulutePosition(To));
 		return true;
 	}
 	else
@@ -115,11 +120,12 @@ void TMXLayerUtil::bfs(Point End, Point Start)
 		pos++;
 	}
 }
-void TMXLayerUtil::dfs(int sx, int sy, int sl, cocos2d::TMXLayer *layer)
+void TMXLayerUtil::GetMovePos(Point pos, int sl, std::vector<Point>& data)
 {
-	layer->setTileGID(5, Vec2((float)sx, (float)sy));
-	//result[sy][sx] = sl;
-	//printf("%d %d %d\n", sx, sy, sl);
+	int sx = pos.x;
+	int sy = pos.y;
+	data.push_back(pos);
+
 	for (int i = 0; i < 6; i++)
 	{
 		int x, y, l;
@@ -137,11 +143,12 @@ void TMXLayerUtil::dfs(int sx, int sy, int sl, cocos2d::TMXLayer *layer)
 			&& map[y][x] == l)
 		{
 			//printf("%d %d\n", x, y);
-			dfs(x, y, l, layer);
+			GetMovePos(ccp(x, y), l, data);
 			break;
 		}
 	}
 }
+
 void TMXLayerUtil::Init_Map(cocos2d::TMXLayer *layer, Size tilesize) {
 
 
@@ -185,27 +192,31 @@ void TMXLayerUtil::Init_Map(cocos2d::TMXLayer *layer, Size tilesize) {
 }
 
 
-void TMXLayerUtil::SetTestPath(Point End, Point Start, cocos2d::TMXLayer *layer,Size tilesize)
+std::vector<Point> TMXLayerUtil::SetTestPath(Point End, Point Start, cocos2d::TMXLayer *layer)
 {
-	Init_Map(layer, tilesize);
+	std::vector<Point> output;
+
+	//Init_Map(layer, tilesize);
 
 	bfs(End,Start);
-	dfs(End.x, End.y, map[(int)End.y][(int)End.x], layer);
+	GetMovePos(End, map[(int)End.y][(int)End.x],output);
 
 	layer->setTileGID(6, Vec2((float)Start.x, (float)Start.y));
 	layer->setTileGID(7, Vec2((float)End.x, (float)End.y));
+
+	return output;
 }
-void TMXLayerUtil::SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer, Size tilesize)
+void TMXLayerUtil::SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer)
 {
-	Init_Map(layer, tilesize);
+	//Init_Map(layer, tilesize);
 
 	showArea(Coords, size, layer);
 
 	layer->setTileGID(6, Vec2((float)Coords.x, (float)Coords.y));
 }
-void TMXLayerUtil::SetTestMove(Point Coords, cocos2d::TMXLayer *layer, Size tilesize, cocostudio::Armature* armature)
+void TMXLayerUtil::SetTestMove(Point Coords, cocos2d::TMXLayer *layer, Size tilesize, VisualCharactor* armature)
 {
-	Init_Map(layer, tilesize);
+	//Init_Map(layer, tilesize);
 
 	moveTo(Coords, armature, tilesize, layer);
 

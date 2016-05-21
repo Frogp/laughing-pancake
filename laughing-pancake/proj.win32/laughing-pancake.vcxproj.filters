@@ -34,6 +34,9 @@
     <Filter Include="src\ClientLogic\Map">
       <UniqueIdentifier>{ecc0d2b1-2b2c-4244-84a2-8fe5ca6a5771}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\ClientLogic\Charactor">
+      <UniqueIdentifier>{9837e7ac-e5a2-44a2-a579-8a83658d83aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -146,6 +149,12 @@
     </ClCompile>
     <ClCompile Include="..\Classes\TMXLayerUtil.cpp">
       <Filter>src\ClientLogic\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Charactor.cpp">
+      <Filter>src\ClientLogic\Charactor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisualCharactor.cpp">
+      <Filter>src\ClientLogic\Charactor</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -262,6 +271,12 @@
     </ClInclude>
     <ClInclude Include="..\Classes\TMXLayerUtil.h">
       <Filter>src\ClientLogic\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Charactor.h">
+      <Filter>src\ClientLogic\Charactor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisualCharactor.h">
+      <Filter>src\ClientLogic\Charactor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
