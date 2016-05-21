@@ -29,15 +29,17 @@ InGameSceneEx::InGameSceneEx()
 	int x = objectStart["x"].asInt();
 	int y = objectStart["y"].asInt();
 
-	armature->setPosition(ccp(x, y));
+	armature->setPosition(ccp(x, (1000-(1800-y))));
 	m_Map_3->addChild(armature);
 
 	/*********** Finding Path, Test Function ****************/
-	//TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), ccp(0, 8), _layer);
+	//TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), ccp(0, 8), _layer,m_Map_3->getTileSize());
 	
 	/*********** Show avaliable Area of size, Test Function ****************/
-	TMXLayerUtil::getInstance()->SetTestArea(ccp(4,5), 2, _layer);
-	
+	TMXLayerUtil::getInstance()->SetTestArea(ccp(4,5), 2, _layer, m_Map_3->getTileSize());
+
+	/*********** Move character on anywhere you want, Test Function ****************/
+	//TMXLayerUtil::getInstance()->SetTestMove(Point(6,8), _layer, m_Map_3->getTileSize(), armature);
 }
 
 void InGameSceneEx::onTouchesMoved(const std::vector<Touch*>& touches, Event  *event)

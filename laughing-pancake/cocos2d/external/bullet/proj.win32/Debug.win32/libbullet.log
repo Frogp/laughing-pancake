@@ -23,7 +23,6 @@
   btConvexPlaneCollisionAlgorithm.cpp
   btDefaultCollisionConfiguration.cpp
   btEmptyCollisionAlgorithm.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\gimpact\btgimpactshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\BulletCollision\CollisionDispatch\btCollisionWorld.cpp)
   btGhostObject.cpp
   btHashedSimplePairCache.cpp
   btInternalEdgeUtility.cpp
@@ -31,6 +30,7 @@ c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\gimpact\btgimpac
   btSimulationIslandManager.cpp
   btSphereBoxCollisionAlgorithm.cpp
   btSphereSphereCollisionAlgorithm.cpp
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\gimpact\btgimpactshape.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오. (소스 파일 컴파일 중 ..\BulletCollision\CollisionDispatch\btCollisionWorld.cpp)
   btSphereTriangleCollisionAlgorithm.cpp
   btUnionFind.cpp
   SphereTriangleDetector.cpp
@@ -104,13 +104,13 @@ c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletcollision\gimpact\btgimpac
   btGeneric6DofConstraint.cpp
   btGeneric6DofSpringConstraint.cpp
   btHinge2Constraint.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(137): warning C4305: '=': 'double'에서 'btScalar'(으)로 잘립니다.
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(148): warning C4305: '=': 'double'에서 'btScalar'(으)로 잘립니다.
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\ConstraintSolver\btContactConstraint.cpp)
 c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(866): warning C4244: '=': 'double'에서 'btScalar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(911): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(971): warning C4244: '=': 'double'에서 'btScalar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btconetwistconstraint.cpp(973): warning C4244: '=': 'double'에서 'btScalar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\ConstraintSolver\btContactConstraint.cpp)
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(137): warning C4305: '=': 'double'에서 'btScalar'(으)로 잘립니다.
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\character\btkinematiccharactercontroller.cpp(148): warning C4305: '=': 'double'에서 'btScalar'(으)로 잘립니다.
   btHingeConstraint.cpp
   btPoint2PointConstraint.cpp
   btSequentialImpulseConstraintSolver.cpp
@@ -123,18 +123,18 @@ c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\
   btSimpleDynamicsWorld.cpp
   Bullet-C-API.cpp
   btMultiBody.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp)
   btMultiBodyConstraint.cpp
   btMultiBodyConstraintSolver.cpp
   btMultiBodyDynamicsWorld.cpp
   btMultiBodyJointLimitConstraint.cpp
   btMultiBodyJointMotor.cpp
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\btcontactconstraint.h(25): warning C4359: 'btContactConstraint': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다. (소스 파일 컴파일 중 ..\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp)
   btMultiBodyPoint2Point.cpp
   btDantzigLCP.cpp
+  btMLCPSolver.cpp
 c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
   c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
   c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\mlcpsolvers\btdantziglcp.cpp(1567): note: 누락된 variadic 인수 2이(가) 서식 문자열 '% s'에 필요합니다.
-  btMLCPSolver.cpp
   btRaycastVehicle.cpp
   btWheelInfo.cpp
   btGpu3DGridBroadphase.cpp
@@ -151,12 +151,11 @@ c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletdynamics\constraintsolver\
   SpuGatheringCollisionDispatcher.cpp
   SpuLibspe2Support.cpp
   boxBoxDistance.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(817): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(1141): warning C4316: 'btConstraintSolverIO': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(1484): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\sequentialthreadsupport.cpp(180): warning C4316: 'btDummyCriticalSection': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
   SpuCollisionShapes.cpp
   SpuContactResult.cpp
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(1141): warning C4316: 'btConstraintSolverIO': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\btparallelconstraintsolver.cpp(1484): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
   SpuGatheringCollisionTask.cpp
   SpuMinkowskiPenetrationDepthSolver.cpp
   SpuSampleTaskProcess.cpp
@@ -164,21 +163,17 @@ c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\sequentialth
   Win32ThreadSupport.cpp
   btAlignedAllocator.cpp
   btConvexHull.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\spusampletask\spusampletask.cpp(226): warning C4316: 'SampleTask_LocalStoreMemory': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
   btConvexHullComputer.cpp
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\spusampletask\spusampletask.cpp(226): warning C4316: 'SampleTask_LocalStoreMemory': 힙에 할당된 개체가 16에 맞추어져 있지 않을 수도 있습니다
   btGeometryUtil.cpp
   btPolarDecomposition.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\spunarrowphasecollisiontask\spugatheringcollisiontask.cpp(130): warning C4359: 'CollisionTask_LocalStoreMemory': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다.
   btQuickprof.cpp
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\spunarrowphasecollisiontask\spugatheringcollisiontask.cpp(130): warning C4359: 'CollisionTask_LocalStoreMemory': 맞춤 지정자가 실제 맞춤(128)보다 작아 무시됩니다.
   btSerializer.cpp
   btVector3.cpp
   MiniCL.cpp
   MiniCLTaskScheduler.cpp
   MiniCLTask.cpp
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
-c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\minicl\minicl.cpp(83): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\minicl\minicl.cpp(96): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
@@ -193,6 +188,10 @@ c:\sgd\laughing-pancake\cocos2d\external\bullet\minicl\minicl.cpp(166): warning 
 c:\sgd\laughing-pancake\cocos2d\external\bullet\minicl\minicl.cpp(547): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
 c:\sgd\laughing-pancake\cocos2d\external\bullet\minicl\minicl.cpp(640): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(253): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+c:\sgd\laughing-pancake\cocos2d\external\bullet\bulletmultithreaded\win32threadsupport.cpp(262): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
 PosixThreadSupport.obj : warning LNK4221: 이 개체 파일은 이전에 정의되지 않은 공용 기호를 정의하지 않으므로 이 라이브러리를 사용하는 어떠한 링크 작업에도 사용되지 않습니다.
 btBroadphaseProxy.obj : warning LNK4221: 이 개체 파일은 이전에 정의되지 않은 공용 기호를 정의하지 않으므로 이 라이브러리를 사용하는 어떠한 링크 작업에도 사용되지 않습니다.

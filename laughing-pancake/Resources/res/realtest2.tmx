@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="staggered" renderorder="right-down" width="9" height="9" tilewidth="150" tileheight="200" staggeraxis="y" staggerindex="odd" nextobjectid="3">
+<map version="1.0" orientation="staggered" renderorder="right-down" width="9" height="9" tilewidth="150" tileheight="200" staggeraxis="y" staggerindex="odd" nextobjectid="16">
  <tileset firstgid="1" name="tile" tilewidth="150" tileheight="200" tilecount="20" columns="5">
   <image source="tile.png" width="800" height="800"/>
  </tileset>
  <layer name="Movable" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdsGDhExLDxWfBwsclRggTYw6x7sMnhg4AXIQAoQ==
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
  <layer name="Player1spawn" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF+AALEWoAAdQABQ==
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
  <layer name="Player2spawn" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcsFDBjKEMAAVEAAU=
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
  <layer name="Water" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEjGgYGyAkj66OkBpqAGLMIeQeYvyFHj4ADVwAFQ==
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
  <layer name="Tree" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYmBgYELD6ICQPDZ1hNQQAsSoIQYQMocY9xDyFwAjPAAr
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
+ <objectgroup name="Object Layer 1">
+  <object id="3" name="player2" x="75" y="140"/>
+  <object id="5" name="player1" x="75" y="940"/>
+  <object id="7" name="player3" x="150" y="240"/>
+  <object id="14" name="player22" x="75" y="340"/>
+  <object id="15" name="player21" x="225" y="140"/>
+ </objectgroup>
  <layer name="SELECTED" width="9" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjY2BgYBvFFGEAOKsB5w==
+   eJxjYBgFlAIAAUQAAQ==
   </data>
  </layer>
  <layer name="All" width="9" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYmBgYELDjGgYXZ4FTZ4FitHVsOBRw4KmhgUNo6shBhNjDiH3EOMv9PABAIqUAN8=
+   eJxjYWBgYMKDWaCYkDwLFrXY5KiNmZEwLjWMaOoY0eSwyWNTg0sdAKY8APo=
   </data>
  </layer>
- <objectgroup name="Object Layer 1">
-  <object id="1" name="player1" x="32" y="890" width="80" height="88"/>
-  <object id="2" name="player2" x="1302.67" y="192" width="89.33" height="86"/>
- </objectgroup>
 </map>

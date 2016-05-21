@@ -16,10 +16,11 @@ public:
 
 	
 
-
 	
-	void SetTestPath(Point End, Point Start, cocos2d::TMXLayer * layer);
-	void SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer);
+	
+	void SetTestPath(Point End, Point Start, cocos2d::TMXLayer * layer, Size tilesize);
+	void SetTestArea(Point Coords, int size, cocos2d::TMXLayer *layer, Size tilesize);
+	void SetTestMove(Point Coords, cocos2d::TMXLayer *layer, Size tilesize, cocostudio::Armature* armature);
 	//Test Functions
 
 	static TMXLayerUtil* getInstance()
@@ -34,16 +35,24 @@ public:
 private:
 
 	TMXLayerUtil();
-	void Init_Map(cocos2d::TMXLayer * layer);
+	void Init_Map(cocos2d::TMXLayer *layer, Size tilesize);
 
 	void bfs(Point End, Point Start);
 	void dfs(int sx, int sy, int sl, cocos2d::TMXLayer * layer);
 	
 	void showArea(Point coord, int size, cocos2d::TMXLayer *layer);
+
+
+	bool moveTo(Point To, cocostudio::Armature* armature, Size tilesize, cocos2d::TMXLayer *layer);
+
 	const int ROWS = 9;
 	const int COLS = 9;
-	int map[9][9] = { 1, };
 
+	//const int realHeight = ((tilesize*layer->getmapsize)/2)+1;
+	const int realHeight = 1000;
+
+	int map[9][9] = { 1, };
+	Point coordMap[9][9];
 	const Point even_directions[6] = { //ยฆผ๖มู
 		{ -1, -1 },{ 0,-1 },{ -1,0 },{ 1,0 },{ -1,1 },{ 0,1 }
 	};
