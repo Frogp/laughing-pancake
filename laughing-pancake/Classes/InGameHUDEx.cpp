@@ -1,5 +1,8 @@
 #include "InGameHUDEx.h"
 #include "HelloWorldScene.h"
+#include "MainSceneEx.h"
+
+
 
 InGameHUDEx::InGameHUDEx()
 {
@@ -28,9 +31,9 @@ InGameHUDEx::InGameHUDEx()
 	m_GameResualtUI->m_Button_2_0->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		auto director = Director::getInstance();
-		auto scene = HelloWorld::createScene();
-		//TransitionFade* pScene = TransitionFade::create(0.25, scene, Color3B::BLACK);
-		//director->getRunningScene()->removeAllChildren();
-		director->replaceScene((Scene*)scene);
+		Scene* scene_ = Scene::create();
+		Layer *layer_ = new MainSceneEx();
+		scene_->addChild(layer_);
+		director->replaceScene((Scene*)scene_);
 	});
 }

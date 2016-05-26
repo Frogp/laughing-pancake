@@ -20,6 +20,8 @@ public:
 
 	GameText m_GameText;
 	
+	const float speed = 1;
+
 	void Init();
 	static ArdaClient* GetInstace();
 
