@@ -17,8 +17,7 @@ class Panel_1 : public CCObject
 public:
 	Panel_1() {}
 public:
-	Layout * m_Panel_2;
-	Layout * m_Panel_2_0;
+	cocos2d::ParticleSystem * m_Particle_1;
 cocos2d::Node * root;
 };
 }

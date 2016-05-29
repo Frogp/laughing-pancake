@@ -19,7 +19,6 @@ public:
 public:
 	cocos2d::ui::ImageView * m_Image_1;
 	cocos2d::ui::Text * m_Text_1;
-	cocos2d::ui::Button*  m_Button_2;
 	cocos2d::ui::Slider * m_Slider_1;
 	cocos2d::ui::Slider * m_Slider_1_0;
 	CheckBox * m_CheckBox_1;
@@ -28,6 +27,7 @@ public:
 	cocos2d::ui::Text * m_Text_3_0;
 	cocos2d::ui::Text * m_Text_5;
 	cocos2d::ui::Text * m_Text_5_0;
+	cocos2d::ui::Button*  m_Button_1;
 cocos2d::Node * root;
 };
 }

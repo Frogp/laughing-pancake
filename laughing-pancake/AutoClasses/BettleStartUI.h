@@ -3,6 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "BettleStartUI/Panel_1.h"
 #include "BettleStartUI/Panel_2.h"
 #include "BettleStartUI/Chain1.h"
 #include "BettleStartUI/Chain2.h"
@@ -24,7 +25,7 @@ public:
 	BettleStartUI(Widget* _root);
 	void InitPage();
 public:
-	Layout * m_Panel_1;
+	CCBettleStartUI::Panel_1 * m_Panel_1;
 	CCBettleStartUI::Panel_2 * m_Panel_2;
 	CCBettleStartUI::Chain1 * m_Chain1;
 	CCBettleStartUI::Chain2 * m_Chain2;

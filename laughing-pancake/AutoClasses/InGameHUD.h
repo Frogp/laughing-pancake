@@ -3,6 +3,7 @@
 #include "cocos2d.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "InGameHUD/SummonSelctList.h"
 
 USING_NS_CC;
 using namespace cocos2d;
@@ -20,14 +21,21 @@ public:
 	void InitPage();
 public:
 	cocos2d::ui::Button*  m_Menu;
-	cocos2d::ui::LoadingBar * m_LoadingBar_2;
-	cocos2d::ui::Button*  m_Button_2;
-	cocos2d::ui::Button*  m_Button_2_0;
-	cocos2d::ui::Button*  m_Button_2_1;
-	cocos2d::ui::Button*  m_Button_2_2;
+	cocos2d::ui::LoadingBar * m_OrderTimebar;
 	cocos2d::ui::Button*  m_Button_2_3;
-	cocos2d::Sprite * m_loadingbar_back_1;
-	cocos2d::ui::LoadingBar * m_LoadingBar_1;
+	cocos2d::ui::LoadingBar * m_tbP1mpbar;
+	cocos2d::ui::Text * m_tbP1mp;
+	cocos2d::ui::LoadingBar * m_tbP2mpbar;
+	cocos2d::ui::Text * m_tbP2mp;
+	CCInGameHUD::SummonSelctList * m_SummonSelctList;
+	cocos2d::Sprite * m_Char1;
+	cocos2d::Sprite * m_Char2;
+	cocos2d::ui::Text * m_tbPlayer1;
+	cocos2d::ui::Text * m_tbPlayer2;
+	cocos2d::ui::LoadingBar * m_Player1Hpbar;
+	cocos2d::ui::LoadingBar * m_Player2Hpbar;
+	cocos2d::ui::Text * m_tbP2hp;
+	cocos2d::ui::Text * m_tbP1hp;
 
 	cocostudio::timeline::ActionTimeline* actionInGameHUD;
 	static InGameHUD* Getinstance()

@@ -22,6 +22,7 @@ public:
 	void InitPage();
 public:
 	cocos2d::Sprite * m_background;
+	cocos2d::ParticleSystem * m_Particle_1;
 	cocos2d::ui::Button*  m_BtAdventure;
 	CCMainUI::Node_1_0 * m_Node_1_0;
 	cocos2d::ui::Button*  m_BtBettle;

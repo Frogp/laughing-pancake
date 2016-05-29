@@ -35,8 +35,6 @@ void OptionUI::InitPage()
 		m_Panel_1->m_Image_1->retain();
 		m_Panel_1->m_Text_1= static_cast<cocos2d::ui::Text *>(_Panel_1->getChildByName("Text_1"));
 		m_Panel_1->m_Text_1->retain();
-		m_Panel_1->m_Button_2= static_cast<cocos2d::ui::Button* >(_Panel_1->getChildByName("Button_2"));
-		m_Panel_1->m_Button_2->retain();
 		m_Panel_1->m_Slider_1= static_cast<cocos2d::ui::Slider *>(_Panel_1->getChildByName("Slider_1"));
 		m_Panel_1->m_Slider_1->retain();
 		m_Panel_1->m_Slider_1_0= static_cast<cocos2d::ui::Slider *>(_Panel_1->getChildByName("Slider_1_0"));
@@ -53,5 +51,7 @@ void OptionUI::InitPage()
 		m_Panel_1->m_Text_5->retain();
 		m_Panel_1->m_Text_5_0= static_cast<cocos2d::ui::Text *>(_Panel_1->getChildByName("Text_5_0"));
 		m_Panel_1->m_Text_5_0->retain();
+		m_Panel_1->m_Button_1= static_cast<cocos2d::ui::Button* >(_Panel_1->getChildByName("Button_1"));
+		m_Panel_1->m_Button_1->retain();
 	}
 }

@@ -33,6 +33,8 @@ void MainUI::InitPage()
 	ReCall = actionMainUI->getAnimationInfo("ReCall");
 	m_background= static_cast<cocos2d::Sprite *>(root->getChildByName("background"));
 	m_background->retain();
+	m_Particle_1= static_cast<cocos2d::ParticleSystem *>(root->getChildByName("Particle_1"));
+	m_Particle_1->retain();
 	m_BtAdventure= static_cast<cocos2d::ui::Button* >(root->getChildByName("BtAdventure"));
 	m_BtAdventure->retain();
 	cocos2d::Node *_Node_1_0= static_cast<cocos2d::Node *>(root->getChildByName("Node_1_0"));

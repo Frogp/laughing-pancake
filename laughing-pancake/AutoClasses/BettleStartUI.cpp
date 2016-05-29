@@ -28,8 +28,14 @@ void BettleStartUI::InitPage()
 	root->runAction(actionBettleStartUI);
 	Openging = actionBettleStartUI->getAnimationInfo("Openging");
 	MatchingFound = actionBettleStartUI->getAnimationInfo("MatchingFound");
-	m_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
-	m_Panel_1->retain();
+	Layout *_Panel_1= static_cast<Layout *>(root->getChildByName("Panel_1"));
+	_Panel_1->retain();
+	m_Panel_1 = new CCBettleStartUI::Panel_1();
+	m_Panel_1->root = _Panel_1;
+	{
+		m_Panel_1->m_Particle_1= static_cast<cocos2d::ParticleSystem *>(_Panel_1->getChildByName("Particle_1"));
+		m_Panel_1->m_Particle_1->retain();
+	}
 	Layout *_Panel_2= static_cast<Layout *>(root->getChildByName("Panel_2"));
 	_Panel_2->retain();
 	m_Panel_2 = new CCBettleStartUI::Panel_2();

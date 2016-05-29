@@ -104,7 +104,6 @@ tools/jenkins_scripts/mac/android/userconf.ini
 tags
 
 # ignore files, created with make-all-linux-project script
-/lib
 /build/linux-build
 
 # Cmake files
@@ -157,7 +156,6 @@ tests/cpp-tests/Resources/audio
 # Compiled Object files
 *.slo
 *.lo
-*.o
 *.obj
 
 # Precompiled Headers
@@ -165,9 +163,7 @@ tests/cpp-tests/Resources/audio
 *.pch
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -175,8 +171,6 @@ tests/cpp-tests/Resources/audio
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
 *.exe
@@ -187,3 +181,33 @@ tests/cpp-tests/Resources/audio
 *.pdb
 laughing-pancake/proj.win32/laughing-pancake.VC.db
 laughing-pancake/laughing-pancake.udf
+*.write.1.tlog
+*.read.1.tlog
+*.command.1.tlog
+laughing-pancake/cocos2d/cocos/2d/Debug.win32/libcocos2d.tlog/CL.write.1.tlog
+laughing-pancake/cocos2d/cocos/2d/Debug.win32/libcocos2d.tlog/cl.command.1.tlog
+laughing-pancake/cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32/libSpine.log
+laughing-pancake/cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32/libSpine.tlog/CL.read.1.tlog
+laughing-pancake/cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32/libSpine.tlog/CL.write.1.tlog
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.log
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.tlog/CL.read.1.tlog
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.tlog/CL.write.1.tlog
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.tlog/Lib-link.read.1.tlog
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.tlog/Lib-link.write.1.tlog
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.tlog/cl.command.1.tlog
+laughing-pancake/cocos2d/external/Box2D/proj.win32/Debug.win32/libbox2d.tlog/lib.command.1.tlog
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.log
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.tlog/CL.read.1.tlog
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.tlog/CL.write.1.tlog
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.tlog/Lib-link.read.1.tlog
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.tlog/Lib-link.write.1.tlog
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.tlog/cl.command.1.tlog
+laughing-pancake/cocos2d/external/bullet/proj.win32/Debug.win32/libbullet.tlog/lib.command.1.tlog
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.log
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/CL.read.1.tlog
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/CL.write.1.tlog
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/Lib-link.read.1.tlog
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/Lib-link.write.1.tlog
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/cl.command.1.tlog
+laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/lib.command.1.tlog
+
