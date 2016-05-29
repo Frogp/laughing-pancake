@@ -179,11 +179,6 @@ tests/cpp-tests/Resources/audio
 
 # SymbolFile
 *.pdb
-laughing-pancake/proj.win32/laughing-pancake.VC.db
-laughing-pancake/laughing-pancake.udf
-*.write.1.tlog
-*.read.1.tlog
-*.command.1.tlog
 laughing-pancake/cocos2d/cocos/2d/Debug.win32/libcocos2d.tlog/CL.write.1.tlog
 laughing-pancake/cocos2d/cocos/2d/Debug.win32/libcocos2d.tlog/cl.command.1.tlog
 laughing-pancake/cocos2d/cocos/editor-support/spine/proj.win32/Debug.win32/libSpine.log
@@ -210,4 +205,7 @@ laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/L
 laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/Lib-link.write.1.tlog
 laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/cl.command.1.tlog
 laughing-pancake/cocos2d/external/recast/proj.win32/Debug.win32/librecast.tlog/lib.command.1.tlog
+laughing-pancake/proj.win32/laughing-pancake.VC.db
+laughing-pancake/proj.win32/laughing-pancake.VC.db
+laughing-pancake/laughing-pancake.udf
 
