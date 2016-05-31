@@ -1,7 +1,7 @@
 {
 	"Monster": [
 		{
-			"imagePath": "C:\\Users\\junghan\\Desktop\\CreateTools\\monster.png",
+			"imagePath": "monster.png",
 			"name": "kim",
 			"index": "1",
 			"power": "100",
@@ -39,6 +39,16 @@
 			"speed": "412",
 			"strength": "232",
 			"property": "2"
+		},
+		{
+			"imagePath": "",
+			"name": "asd",
+			"index": "4",
+			"power": "12",
+			"defence": "123",
+			"speed": "123",
+			"strength": "3",
+			"property": "3"
 		}
 	]
 }
