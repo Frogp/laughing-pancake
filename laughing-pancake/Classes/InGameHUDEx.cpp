@@ -17,7 +17,7 @@ InGameHUDEx::InGameHUDEx()
 	m_GameResualtUI = new GameResualtUI();
 	addChild(m_GameResualtUI);
 	m_GameResualtUI->setVisible(false);
-
+	m_SummonSelctList->root->setVisible(false);
 	m_Menu->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
 	{
 		m_InGameOptionUI->setVisible(true);

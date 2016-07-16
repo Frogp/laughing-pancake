@@ -37,9 +37,9 @@ InGameSceneEx::InGameSceneEx()
 	m_Map_3->addChild(armature);
 
 	/*********** Finding Path, Test Function ****************/
-	std::vector<Point> &pos =  TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), armature->NowTilePos, _layer);
+	//std::vector<Point> &pos =  TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), armature->NowTilePos, _layer);
+	//armature->SetMoveAnimation(pos);
 
-	armature->SetMoveAnimation(pos);
 	/*********** Show avaliable Area of size, Test Function ****************/
 	//TMXLayerUtil::getInstance()->SetTestArea(ccp(4,5), 2, _layer, m_Map_3->getTileSize());
 
@@ -55,6 +55,13 @@ void InGameSceneEx::onTouchesMoved(const std::vector<Touch*>& touches, Event  *e
 
 	auto currentPos = m_Map_3->getPosition();
 	m_Map_3->setPosition(currentPos + diff);
+}
+
+void InGameSceneEx::onTouchEnded(Touch * touch, Event * unused_event)
+{
+	auto touchLocation = touch->getLocation();
+	touchLocation = this->convertToNodeSpace(touchLocation);
+
 }
 
 void InGameSceneEx::Update(float dt)

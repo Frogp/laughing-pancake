@@ -39,16 +39,16 @@
       </Animation>
       <AnimationList>
         <AnimationInfo Name="Opening" StartIndex="0" EndIndex="20">
-          <RenderColor A="150" R="255" G="218" B="185" />
+          <RenderColor A="255" R="255" G="218" B="185" />
         </AnimationInfo>
         <AnimationInfo Name="Closed" StartIndex="20" EndIndex="47">
-          <RenderColor A="150" R="34" G="139" B="34" />
+          <RenderColor A="255" R="34" G="139" B="34" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Layer" Tag="15" ctype="GameLayerObjectData">
         <Size X="1280.0000" Y="800.0000" />
         <Children>
-          <AbstractNodeData Name="Panel_24" ActionTag="-2035723134" Tag="771" IconVisible="False" RightMargin="1080.0000" TopMargin="600.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_24" ActionTag="-2035723134" Tag="771" IconVisible="False" RightMargin="1080.0000" TopMargin="600.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
             <Size X="200.0000" Y="200.0000" />
             <AnchorPoint />
             <Position />
@@ -61,7 +61,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Panel_2" ActionTag="1238101058" Tag="591" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="341.6083" RightMargin="349.5917" TopMargin="219.2124" BottomMargin="169.8276" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
+          <AbstractNodeData Name="Panel_2" ActionTag="1238101058" Tag="591" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="341.6083" RightMargin="349.5917" TopMargin="900.8120" BottomMargin="-511.7720" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="PanelObjectData">
             <Size X="588.8000" Y="410.9600" />
             <Children>
               <AbstractNodeData Name="Conneritem_3_0" ActionTag="1201438784" Tag="596" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" HorizontalEdge="RightEdge" VerticalEdge="TopEdge" LeftMargin="443.1956" RightMargin="17.6044" TopMargin="17.3768" BottomMargin="265.5832" ctype="SpriteObjectData">
@@ -75,10 +75,10 @@
                 <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem.png" Plist="Logo.plist" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Conneritem_3_0_0" ActionTag="-1222475472" Tag="597" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" LeftMargin="18.2307" RightMargin="442.5693" TopMargin="15.8969" BottomMargin="267.0630" ctype="SpriteObjectData">
+              <AbstractNodeData Name="Conneritem_3_0_0" ActionTag="-1222475472" Tag="597" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" LeftMargin="18.2307" RightMargin="442.5693" TopMargin="15.8969" BottomMargin="267.0631" ctype="SpriteObjectData">
                 <Size X="128.0000" Y="128.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="82.2307" Y="331.0630" />
+                <Position X="82.2307" Y="331.0631" />
                 <Scale ScaleX="1.5000" ScaleY="1.5000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.1397" Y="0.8056" />
@@ -108,7 +108,7 @@
                 <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem.png" Plist="Logo.plist" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Conneritem2_8" ActionTag="-568949656" Tag="600" IconVisible="False" HorizontalEdge="RightEdge" LeftMargin="577.2516" RightMargin="-20.4516" TopMargin="89.5316" BottomMargin="193.4283" ctype="SpriteObjectData">
+              <AbstractNodeData Name="Conneritem2_8" ActionTag="-568949656" Tag="600" IconVisible="False" HorizontalEdge="RightEdge" LeftMargin="577.2516" RightMargin="-20.4516" TopMargin="89.5317" BottomMargin="193.4283" ctype="SpriteObjectData">
                 <Size X="32.0000" Y="128.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="593.2516" Y="257.4283" />
@@ -130,7 +130,7 @@
                 <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem2.png" Plist="Logo.plist" />
                 <BlendFunc Src="1" Dst="771" />
               </AbstractNodeData>
-              <AbstractNodeData Name="BtNormal" ActionTag="-1675826839" Tag="571" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="101.9666" RightMargin="86.4493" TopMargin="16.7513" BottomMargin="254.4823" TouchEnable="True" FontSize="48" ButtonText="Normal" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="BtNormal" ActionTag="-1675826839" Tag="571" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="101.9666" RightMargin="86.4494" TopMargin="16.7513" BottomMargin="254.4823" TouchEnable="True" FontSize="48" ButtonText="Normal" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="400.3840" Y="139.7264" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="302.1586" Y="324.3455" />
@@ -198,7 +198,7 @@
                 <PreSize X="0.1087" Y="0.1557" />
                 <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem3.png" Plist="Logo.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_14_0_0" ActionTag="-646156980" Tag="672" IconVisible="False" LeftMargin="363.3623" RightMargin="161.4377" TopMargin="193.3450" BottomMargin="153.6149" FlipX="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_14_0_0" ActionTag="-646156980" Tag="672" IconVisible="False" LeftMargin="363.3623" RightMargin="161.4377" TopMargin="193.3451" BottomMargin="153.6149" FlipX="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
                 <Size X="64.0000" Y="64.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="395.3623" Y="185.6149" />
@@ -208,7 +208,7 @@
                 <PreSize X="0.1087" Y="0.1557" />
                 <FileData Type="MarkedSubImage" Path="img/ui/box/Conneritem3.png" Plist="Logo.plist" />
               </AbstractNodeData>
-              <AbstractNodeData Name="Image_14_1" ActionTag="2034876502" Tag="673" IconVisible="False" LeftMargin="386.3348" RightMargin="138.4652" TopMargin="56.8177" BottomMargin="290.1422" FlipX="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_14_1" ActionTag="2034876502" Tag="673" IconVisible="False" LeftMargin="386.3348" RightMargin="138.4652" TopMargin="56.8178" BottomMargin="290.1422" FlipX="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
                 <Size X="64.0000" Y="64.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="418.3348" Y="322.1422" />
@@ -220,10 +220,10 @@
               </AbstractNodeData>
             </Children>
             <AnchorPoint ScaleX="0.5311" ScaleY="0.4500" />
-            <Position X="654.3200" Y="354.7596" />
+            <Position X="654.3200" Y="-326.8400" />
             <Scale ScaleX="1.1700" ScaleY="1.1700" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5112" Y="0.4434" />
+            <PrePosition X="0.5112" Y="-0.4085" />
             <PreSize X="0.4600" Y="0.5137" />
             <FileData Type="MarkedSubImage" Path="img/ui/box/Boxdot.png" Plist="Logo.plist" />
             <SingleColor A="255" R="150" G="200" B="255" />

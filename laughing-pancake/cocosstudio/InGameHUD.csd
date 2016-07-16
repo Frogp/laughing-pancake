@@ -58,7 +58,7 @@
             <PreSize X="0.4000" Y="0.0437" />
             <ImageFileData Type="Normal" Path="img/ui/bar/loadingbar.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="tbP1mp" ActionTag="-588895482" Tag="25" IconVisible="False" LeftMargin="176.0069" RightMargin="970.9932" TopMargin="6.3376" BottomMargin="756.6624" FontSize="36" LabelText="120/120" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="tbP1mp" ActionTag="-588895482" Tag="25" IconVisible="False" LeftMargin="176.0069" RightMargin="970.9931" TopMargin="6.3376" BottomMargin="756.6624" FontSize="36" LabelText="120/120" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="133.0000" Y="37.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="242.5069" Y="775.1624" />
@@ -92,10 +92,10 @@
             <OutlineColor A="255" R="0" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="SummonSelctList" CanEdit="False" Visible="False" ActionTag="-1861942953" Tag="28" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="80.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="160" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" VerticalType="Align_VerticalCenter" ctype="ListViewObjectData">
+          <AbstractNodeData Name="SummonSelctList" CanEdit="False" ActionTag="-1861942953" Tag="28" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="80.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="160" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ScrollDirectionType="0" VerticalType="Align_VerticalCenter" ctype="ListViewObjectData">
             <Size X="1280.0000" Y="720.0000" />
             <Children>
-              <AbstractNodeData Name="Type1" ActionTag="963330687" Tag="31" IconVisible="False" RightMargin="1200.0000" TopMargin="10.0000" BottomMargin="10.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+              <AbstractNodeData Name="Type1" ActionTag="963330687" Tag="31" IconVisible="False" RightMargin="1200.0000" TopMargin="10.0000" BottomMargin="10.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="400.0000" Y="700.0000" />
                 <Children>
                   <AbstractNodeData Name="Image_4" CanEdit="False" ActionTag="-697872193" Tag="33" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="40.8047" RightMargin="35.1953" TopMargin="44.7173" BottomMargin="59.3027" Scale9Enable="True" LeftEage="21" RightEage="21" TopEage="21" BottomEage="21" Scale9OriginX="21" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
