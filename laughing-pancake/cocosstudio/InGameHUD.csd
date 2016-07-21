@@ -2,7 +2,115 @@
   <PropertyGroup Name="InGameHUD" Type="Layer" ID="c06f2f00-dc22-4806-9c57-95327a2d14a7" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="0" Speed="1.0000" />
+      <Animation Duration="10" Speed="1.0000" ActivedAnimationName="Deselect">
+        <Timeline ActionTag="-1148951523" Property="Position">
+          <PointFrame FrameIndex="0" X="-114.8484" Y="184.2250">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="5" X="125.2451" Y="182.3639">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="10" X="-118.5688" Y="182.3639">
+            <EasingData Type="0" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="-1148951523" Property="Scale">
+          <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="5" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="-1148951523" Property="RotationSkew">
+          <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="5" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="-108858250" Property="Position">
+          <PointFrame FrameIndex="0" X="-116.0160" Y="97.9160">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="5" X="124.0776" Y="96.0549">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="10" X="-119.7365" Y="96.0549">
+            <EasingData Type="0" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="-108858250" Property="Scale">
+          <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="5" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="-108858250" Property="RotationSkew">
+          <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="5" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="-350465439" Property="Position">
+          <PointFrame FrameIndex="0" X="-114.1546" Y="274.7322">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="5" X="125.9391" Y="272.8713">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="10" X="-117.8750" Y="272.8730">
+            <EasingData Type="0" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="-350465439" Property="Scale">
+          <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="5" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="-350465439" Property="RotationSkew">
+          <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="5" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="10" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+      </Animation>
+      <AnimationList>
+        <AnimationInfo Name="Select" StartIndex="0" EndIndex="5">
+          <RenderColor A="150" R="128" G="0" B="128" />
+        </AnimationInfo>
+        <AnimationInfo Name="Deselect" StartIndex="5" EndIndex="10">
+          <RenderColor A="150" R="222" G="184" B="135" />
+        </AnimationInfo>
+      </AnimationList>
       <ObjectData Name="Layer" Tag="19" ctype="GameLayerObjectData">
         <Size X="1280.0000" Y="800.0000" />
         <Children>
@@ -92,7 +200,7 @@
             <OutlineColor A="255" R="0" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="SummonSelctList" CanEdit="False" ActionTag="-1861942953" Tag="28" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="80.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="160" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ScrollDirectionType="0" VerticalType="Align_VerticalCenter" ctype="ListViewObjectData">
+          <AbstractNodeData Name="SummonSelctList" Visible="False" ActionTag="-1861942953" Tag="28" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TopMargin="80.0000" TouchEnable="True" ClipAble="True" BackColorAlpha="160" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ScrollDirectionType="0" VerticalType="Align_VerticalCenter" ctype="ListViewObjectData">
             <Size X="1280.0000" Y="720.0000" />
             <Children>
               <AbstractNodeData Name="Type1" ActionTag="963330687" Tag="31" IconVisible="False" RightMargin="1200.0000" TopMargin="10.0000" BottomMargin="10.0000" TouchEnable="True" ClipAble="False" BackColorAlpha="0" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
@@ -1363,6 +1471,54 @@
             <PreSize X="0.0437" Y="0.0300" />
             <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
             <OutlineColor A="255" R="0" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="MoveButton" ActionTag="-1148951523" Tag="120" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="-237.3528" RightMargin="1279.7848" TopMargin="572.1360" BottomMargin="136.8639" TouchEnable="True" FontSize="36" ButtonText="Move" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="237.5680" Y="91.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-118.5688" Y="182.3639" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.0926" Y="0.2280" />
+            <PreSize X="0.1856" Y="0.1138" />
+            <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
+            <TextColor A="255" R="180" G="180" B="180" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase2.png" Plist="Logo.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="MagicButton" ActionTag="-108858250" Tag="121" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="-238.5205" RightMargin="1280.9525" TopMargin="658.4451" BottomMargin="50.5549" TouchEnable="True" FontSize="36" ButtonText="Magic" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="237.5680" Y="91.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-119.7365" Y="96.0549" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.0935" Y="0.1201" />
+            <PreSize X="0.1856" Y="0.1138" />
+            <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
+            <TextColor A="255" R="180" G="180" B="180" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase2.png" Plist="Logo.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="SummonButton" ActionTag="-350465439" Tag="122" IconVisible="False" PercentWidthEnable="True" PercentWidthEnabled="True" LeftMargin="-236.6590" RightMargin="1279.0911" TopMargin="481.6270" BottomMargin="227.3730" TouchEnable="True" FontSize="36" ButtonText="Summon" Scale9Enable="True" LeftEage="50" RightEage="50" TopEage="50" BottomEage="50" Scale9OriginX="50" Scale9OriginY="50" Scale9Width="28" Scale9Height="28" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="237.5680" Y="91.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="-117.8750" Y="272.8730" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="-0.0921" Y="0.3411" />
+            <PreSize X="0.1856" Y="0.1138" />
+            <FontResource Type="Normal" Path="visitor1.ttf" Plist="" />
+            <TextColor A="255" R="180" G="180" B="180" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="MarkedSubImage" Path="img/ui/button/uibase2.png" Plist="Logo.plist" />
+            <NormalFileData Type="MarkedSubImage" Path="img/ui/button/uibase1.png" Plist="Logo.plist" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>

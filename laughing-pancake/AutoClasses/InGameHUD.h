@@ -36,8 +36,13 @@ public:
 	cocos2d::ui::LoadingBar * m_Player2Hpbar;
 	cocos2d::ui::Text * m_tbP2hp;
 	cocos2d::ui::Text * m_tbP1hp;
+	cocos2d::ui::Button*  m_MoveButton;
+	cocos2d::ui::Button*  m_MagicButton;
+	cocos2d::ui::Button*  m_SummonButton;
 
 	cocostudio::timeline::ActionTimeline* actionInGameHUD;
+	cocostudio::timeline::AnimationInfo Select;
+	cocostudio::timeline::AnimationInfo Deselect;
 	static InGameHUD* Getinstance()
 	{
 		return InGameHUD::instance;	}

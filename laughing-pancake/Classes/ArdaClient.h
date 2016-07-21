@@ -19,6 +19,8 @@ public:
 	Vector<JobInterface*> vecJob;
 
 	GameText m_GameText;
+
+
 	
 	const float speed = 1;
 

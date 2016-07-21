@@ -38,7 +38,36 @@ InGameSceneEx::InGameSceneEx()
 	armature->SetGamePostion(ccp(2,6));
 	m_Map_3->addChild(armature);
 
+	allChar.pushBack(armature);
+	NowStatus = NowMode::NONSELECTED;
 
+
+	m_InGameHUDEx->m_MoveButton->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	{
+		if (type == Widget::TouchEventType::ENDED)
+		{
+			NowStatus = NowMode::MOVE;
+			m_InGameHUDEx->actionInGameHUD->play("Deselect", false);
+			auto _layer = m_Map_3->layerNamed("All");
+			TMXLayerUtil::getInstance()->SetTestArea(testchar->NowTilePos, 1, _layer);
+		}
+	});
+	m_InGameHUDEx->m_MagicButton->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	{
+		if (type == Widget::TouchEventType::ENDED)
+		{
+			NowStatus = NowMode::MAGIC;
+			m_InGameHUDEx->actionInGameHUD->play("Deselect", false);
+		}
+	});
+	m_InGameHUDEx->m_SummonButton->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	{
+		if (type == Widget::TouchEventType::ENDED)
+		{
+			NowStatus = NowMode::SUMMON;
+			m_InGameHUDEx->actionInGameHUD->play("Deselect", false);
+		}
+	});
 
 	/*********** Finding Path, Test Function ****************/
 	//std::vector<Point> &pos =  TMXLayerUtil::getInstance()->SetTestPath(ccp(8, 1), armature->NowTilePos, _layer);
@@ -54,6 +83,7 @@ InGameSceneEx::InGameSceneEx()
 
 void InGameSceneEx::onTouchesEnded(const std::vector<Touch*>& touches, Event  *event)
 {
+
 	auto touch = touches[0];
 
 	CCSize tileSize = m_Map_3->getTileSize();
@@ -61,10 +91,40 @@ void InGameSceneEx::onTouchesEnded(const std::vector<Touch*>& touches, Event  *e
 	CCPoint pos = ccpSub(touch->getLocation(), m_Map_3->getPosition());
 
 	Point abpos = TMXLayerUtil::getInstance()->GetAbsolutePostion(pos);
-	auto _layer = m_Map_3->layerNamed("All");
-	std::vector<Point>& getpos =  TMXLayerUtil::getInstance()->SetTestPath(abpos, testchar->NowTilePos, _layer);
-	//testchar->SetGamePostion(abpos);
-	testchar->SetMoveAnimation(getpos);
+	
+	Vector<VisualCharactor*>::iterator _bitor = allChar.begin();
+
+	if (NowStatus == NowMode::NONSELECTED)
+	{
+		for (_bitor; _bitor < allChar.end(); _bitor++)
+		{
+			VisualCharactor* _node = *_bitor;
+
+			if (_node->NowTilePos == abpos)
+			{
+				NowStatus = NowMode::SELECTED;
+				m_InGameHUDEx->actionInGameHUD->play("Select", false);
+			}
+		}
+		return;
+	}
+
+	if (testchar->NowTilePos == abpos)
+	{
+		m_InGameHUDEx->actionInGameHUD->play("Deselect", false);
+		NowStatus = NowMode::NONSELECTED;
+		return;
+	}
+
+	if (NowStatus == NowMode::MOVE)
+	{
+		auto _layer = m_Map_3->layerNamed("All");
+		std::vector<Point>& getpos = TMXLayerUtil::getInstance()->SetTestPath(abpos, testchar->NowTilePos, _layer);
+		testchar->SetMoveAnimation(getpos);
+		m_InGameHUDEx->actionInGameHUD->play("Deselect", false);
+	}
+	
+	NowStatus = NowMode::NONSELECTED;
 	
 }
 

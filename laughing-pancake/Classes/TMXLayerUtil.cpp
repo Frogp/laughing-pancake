@@ -126,7 +126,7 @@ void TMXLayerUtil::bfs(Point End, Point Start)
 			//printf("%d %d", x,y);
 			//printf("%d->%d %d->%d\n", directions[i].x,x, directions[i].y,y);
 			if (x >= 0 && y >= 0 && x < ROWS && y < COLS
-				&& map[y][x] == 0)
+				)//&& map[y][x] == 0)
 			{
 
 				lc[cnt] = l;
@@ -223,8 +223,8 @@ std::vector<Point> TMXLayerUtil::SetTestPath(Point End, Point Start, cocos2d::TM
 	bfs(End,Start);
 	GetMovePos(End, map[(int)End.y][(int)End.x],output);
 
-	layer->setTileGID(6, Vec2((float)Start.x, (float)Start.y));
-	layer->setTileGID(7, Vec2((float)End.x, (float)End.y));
+	//layer->setTileGID(6, Vec2((float)Start.x, (float)Start.y));
+	//layer->setTileGID(7, Vec2((float)End.x, (float)End.y));
 
 	return output;
 }

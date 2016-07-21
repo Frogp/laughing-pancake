@@ -26,6 +26,8 @@ void InGameHUD::InitPage()
 {
 	actionInGameHUD = CSLoader::createTimeline("InGameHUD.csb");
 	root->runAction(actionInGameHUD);
+	Select = actionInGameHUD->getAnimationInfo("Select");
+	Deselect = actionInGameHUD->getAnimationInfo("Deselect");
 	m_Menu= static_cast<cocos2d::ui::Button* >(root->getChildByName("Menu"));
 	m_Menu->retain();
 	m_OrderTimebar= static_cast<cocos2d::ui::LoadingBar *>(root->getChildByName("OrderTimebar"));
@@ -278,4 +280,10 @@ void InGameHUD::InitPage()
 	m_tbP2hp->retain();
 	m_tbP1hp= static_cast<cocos2d::ui::Text *>(root->getChildByName("tbP1hp"));
 	m_tbP1hp->retain();
+	m_MoveButton= static_cast<cocos2d::ui::Button* >(root->getChildByName("MoveButton"));
+	m_MoveButton->retain();
+	m_MagicButton= static_cast<cocos2d::ui::Button* >(root->getChildByName("MagicButton"));
+	m_MagicButton->retain();
+	m_SummonButton= static_cast<cocos2d::ui::Button* >(root->getChildByName("SummonButton"));
+	m_SummonButton->retain();
 }

@@ -30,6 +30,7 @@ void VisualCharactor::SetMoveAnimation(Point oldpos, Point newpos)
 
 void VisualCharactor::SetMoveAnimation(std::vector<Point> Poses)
 {
+	this->stopAllActions();
 
 	Vector<FiniteTimeAction*> acationarray;
 	bool isfirst = false;
@@ -53,6 +54,7 @@ void VisualCharactor::SetMoveAnimation(std::vector<Point> Poses)
 		}
 	}
 	Sequence * seq = Sequence::create(acationarray);
+	
 	this->runAction(seq);
 
 	//Sequence * seq = Sequence::create(action);
