@@ -42,14 +42,14 @@ InGameSceneEx::InGameSceneEx()
 	NowStatus = NowMode::NONSELECTED;
 
 
-	m_InGameHUDEx->m_MoveButton->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
+	m_InGameHUDEx->m_MoveButton->addTouchEventListener([=](Ref* obj, Widget::TouchEventType type)
 	{
 		if (type == Widget::TouchEventType::ENDED)
 		{
 			NowStatus = NowMode::MOVE;
 			m_InGameHUDEx->actionInGameHUD->play("Deselect", false);
 			auto _layer = m_Map_3->layerNamed("All");
-			TMXLayerUtil::getInstance()->SetTestArea(testchar->NowTilePos, 1, _layer);
+			TMXLayerUtil::getInstance()->SetTestArea(this->testchar->NowTilePos, 1, _layer);
 		}
 	});
 	m_InGameHUDEx->m_MagicButton->addTouchEventListener([this](Ref* obj, Widget::TouchEventType type)
