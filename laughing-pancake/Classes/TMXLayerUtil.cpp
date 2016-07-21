@@ -30,6 +30,27 @@ bool TMXLayerUtil::moveTo(Point To, VisualCharactor* armature, Size tilesize, co
 		return false;
 }
 
+Point TMXLayerUtil::GetAbsolutePostion(CCPoint input)
+{
+	int middlex = tilemapsize.width / 2;
+	int middley = tilemapsize.height / 2;
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = 0; j < COLS; j++)
+		{
+			if (coordMap[i][j].x - middlex < input.x &&
+				coordMap[i][j].x + middlex > input.x &&
+				coordMap[i][j].y < input.y &&
+				coordMap[i][j].y + tilemapsize.height > input.y)
+			{
+				return Point(j, i);
+			}
+				
+		}
+	}
+	return Point();
+}
+
 void TMXLayerUtil::showArea(Point Start, int size, cocos2d::TMXLayer *layer)
 {
 	int xc[10000], yc[10000], lc[10000], pos, cnt;
@@ -154,6 +175,7 @@ void TMXLayerUtil::Init_Map(cocos2d::TMXLayer *layer, Size tilesize) {
 
 	const float width = tilesize.width/2;
 	const float height = tilesize.height-60; //실제 보여지는 타일 크기
+	tilemapsize = tilesize;
 	int even_y = -1;
 	int odd_y = -1;
 	

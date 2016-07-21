@@ -19,6 +19,7 @@ public:
 	VisualCharactor* testchar;
 
 	void onTouchesMoved(const std::vector<Touch*>& touches, Event  *event);
+	void onTouchesEnded(const std::vector<Touch*>& touches, Event  *event);
 	void onTouchEnded(Touch *touch, Event *unused_event);
 	void Update(float dt);
 };

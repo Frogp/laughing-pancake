@@ -39,7 +39,11 @@ public:
 	}
 
 	Point GenAbsoulutePosition(Point To);
+
+	Point GetAbsolutePostion(CCPoint input);
 	
+
+	Size tilemapsize;
 private:
 
 	TMXLayerUtil();
@@ -51,6 +55,8 @@ private:
 
 
 	bool moveTo(Point To, VisualCharactor* armature, Size tilesize, cocos2d::TMXLayer *layer);
+
+	
 
 	const int ROWS = 9;
 	const int COLS = 9;
